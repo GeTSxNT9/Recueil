@@ -1,0 +1,76 @@
+[
+  {
+    "id": "chicken-rice",
+    "titulo": "Arroz con pollo y verduras",
+    "categoria": "Arroces",
+    "tiempo": "45 min",
+    "raciones": 4,
+    "imagen": "img/chicken-rice.jpg",
+    "ingredientes": [
+      { "cantidad": 400, "unidad": "g", "nombre": "muslos de pollo deshuesados" },
+      { "cantidad": 300, "unidad": "g", "nombre": "arroz bomba" },
+      { "cantidad": 1, "unidad": "", "nombre": "pimiento rojo" },
+      { "cantidad": 1, "unidad": "", "nombre": "cebolla" },
+      { "cantidad": 2, "unidad": "", "nombre": "dientes de ajo" },
+      { "cantidad": 800, "unidad": "ml", "nombre": "caldo de pollo caliente" },
+      { "cantidad": 1, "unidad": "cdta", "nombre": "pimentón dulce" },
+      { "cantidad": 3, "unidad": "cda", "nombre": "aceite de oliva" },
+      { "cantidad": null, "unidad": "", "nombre": "sal y pimienta" }
+    ],
+    "pasos": [
+      "Trocea el pollo, salpimiéntalo y dóralo en una paella o cazuela ancha con el aceite. Resérvalo.",
+      "En la misma grasa, sofríe la cebolla, el pimiento y el ajo picados durante 8 minutos a fuego medio.",
+      "Añade el pimentón, remueve unos segundos e incorpora el arroz. Nácaralo un minuto.",
+      "Vuelve a poner el pollo, vierte el caldo caliente y ajusta de sal. Cuece 10 minutos a fuego fuerte y 8 más a fuego suave, sin remover.",
+      "Apaga el fuego y deja reposar 5 minutos tapado con un paño antes de servir."
+    ]
+  },
+  {
+    "id": "spaghetti-carbonara",
+    "titulo": "Espaguetis a la carbonara",
+    "categoria": "Pastas",
+    "tiempo": "20 min",
+    "raciones": 2,
+    "imagen": "img/spaghetti-carbonara.jpg",
+    "ingredientes": [
+      { "cantidad": 200, "unidad": "g", "nombre": "espaguetis" },
+      { "cantidad": 100, "unidad": "g", "nombre": "guanciale o panceta curada" },
+      { "cantidad": 2, "unidad": "", "nombre": "yemas de huevo" },
+      { "cantidad": 1, "unidad": "", "nombre": "huevo entero" },
+      { "cantidad": 50, "unidad": "g", "nombre": "queso pecorino rallado" },
+      { "cantidad": null, "unidad": "", "nombre": "pimienta negra recién molida" }
+    ],
+    "pasos": [
+      "Pon a hervir agua con sal para la pasta.",
+      "Corta el guanciale en tiras y dóralo en una sartén sin aceite hasta que quede crujiente. Apaga el fuego.",
+      "Mezcla las yemas, el huevo, el pecorino y abundante pimienta en un bol.",
+      "Cuece los espaguetis al dente y reserva una taza del agua de cocción.",
+      "Escurre la pasta y pásala a la sartén del guanciale, fuera del fuego. Añade la mezcla de huevo y un chorrito de agua de cocción, y remueve hasta obtener una crema sedosa.",
+      "Sirve enseguida con más pecorino y pimienta."
+    ]
+  },
+  {
+    "id": "baked-cheesecake",
+    "titulo": "Tarta de queso al horno",
+    "categoria": "Postres",
+    "tiempo": "1 h 15 min",
+    "raciones": 8,
+    "imagen": "img/baked-cheesecake.jpg",
+    "ingredientes": [
+      { "cantidad": 500, "unidad": "g", "nombre": "queso crema" },
+      { "cantidad": 250, "unidad": "ml", "nombre": "nata para montar" },
+      { "cantidad": 150, "unidad": "g", "nombre": "azúcar" },
+      { "cantidad": 4, "unidad": "", "nombre": "huevos" },
+      { "cantidad": 1, "unidad": "cda", "nombre": "zumo de limón" },
+      { "cantidad": 1, "unidad": "cdta", "nombre": "extracto de vainilla" },
+      { "cantidad": 20, "unidad": "g", "nombre": "harina" }
+    ],
+    "pasos": [
+      "Precalienta el horno a 200 °C con calor arriba y abajo. Forra un molde de 20 cm con papel de horno, dejando que sobresalga.",
+      "Bate el queso con el azúcar hasta que no queden grumos. Añade los huevos de uno en uno.",
+      "Incorpora la nata, el limón, la vainilla y la harina tamizada. Mezcla sin batir en exceso.",
+      "Vierte en el molde y hornea 35 minutos, hasta que la superficie esté bien dorada y el centro tiemble ligeramente.",
+      "Deja enfriar en el horno apagado con la puerta entreabierta y después 4 horas en la nevera antes de desmoldar."
+    ]
+  }
+]

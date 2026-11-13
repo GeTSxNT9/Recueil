@@ -1,0 +1,10 @@
+{
+  "name": "Recueil",
+  "short_name": "Recueil",
+  "description": "Recetas para cocinar con calma.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FAF9F6",
+  "theme_color": "#FAF9F6",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
