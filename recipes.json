@@ -68,6 +68,10 @@
       "Llevar a ebullición, tapar, reducir el fuego y cocer durante 15 minutos.",
       "Triturar hasta obtener una mezcla homogénea y dejar enfriar.",
       "Colocar los latkes, añadir una cucharadita de crema fresca con un hueco en el centro y rellenar con la salsa de manzana."
+    ],
+    "fecha": "2026-11-13",
+    "etiquetas": [
+      "vegetariano"
     ]
   },
   {
@@ -130,7 +134,8 @@
       "Añade el pimentón, remueve unos segundos e incorpora el arroz. Nácaralo un minuto.",
       "Vuelve a poner el pollo, vierte el caldo caliente y ajusta de sal. Cuece 10 minutos a fuego fuerte y 8 más a fuego suave, sin remover.",
       "Apaga el fuego y deja reposar 5 minutos tapado con un paño antes de servir."
-    ]
+    ],
+    "fecha": "2026-11-12"
   },
   {
     "id": "spaghetti-carbonara",
@@ -179,6 +184,10 @@
       "Cuece los espaguetis al dente y reserva una taza del agua de cocción.",
       "Escurre la pasta y pásala a la sartén del guanciale, fuera del fuego. Añade la mezcla de huevo y un chorrito de agua de cocción, y remueve hasta obtener una crema sedosa.",
       "Sirve enseguida con más pecorino y pimienta."
+    ],
+    "fecha": "2026-11-12",
+    "etiquetas": [
+      "rápido"
     ]
   },
   {
@@ -231,6 +240,11 @@
       "Incorpora la nata, el limón, la vainilla y la harina tamizada. Mezcla sin batir en exceso.",
       "Vierte en el molde y hornea 35 minutos, hasta que la superficie esté bien dorada y el centro tiemble ligeramente.",
       "Deja enfriar en el horno apagado con la puerta entreabierta y después 4 horas en la nevera antes de desmoldar."
+    ],
+    "fecha": "2026-11-12",
+    "etiquetas": [
+      "horno",
+      "vegetariano"
     ]
   },
   {

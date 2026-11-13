@@ -2,16 +2,20 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm = s => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const es = (a, b) => a.localeCompare(b, 'es');
+const leer = (k, d) => { try { return localStorage.getItem(k) || d; } catch (e) { return d; } };
+const guardar = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
 
-let recetas = [], categoria = 'Todas', busqueda = '', actual = null, raciones = 0, cocina = false, wake = null;
+let recetas = [], selCat = new Set(), selEtq = new Set(), busqueda = '', actual = null, raciones = 0, cocina = false, wake = null;
+let orden = leer('orden', 'az'), vista = leer('vista', 'rejilla');
+if (!['az', 'tiempo', 'nuevas'].includes(orden)) orden = 'az';
+if (!['rejilla', 'lista'].includes(vista)) vista = 'rejilla';
 
 /* ---------- Tema ---------- */
 function pintarTema() { $('#tema').textContent = document.documentElement.dataset.tema === 'oscuro' ? 'Modo claro' : 'Modo oscuro'; }
 $('#tema').onclick = () => {
   const t = document.documentElement.dataset.tema === 'oscuro' ? 'claro' : 'oscuro';
-  document.documentElement.dataset.tema = t;
-  try { localStorage.setItem('tema', t); } catch (e) {}
-  pintarTema();
+  document.documentElement.dataset.tema = t; guardar('tema', t); pintarTema();
 };
 pintarTema();
 
@@ -22,29 +26,86 @@ function foto(r) {
   return `<img class="foto" src="${esc(r.imagen)}" alt="${esc(r.titulo)}" loading="lazy" onerror="this.outerHTML=this.dataset.ph" data-ph="${esc(ph)}">`;
 }
 const marco = (r, extra = '') => `<div class="marco ${extra}"><div class="in">${foto(r)}</div></div>`;
-function pintarCategorias() {
-  const cats = ['Todas', ...new Set(recetas.map(r => r.categoria))];
-  $('#cats').innerHTML = cats.map(c => `<button aria-pressed="${c === categoria}" data-c="${esc(c)}">${esc(c)}</button>`).join('');
-}
-function pintarRejilla() {
+const minutos = t => {
+  if (!t) return Infinity;
+  const h = /(\d+)\s*h/.exec(t), m = /(\d+)\s*min/.exec(t), n = /(\d+)/.exec(t);
+  return h || m ? (h ? +h[1] * 60 : 0) + (m ? +m[1] : 0) : n ? +n[1] : Infinity;
+};
+function filtradas() {
   const q = norm(busqueda.trim());
-  const lista = recetas.filter(r =>
-    (categoria === 'Todas' || r.categoria === categoria) &&
+  return recetas.filter(r =>
+    (!selCat.size || selCat.has(r.categoria)) &&
+    [...selEtq].every(t => (r.etiquetas || []).includes(t)) &&
     (!q || norm(r.titulo).includes(q) || r.ingredientes.some(i => i.nombre && norm(i.nombre).includes(q))));
+}
+function ordenadas(l) {
+  const c = [...l];
+  if (orden === 'az') c.sort((a, b) => es(a.titulo, b.titulo));
+  else if (orden === 'tiempo') c.sort((a, b) => minutos(a.tiempo) - minutos(b.tiempo) || es(a.titulo, b.titulo));
+  else c.sort((a, b) => (b.fecha || '9999').localeCompare(a.fecha || '9999') || recetas.indexOf(b) - recetas.indexOf(a));
+  return c;
+}
+const tarjeta = r => {
+  const meta = [r.tiempo, r.raciones ? r.raciones + ' raciones' : ''].filter(Boolean).join(' / ');
+  return `<a class="tarjeta" href="#${esc(r.id)}">${marco(r)}
+    <span class="sello">— ${esc(r.categoria)} —</span>
+    <h2>${esc(r.titulo)}</h2>${meta ? `<p class="meta">${esc(meta)}</p>` : ''}</a>`;
+};
+const fila = r => {
+  const sub = [r.categoria, ...(r.etiquetas || []).map(cap)].join(' / ');
+  return `<a class="fila" href="#${esc(r.id)}"><span class="thumb">${r.imagen ? `<img src="${esc(r.imagen)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</span>
+    <span class="txt"><span class="l1"><b>${esc(r.titulo)}</b>${r.tiempo ? `<i></i><em>${esc(r.tiempo)}</em>` : ''}</span><span class="l2">${esc(sub)}</span></span></a>`;
+};
+function pintarRejilla() {
+  const lista = ordenadas(filtradas());
   $('#vacio').hidden = lista.length > 0;
-  $('#cuenta').textContent = `— ${lista.length} ${lista.length === 1 ? 'receta' : 'recetas'} —`;
-  $('#rejilla').innerHTML = lista.map(r => {
-    const meta = [r.tiempo, r.raciones ? r.raciones + ' raciones' : ''].filter(Boolean).join(' / ');
-    return `<a class="tarjeta" href="#${esc(r.id)}">${marco(r)}
-      <span class="sello">— ${esc(r.categoria)} —</span>
-      <h2>${esc(r.titulo)}</h2>${meta ? `<p class="meta">${esc(meta)}</p>` : ''}</a>`;
-  }).join('');
+  $('#cuenta').textContent = `${lista.length} ${lista.length === 1 ? 'receta' : 'recetas'}`;
+  const g = $('#rejilla'); g.className = vista === 'lista' ? 'lista' : 'rejilla';
+  g.innerHTML = lista.map(vista === 'lista' ? fila : tarjeta).join('');
+}
+const chip = (k, v) => `<button data-k="${k}" data-v="${esc(v)}" aria-label="Quitar filtro ${esc(v)}">${esc(cap(v))}</button>`;
+function pintarFiltros() {
+  const n = selCat.size + selEtq.size;
+  $('#abrir-filtros').textContent = 'Filtrar' + (n ? ` (${n})` : '');
+  $('#chips').innerHTML = [...[...selCat].map(c => chip('c', c)), ...[...selEtq].map(t => chip('e', t))].join('');
 }
 $('#buscar').oninput = e => { busqueda = e.target.value; pintarRejilla(); };
-$('#cats').onclick = e => {
+$('#chips').onclick = e => {
   const b = e.target.closest('button'); if (!b) return;
-  categoria = b.dataset.c; pintarCategorias(); pintarRejilla();
+  (b.dataset.k === 'c' ? selCat : selEtq).delete(b.dataset.v); pintarFiltros(); pintarRejilla();
 };
+$('#orden').value = orden;
+$('#orden').onchange = e => { orden = e.target.value; guardar('orden', orden); pintarRejilla(); };
+function pintarVista() {
+  $('#v-rejilla').setAttribute('aria-pressed', vista === 'rejilla');
+  $('#v-lista').setAttribute('aria-pressed', vista === 'lista');
+}
+[['#v-rejilla', 'rejilla'], ['#v-lista', 'lista']].forEach(([s, v]) => $(s).onclick = () => { vista = v; guardar('vista', v); pintarVista(); pintarRejilla(); });
+pintarVista();
+
+/* ---------- Panel de filtros ---------- */
+function pintarPanel() {
+  const cats = [...new Set(recetas.map(r => r.categoria))].sort(es);
+  const etqs = [...new Set(recetas.flatMap(r => r.etiquetas || []))].sort(es);
+  const buscar = $('#buscar-cat'); buscar.hidden = cats.length <= 10;
+  const q = norm(buscar.value);
+  $('#lista-cats').innerHTML = cats.filter(c => norm(c).includes(q)).map(c =>
+    `<li><button aria-pressed="${selCat.has(c)}" data-v="${esc(c)}"><span class="p"></span><span>${esc(c)}</span><i></i><span class="c">${recetas.filter(r => r.categoria === c).length}</span></button></li>`).join('');
+  $('#bloque-etq').hidden = !etqs.length;
+  $('#lista-etq').innerHTML = etqs.map(t => `<button aria-pressed="${selEtq.has(t)}" data-v="${esc(t)}">${esc(cap(t))}</button>`).join('');
+  const n = filtradas().length;
+  $('#aplicar').textContent = `Ver ${n} ${n === 1 ? 'receta' : 'recetas'}`;
+}
+const refrescar = () => { pintarPanel(); pintarFiltros(); pintarRejilla(); };
+function abrirPanel() { $('#buscar-cat').value = ''; pintarPanel(); $('#panel').hidden = false; document.body.classList.add('bloqueado'); }
+function cerrarPanel() { $('#panel').hidden = true; document.body.classList.remove('bloqueado'); }
+$('#abrir-filtros').onclick = abrirPanel;
+$('#velo').onclick = $('#aplicar').onclick = cerrarPanel;
+$('#buscar-cat').oninput = pintarPanel;
+$('#borrar').onclick = () => { selCat.clear(); selEtq.clear(); refrescar(); };
+const alternar = (set, e) => { const b = e.target.closest('button'); if (!b) return; const v = b.dataset.v; set.has(v) ? set.delete(v) : set.add(v); refrescar(); };
+$('#lista-cats').onclick = e => alternar(selCat, e);
+$('#lista-etq').onclick = e => alternar(selEtq, e);
 
 /* ---------- Cantidades ---------- */
 function fmt(n) {
@@ -77,6 +138,7 @@ function abrir(r) {
       <span class="sello">— ${esc(r.categoria)} —</span>
       <h2>${esc(r.titulo)}</h2>
       ${r.tiempo ? `<p class="datos">Tiempo <b>${esc(r.tiempo)}</b></p>` : ''}
+      ${r.etiquetas && r.etiquetas.length ? `<p class="datos">${esc(r.etiquetas.map(cap).join(' / '))}</p>` : ''}
       ${marco(r, 'grande')}
       ${sec('Ingredientes')}
       ${r.raciones ? `<div class="escalador">Raciones <button id="menos" aria-label="Menos raciones">−</button><b id="n"></b><button id="mas" aria-label="Más raciones">+</button></div>` : ''}
@@ -106,7 +168,10 @@ function ruta() {
   r ? abrir(r) : cerrar();
 }
 addEventListener('hashchange', ruta);
-addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#detalle').hidden) location.hash = ''; });
+addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  if (!$('#panel').hidden) cerrarPanel(); else if (!$('#detalle').hidden) location.hash = '';
+});
 
 /* ---------- Modo cocina ---------- */
 async function pedirWake() {
@@ -126,5 +191,5 @@ document.addEventListener('visibilitychange', () => {
 /* ---------- Inicio ---------- */
 fetch('recipes.json')
   .then(r => r.json())
-  .then(data => { recetas = data; pintarCategorias(); pintarRejilla(); ruta(); })
+  .then(data => { recetas = data; pintarFiltros(); pintarRejilla(); ruta(); })
   .catch(() => { $('#vacio').hidden = false; $('#vacio').textContent = 'No se pudo cargar recipes.json. Si abres index.html directamente desde el ordenador, usa un servidor local o súbelo a GitHub Pages.'; });

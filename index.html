@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Recueil</title>
-<meta name="description" content="Recueil: recetas para cocinar con calma.">
+<meta name="description" content="Recueil: colección de recetas.">
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="manifest.webmanifest">
@@ -21,14 +21,36 @@
 <main>
   <section class="intro">
     <h1>Recueil</h1>
-    <span class="sello">— Recetas para cocinar con calma —</span>
     <input id="buscar" type="search" placeholder="Busca por plato o ingrediente" aria-label="Buscar recetas" autocomplete="off">
   </section>
-  <nav id="cats" class="cats" aria-label="Categorías"></nav>
-  <span id="cuenta" class="sello"></span>
+  <div class="filtros">
+    <button id="abrir-filtros" class="boton"></button>
+    <div id="chips" class="chips"></div>
+  </div>
+  <div class="herramientas">
+    <span id="cuenta" class="cuenta"></span>
+    <div class="ctrl">
+      <label><span class="sr">Ordenar por</span>
+        <select id="orden"><option value="az">Nombre A–Z</option><option value="tiempo">Tiempo, de menos a más</option><option value="nuevas">Últimas añadidas</option></select>
+      </label>
+      <div class="vista"><button id="v-rejilla" class="texto" aria-pressed="true">Cuadrícula</button><button id="v-lista" class="texto" aria-pressed="false">Lista</button></div>
+    </div>
+  </div>
   <p id="vacio" class="vacio" hidden>No hay recetas con esa búsqueda. Prueba con otro ingrediente.</p>
   <section id="rejilla" class="rejilla"></section>
 </main>
+<div id="panel" class="panel" hidden>
+  <div class="velo" id="velo"></div>
+  <section class="hoja-filtros" role="dialog" aria-modal="true" aria-label="Filtrar recetas">
+    <div class="cuerpo-filtros">
+      <div class="sec"><i></i><h3>Tipo de plato</h3><i></i></div>
+      <input id="buscar-cat" type="search" placeholder="Buscar tipo de plato" aria-label="Buscar tipo de plato" autocomplete="off" hidden>
+      <ul id="lista-cats" class="lista-cats"></ul>
+      <div id="bloque-etq"><div class="sec"><i></i><h3>Etiquetas</h3><i></i></div><div id="lista-etq" class="etq"></div></div>
+    </div>
+    <div class="pie-filtros"><button id="borrar" class="texto">Borrar filtros</button><button id="aplicar" class="boton solido"></button></div>
+  </section>
+</div>
 <article id="detalle" class="detalle" hidden aria-modal="true" role="dialog"></article>
 <script src="app.js"></script>
 </body>

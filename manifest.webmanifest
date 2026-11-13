@@ -1,7 +1,7 @@
 {
   "name": "Recueil",
   "short_name": "Recueil",
-  "description": "Recetas para cocinar con calma.",
+  "description": "Colección de recetas.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#FFFFFF",
