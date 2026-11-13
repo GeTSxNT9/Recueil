@@ -95,7 +95,6 @@ function abrir(r) {
   }
   $('#cerrar').onclick = () => { location.hash = ''; };
   $('#cocina').onclick = alternarCocina;
-  d.querySelector('.pasos').onclick = e => { const li = e.target.closest('li'); if (li) li.classList.toggle('hecho'); };
 }
 function cerrar() {
   $('#detalle').hidden = true;
