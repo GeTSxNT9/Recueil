@@ -32,6 +32,7 @@
     "tiempo": "20 min",
     "raciones": 2,
     "imagen": "img/spaghetti-carbonara.jpg",
+    "notas": "Nunca añadas el huevo con la sartén en el fuego: se cuajaría. La crema se logra con el calor residual de la pasta.",
     "ingredientes": [
       { "cantidad": 200, "unidad": "g", "nombre": "espaguetis" },
       { "cantidad": 100, "unidad": "g", "nombre": "guanciale o panceta curada" },

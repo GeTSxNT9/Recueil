@@ -7,7 +7,7 @@ let recetas = [], categoria = 'Todas', busqueda = '', actual = null, raciones = 
 /* ---------- Tema ---------- */
 function pintarTema() {
   const oscuro = document.documentElement.dataset.tema === 'oscuro';
-  $('#tema').textContent = oscuro ? '☀' : '☾';
+  $('#tema').textContent = oscuro ? 'Modo claro' : 'Modo oscuro';
 }
 $('#tema').onclick = () => {
   const t = document.documentElement.dataset.tema === 'oscuro' ? 'claro' : 'oscuro';
@@ -33,14 +33,13 @@ function pintarRejilla() {
     (categoria === 'Todas' || r.categoria === categoria) &&
     (!q || norm(r.titulo).includes(q) || r.ingredientes.some(i => norm(i.nombre).includes(q))));
   $('#vacio').hidden = lista.length > 0;
+  $('#cuenta').textContent = lista.length + (lista.length === 1 ? ' receta' : ' recetas');
   $('#rejilla').innerHTML = lista.map(r => `
     <a class="tarjeta" href="#${esc(r.id)}">
-      ${foto(r)}
-      <div class="cuerpo">
-        <span class="cat">${esc(r.categoria)}</span>
-        <h2>${esc(r.titulo)}</h2>
-        <p class="meta">${esc(r.tiempo)}, ${r.raciones} raciones</p>
-      </div>
+      <div class="marco">${foto(r)}</div>
+      <span class="cat">${esc(r.categoria)}</span>
+      <h2>${esc(r.titulo)}</h2>
+      <p class="meta">${esc(r.tiempo)}, ${r.raciones} raciones</p>
     </a>`).join('');
 }
 $('#buscar').oninput = e => { busqueda = e.target.value; pintarRejilla(); };
@@ -59,6 +58,7 @@ function fmt(n) {
 function pintarIngredientes() {
   const k = raciones / actual.raciones;
   $('#ings').innerHTML = actual.ingredientes.map(i => {
+    if (i.grupo) return `<li class="grupo">${esc(i.grupo)}</li>`;
     const cant = i.cantidad == null ? '' : fmt(i.cantidad * k) + (i.unidad ? ' ' + i.unidad : '') + ' ';
     return `<li><label><input type="checkbox"><span>${cant}${esc(i.nombre)}</span></label></li>`;
   }).join('');
@@ -71,25 +71,30 @@ function abrir(r) {
   const d = $('#detalle');
   d.innerHTML = `
     <div class="barra">
-      <button id="cerrar">Volver</button>
-      <button id="cocina" aria-pressed="false">Modo cocina</button>
+      <button id="cerrar" class="texto">← Volver</button>
+      <button id="cocina" class="texto" aria-pressed="false">Modo cocina</button>
     </div>
-    <div class="hoja">
-      ${foto(r)}
+    <div class="ficha">
       <span class="cat">${esc(r.categoria)}</span>
       <h2>${esc(r.titulo)}</h2>
       <div class="datos">
-        <span>${esc(r.tiempo)}</span>
-        <span class="escalador">
-          <button id="menos" aria-label="Menos raciones">−</button>
-          <b id="n"></b> raciones
-          <button id="mas" aria-label="Más raciones">+</button>
-        </span>
+        <div><span>Tiempo</span><b>${esc(r.tiempo)}</b></div>
+        <div><span>Raciones</span><b>${r.raciones}</b></div>
       </div>
-      <h3>Ingredientes</h3>
-      <ul class="ingredientes" id="ings"></ul>
-      <h3>Elaboración</h3>
-      <ol class="pasos">${r.pasos.map(p => `<li>${esc(p)}</li>`).join('')}</ol>
+      ${foto(r)}
+      <div class="cols">
+        <section class="ing">
+          <div class="cab"><h3>Ingredientes</h3>
+            <span class="escalador"><button id="menos" aria-label="Menos raciones">−</button><b id="n"></b> raciones<button id="mas" aria-label="Más raciones">+</button></span>
+          </div>
+          <ul class="ingredientes" id="ings"></ul>
+        </section>
+        <section>
+          <h3 class="cab">Elaboración</h3>
+          <ol class="pasos">${r.pasos.map(p => `<li>${esc(p)}</li>`).join('')}</ol>
+          ${r.notas ? `<div class="notas"><h3>Notas</h3><p>${esc(r.notas)}</p></div>` : ''}
+        </section>
+      </div>
     </div>`;
   d.hidden = false; d.scrollTop = 0;
   document.body.classList.add('bloqueado');
