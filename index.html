@@ -10,22 +10,22 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <script>try{var t=localStorage.getItem('tema')||(matchMedia('(prefers-color-scheme: dark)').matches?'oscuro':'claro');document.documentElement.dataset.tema=t}catch(e){}</script>
 </head>
 <body>
 <header class="top">
-  <a class="marca" href="./" aria-label="Recueil, inicio">Recueil<span>.</span></a>
   <button id="tema" class="texto" aria-label="Cambiar entre modo claro y oscuro"></button>
 </header>
 <main>
   <section class="intro">
-    <h1>Recetas para cocinar con calma.</h1>
+    <h1>Recueil</h1>
+    <span class="sello">— Recetas para cocinar con calma —</span>
     <input id="buscar" type="search" placeholder="Busca por plato o ingrediente" aria-label="Buscar recetas" autocomplete="off">
   </section>
   <nav id="cats" class="cats" aria-label="Categorías"></nav>
-  <p id="cuenta" class="cuenta"></p>
+  <span id="cuenta" class="sello"></span>
   <p id="vacio" class="vacio" hidden>No hay recetas con esa búsqueda. Prueba con otro ingrediente.</p>
   <section id="rejilla" class="rejilla"></section>
 </main>

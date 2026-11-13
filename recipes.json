@@ -1,5 +1,76 @@
 [
   {
+    "id": "latkes-creme-fraiche",
+    "titulo": "Latkes con crème fraîche y salsa de manzana",
+    "categoria": "Entremés / Entrante",
+    "imagen": "img/latkes-creme-fraiche.jpg",
+    "ingredientes": [
+      {
+        "cantidad": 4,
+        "unidad": "ud",
+        "nombre": "patata"
+      },
+      {
+        "cantidad": 0.5,
+        "unidad": "ud",
+        "nombre": "cebolla"
+      },
+      {
+        "cantidad": 1,
+        "unidad": "ud",
+        "nombre": "huevo"
+      },
+      {
+        "cantidad": 1,
+        "unidad": "cda",
+        "nombre": "pan rallado"
+      },
+      {
+        "cantidad": null,
+        "unidad": "",
+        "nombre": "crème fraîche"
+      },
+      {
+        "cantidad": 2,
+        "unidad": "ud",
+        "nombre": "manzana agridulce"
+      },
+      {
+        "cantidad": 50,
+        "unidad": "g",
+        "nombre": "azúcar"
+      },
+      {
+        "cantidad": 125,
+        "unidad": "ml",
+        "nombre": "agua"
+      },
+      {
+        "cantidad": 0.5,
+        "unidad": "cta",
+        "nombre": "garam masala"
+      },
+      {
+        "cantidad": null,
+        "unidad": "",
+        "nombre": "sal"
+      }
+    ],
+    "pasos": [
+      "Pelar las patatas y rallarlas.",
+      "Colocar las patatas ralladas en un trapo dentro de un bol y exprimir para eliminar el exceso de agua.",
+      "Dejar reposar el líquido en el bol durante 5 minutos para que se separe el almidón del agua.",
+      "Descartar el agua, añadir el huevo y el pan rallado al bol y mezclar bien.",
+      "Agregar la patata rallada.",
+      "Rallar media cebolla, exprimir de la misma manera que las patatas, añadir al bol y mezclar con el resto de ingredientes.",
+      "En una sartén con aceite caliente, formar bolas con la mezcla anterior, aplastar con una espátula, freír hasta que estén doradas y espolvorear con sal.",
+      "Para la salsa de manzana, añadir las manzanas cortadas en láminas a un cazo junto con el azúcar, el agua, el garam masala y una pizca de sal.",
+      "Llevar a ebullición, tapar, reducir el fuego y cocer durante 15 minutos.",
+      "Triturar hasta obtener una mezcla homogénea y dejar enfriar.",
+      "Colocar los latkes, añadir una cucharadita de crema fresca con un hueco en el centro y rellenar con la salsa de manzana."
+    ]
+  },
+  {
     "id": "chicken-rice",
     "titulo": "Arroz con pollo y verduras",
     "categoria": "Arroces",
@@ -7,15 +78,51 @@
     "raciones": 4,
     "imagen": "img/chicken-rice.jpg",
     "ingredientes": [
-      { "cantidad": 400, "unidad": "g", "nombre": "muslos de pollo deshuesados" },
-      { "cantidad": 300, "unidad": "g", "nombre": "arroz bomba" },
-      { "cantidad": 1, "unidad": "", "nombre": "pimiento rojo" },
-      { "cantidad": 1, "unidad": "", "nombre": "cebolla" },
-      { "cantidad": 2, "unidad": "", "nombre": "dientes de ajo" },
-      { "cantidad": 800, "unidad": "ml", "nombre": "caldo de pollo caliente" },
-      { "cantidad": 1, "unidad": "cdta", "nombre": "pimentón dulce" },
-      { "cantidad": 3, "unidad": "cda", "nombre": "aceite de oliva" },
-      { "cantidad": null, "unidad": "", "nombre": "sal y pimienta" }
+      {
+        "cantidad": 400,
+        "unidad": "g",
+        "nombre": "muslos de pollo deshuesados"
+      },
+      {
+        "cantidad": 300,
+        "unidad": "g",
+        "nombre": "arroz bomba"
+      },
+      {
+        "cantidad": 1,
+        "unidad": "ud",
+        "nombre": "pimiento rojo"
+      },
+      {
+        "cantidad": 1,
+        "unidad": "ud",
+        "nombre": "cebolla"
+      },
+      {
+        "cantidad": 2,
+        "unidad": "ud",
+        "nombre": "dientes de ajo"
+      },
+      {
+        "cantidad": 800,
+        "unidad": "ml",
+        "nombre": "caldo de pollo caliente"
+      },
+      {
+        "cantidad": 1,
+        "unidad": "cta",
+        "nombre": "pimentón dulce"
+      },
+      {
+        "cantidad": 3,
+        "unidad": "cda",
+        "nombre": "aceite de oliva"
+      },
+      {
+        "cantidad": null,
+        "unidad": "",
+        "nombre": "sal y pimienta"
+      }
     ],
     "pasos": [
       "Trocea el pollo, salpimiéntalo y dóralo en una paella o cazuela ancha con el aceite. Resérvalo.",
@@ -34,12 +141,36 @@
     "imagen": "img/spaghetti-carbonara.jpg",
     "notas": "Nunca añadas el huevo con la sartén en el fuego: se cuajaría. La crema se logra con el calor residual de la pasta.",
     "ingredientes": [
-      { "cantidad": 200, "unidad": "g", "nombre": "espaguetis" },
-      { "cantidad": 100, "unidad": "g", "nombre": "guanciale o panceta curada" },
-      { "cantidad": 2, "unidad": "", "nombre": "yemas de huevo" },
-      { "cantidad": 1, "unidad": "", "nombre": "huevo entero" },
-      { "cantidad": 50, "unidad": "g", "nombre": "queso pecorino rallado" },
-      { "cantidad": null, "unidad": "", "nombre": "pimienta negra recién molida" }
+      {
+        "cantidad": 200,
+        "unidad": "g",
+        "nombre": "espaguetis"
+      },
+      {
+        "cantidad": 100,
+        "unidad": "g",
+        "nombre": "guanciale o panceta curada"
+      },
+      {
+        "cantidad": 2,
+        "unidad": "ud",
+        "nombre": "yemas de huevo"
+      },
+      {
+        "cantidad": 1,
+        "unidad": "ud",
+        "nombre": "huevo entero"
+      },
+      {
+        "cantidad": 50,
+        "unidad": "g",
+        "nombre": "queso pecorino rallado"
+      },
+      {
+        "cantidad": null,
+        "unidad": "",
+        "nombre": "pimienta negra recién molida"
+      }
     ],
     "pasos": [
       "Pon a hervir agua con sal para la pasta.",
@@ -58,13 +189,41 @@
     "raciones": 8,
     "imagen": "img/baked-cheesecake.jpg",
     "ingredientes": [
-      { "cantidad": 500, "unidad": "g", "nombre": "queso crema" },
-      { "cantidad": 250, "unidad": "ml", "nombre": "nata para montar" },
-      { "cantidad": 150, "unidad": "g", "nombre": "azúcar" },
-      { "cantidad": 4, "unidad": "", "nombre": "huevos" },
-      { "cantidad": 1, "unidad": "cda", "nombre": "zumo de limón" },
-      { "cantidad": 1, "unidad": "cdta", "nombre": "extracto de vainilla" },
-      { "cantidad": 20, "unidad": "g", "nombre": "harina" }
+      {
+        "cantidad": 500,
+        "unidad": "g",
+        "nombre": "queso crema"
+      },
+      {
+        "cantidad": 250,
+        "unidad": "ml",
+        "nombre": "nata para montar"
+      },
+      {
+        "cantidad": 150,
+        "unidad": "g",
+        "nombre": "azúcar"
+      },
+      {
+        "cantidad": 4,
+        "unidad": "ud",
+        "nombre": "huevos"
+      },
+      {
+        "cantidad": 1,
+        "unidad": "cda",
+        "nombre": "zumo de limón"
+      },
+      {
+        "cantidad": 1,
+        "unidad": "cta",
+        "nombre": "extracto de vainilla"
+      },
+      {
+        "cantidad": 20,
+        "unidad": "g",
+        "nombre": "harina"
+      }
     ],
     "pasos": [
       "Precalienta el horno a 200 °C con calor arriba y abajo. Forra un molde de 20 cm con papel de horno, dejando que sobresalga.",
@@ -72,6 +231,77 @@
       "Incorpora la nata, el limón, la vainilla y la harina tamizada. Mezcla sin batir en exceso.",
       "Vierte en el molde y hornea 35 minutos, hasta que la superficie esté bien dorada y el centro tiemble ligeramente.",
       "Deja enfriar en el horno apagado con la puerta entreabierta y después 4 horas en la nevera antes de desmoldar."
+    ]
+  },
+  {
+    "id": "latkes-apple-sauce",
+    "titulo": "Latkes con crème fraîche y salsa de manzana",
+    "categoria": "Entremés / Entrante",
+    "imagen": "img/latkes-apple-sauce.jpg",
+    "ingredientes": [
+      {
+        "cantidad": 4,
+        "unidad": "ud",
+        "nombre": "Patata"
+      },
+      {
+        "cantidad": 0.5,
+        "unidad": "ud",
+        "nombre": "Cebolla"
+      },
+      {
+        "cantidad": 1,
+        "unidad": "ud",
+        "nombre": "Huevo"
+      },
+      {
+        "cantidad": 1,
+        "unidad": "cda",
+        "nombre": "Pan rallado"
+      },
+      {
+        "cantidad": null,
+        "unidad": "",
+        "nombre": "Crème fraîche"
+      },
+      {
+        "cantidad": 2,
+        "unidad": "ud",
+        "nombre": "Manzana agridulce"
+      },
+      {
+        "cantidad": 50,
+        "unidad": "g",
+        "nombre": "Azúcar"
+      },
+      {
+        "cantidad": 125,
+        "unidad": "ml",
+        "nombre": "Agua"
+      },
+      {
+        "cantidad": 0.5,
+        "unidad": "cta",
+        "nombre": "Garam masala"
+      },
+      {
+        "cantidad": null,
+        "unidad": "",
+        "nombre": "Sal"
+      }
+    ],
+    "pasos": [
+      "Pelar las patatas y rallarlas.",
+      "Colocar las patatas ralladas en un trapo dentro de un bol y exprimir para eliminar el exceso de agua.",
+      "Dejar reposar el líquido en el bol durante 5 minutos para que se separe el almidón del agua.",
+      "Descartar el agua, añadir el huevo y el pan rallado al bol y mezclar bien.",
+      "Agregar la patata rallada.",
+      "Rallar media cebolla, exprimir de la misma manera que las patatas, añadir al bol y mezclar con el resto de ingredientes.",
+      "En una sartén con aceite caliente, formar bolas con la mezcla anterior, aplastar con una espátula, freír hasta que estén doradas y espolvorear con sal.",
+      "Para la salsa de manzana, añadir las manzanas cortadas en láminas a un cazo junto con el azúcar, el agua, el garam masala y una pizca de sal.",
+      "Llevar a ebullición, tapar, reducir el fuego y cocer durante 15 minutos.",
+      "Triturar hasta obtener una mezcla homogénea y dejar enfriar.",
+      "Colocar los latkes, añadir una cucharadita de crema fresca con un hueco en el centro y rellenar con la salsa de manzana."
     ]
   }
 ]
