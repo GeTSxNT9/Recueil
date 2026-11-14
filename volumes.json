@@ -1,0 +1,70 @@
+[
+ {
+  "n": 1,
+  "nombre": "Verduras y hortalizas"
+ },
+ {
+  "n": 2,
+  "nombre": "Legumbres"
+ },
+ {
+  "n": 3,
+  "nombre": "Arroces y paellas"
+ },
+ {
+  "n": 4,
+  "nombre": "Pastas"
+ },
+ {
+  "n": 5,
+  "nombre": "Salsas para pasta"
+ },
+ {
+  "n": 6,
+  "nombre": "Carnes rojas y asados"
+ },
+ {
+  "n": 7,
+  "nombre": "Aves y caza"
+ },
+ {
+  "n": 8,
+  "nombre": "Pescados y mariscos"
+ },
+ {
+  "n": 9,
+  "nombre": "Sopas, cremas y purés salados"
+ },
+ {
+  "n": 10,
+  "nombre": "Ensaladas"
+ },
+ {
+  "n": 11,
+  "nombre": "Entrantes y aperitivos"
+ },
+ {
+  "n": 12,
+  "nombre": "Empanadas y elaboraciones saladas"
+ },
+ {
+  "n": 13,
+  "nombre": "Masas y panadería"
+ },
+ {
+  "n": 14,
+  "nombre": "Postres y repostería"
+ },
+ {
+  "n": 15,
+  "nombre": "Cocina tradicional e internacional"
+ },
+ {
+  "n": 16,
+  "nombre": "Salsas generales y fondos"
+ },
+ {
+  "n": 17,
+  "nombre": "Técnicas, decoraciones y preparaciones auxiliares"
+ }
+]

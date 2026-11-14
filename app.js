@@ -6,9 +6,9 @@ const es = (a, b) => a.localeCompare(b, 'es');
 const leer = (k, d) => { try { return localStorage.getItem(k) || d; } catch (e) { return d; } };
 const guardar = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
 
-let recetas = [], selCat = new Set(), selEtq = new Set(), busqueda = '', actual = null, raciones = 0, cocina = false, wake = null;
-let orden = leer('orden', 'az'), vista = leer('vista', 'rejilla');
-if (!['az', 'tiempo', 'nuevas'].includes(orden)) orden = 'az';
+let recetas = [], selVol = new Set(), selCat = new Set(), selEtq = new Set(), busqueda = '', actual = null, raciones = 0, cocina = false, wake = null;
+let orden = leer('orden', 'volumen'), vista = leer('vista', 'rejilla');
+if (!['volumen', 'az', 'tiempo', 'nuevas'].includes(orden)) orden = 'az';
 if (!['rejilla', 'lista'].includes(vista)) vista = 'rejilla';
 
 /* ---------- Tema ---------- */
@@ -34,13 +34,15 @@ const minutos = t => {
 function filtradas() {
   const q = norm(busqueda.trim());
   return recetas.filter(r =>
+    (!selVol.size || selVol.has(r.volumen)) &&
     (!selCat.size || selCat.has(r.categoria)) &&
     [...selEtq].every(t => (r.etiquetas || []).includes(t)) &&
     (!q || norm(r.titulo).includes(q) || r.ingredientes.some(i => i.nombre && norm(i.nombre).includes(q))));
 }
 function ordenadas(l) {
   const c = [...l];
-  if (orden === 'az') c.sort((a, b) => es(a.titulo, b.titulo));
+  if (orden === 'volumen') c.sort((a, b) => es(a.volumen, b.volumen) || es(a.categoria, b.categoria) || es(a.titulo, b.titulo));
+  else if (orden === 'az') c.sort((a, b) => es(a.titulo, b.titulo));
   else if (orden === 'tiempo') c.sort((a, b) => minutos(a.tiempo) - minutos(b.tiempo) || es(a.titulo, b.titulo));
   else c.sort((a, b) => (b.fecha || '9999').localeCompare(a.fecha || '9999') || recetas.indexOf(b) - recetas.indexOf(a));
   return c;
@@ -63,16 +65,16 @@ function pintarRejilla() {
   const g = $('#rejilla'); g.className = vista === 'lista' ? 'lista' : 'rejilla';
   g.innerHTML = lista.map(vista === 'lista' ? fila : tarjeta).join('');
 }
-const chip = (k, v) => `<button data-k="${k}" data-v="${esc(v)}" aria-label="Quitar filtro ${esc(v)}">${esc(cap(v))}</button>`;
+const chip = (k, v) => `<button data-k="${k}" data-v="${esc(v)}" aria-label="Quitar filtro ${esc(v)}">${esc(k === 'v' ? v.replace(/^\d+\.\s*/, '') : cap(v))}</button>`;
 function pintarFiltros() {
-  const n = selCat.size + selEtq.size;
+  const n = selVol.size + selCat.size + selEtq.size;
   $('#abrir-filtros').textContent = 'Filtrar' + (n ? ` (${n})` : '');
-  $('#chips').innerHTML = [...[...selCat].map(c => chip('c', c)), ...[...selEtq].map(t => chip('e', t))].join('');
+  $('#chips').innerHTML = [...[...selVol].map(v => chip('v', v)), ...[...selCat].map(c => chip('c', c)), ...[...selEtq].map(t => chip('e', t))].join('');
 }
 $('#buscar').oninput = e => { busqueda = e.target.value; pintarRejilla(); };
 $('#chips').onclick = e => {
   const b = e.target.closest('button'); if (!b) return;
-  (b.dataset.k === 'c' ? selCat : selEtq).delete(b.dataset.v); pintarFiltros(); pintarRejilla();
+  (b.dataset.k === 'v' ? selVol : b.dataset.k === 'c' ? selCat : selEtq).delete(b.dataset.v); pintarFiltros(); pintarRejilla();
 };
 $('#orden').value = orden;
 $('#orden').onchange = e => { orden = e.target.value; guardar('orden', orden); pintarRejilla(); };
@@ -87,6 +89,9 @@ pintarVista();
 function pintarPanel() {
   const cats = [...new Set(recetas.map(r => r.categoria))].sort(es);
   const etqs = [...new Set(recetas.flatMap(r => r.etiquetas || []))].sort(es);
+  const vols = [...new Set(recetas.map(r => r.volumen))].sort(es);
+  $('#lista-vol').innerHTML = vols.map(v =>
+    `<li><button aria-pressed="${selVol.has(v)}" data-v="${esc(v)}"><span class="p"></span><span>${esc(v)}</span><i></i><span class="c">${recetas.filter(r => r.volumen === v).length}</span></button></li>`).join('');
   const buscar = $('#buscar-cat'); buscar.hidden = cats.length <= 10;
   const q = norm(buscar.value);
   $('#lista-cats').innerHTML = cats.filter(c => norm(c).includes(q)).map(c =>
@@ -102,8 +107,9 @@ function cerrarPanel() { $('#panel').hidden = true; document.body.classList.remo
 $('#abrir-filtros').onclick = abrirPanel;
 $('#velo').onclick = $('#aplicar').onclick = cerrarPanel;
 $('#buscar-cat').oninput = pintarPanel;
-$('#borrar').onclick = () => { selCat.clear(); selEtq.clear(); refrescar(); };
+$('#borrar').onclick = () => { selVol.clear(); selCat.clear(); selEtq.clear(); refrescar(); };
 const alternar = (set, e) => { const b = e.target.closest('button'); if (!b) return; const v = b.dataset.v; set.has(v) ? set.delete(v) : set.add(v); refrescar(); };
+$('#lista-vol').onclick = e => alternar(selVol, e);
 $('#lista-cats').onclick = e => alternar(selCat, e);
 $('#lista-etq').onclick = e => alternar(selEtq, e);
 
@@ -137,14 +143,15 @@ function abrir(r) {
     <div class="ficha">
       <span class="sello">— ${esc(r.categoria)} —</span>
       <h2>${esc(r.titulo)}</h2>
+      <p class="datos">${esc(r.volumen.replace(/^\d+\.\s*/, 'Volumen ' + r.volumen.slice(0, 2) + ': '))}${r.origen ? ' / ' + esc(r.origen) : ''}</p>
       ${r.tiempo ? `<p class="datos">Tiempo <b>${esc(r.tiempo)}</b></p>` : ''}
       ${r.etiquetas && r.etiquetas.length ? `<p class="datos">${esc(r.etiquetas.map(cap).join(' / '))}</p>` : ''}
       ${marco(r, 'grande')}
       ${sec('Ingredientes')}
-      ${r.raciones ? `<div class="escalador">Raciones <button id="menos" aria-label="Menos raciones">−</button><b id="n"></b><button id="mas" aria-label="Más raciones">+</button></div>` : ''}
+      ${r.raciones ? `<div class="escalador">${r.racionesEstimadas ? 'Raciones aprox.' : 'Raciones'} <button id="menos" aria-label="Menos raciones">−</button><b id="n"></b><button id="mas" aria-label="Más raciones">+</button></div>` : ''}
       <ul class="ingredientes" id="ings"></ul>
       ${sec('Elaboración')}
-      <ol class="pasos">${r.pasos.map(p => `<li>${esc(p)}</li>`).join('')}</ol>
+      <ol class="pasos">${r.pasos.map(p => p.grupo ? `<li class="sub">${esc(p.grupo)}</li>` : `<li>${esc(p)}</li>`).join('')}</ol>
       ${r.notas ? sec('Notas') + `<div class="notas"><p>${esc(r.notas)}</p></div>` : ''}
     </div>`;
   d.hidden = false; d.scrollTop = 0;

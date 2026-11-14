@@ -31,7 +31,7 @@
     <span id="cuenta" class="cuenta"></span>
     <div class="ctrl">
       <label><span class="sr">Ordenar por</span>
-        <select id="orden"><option value="az">Nombre A–Z</option><option value="tiempo">Tiempo, de menos a más</option><option value="nuevas">Últimas añadidas</option></select>
+        <select id="orden"><option value="volumen">Por volumen</option><option value="az">Nombre A–Z</option><option value="tiempo">Tiempo, de menos a más</option><option value="nuevas">Últimas añadidas</option></select>
       </label>
       <div class="vista"><button id="v-rejilla" class="texto" aria-pressed="true">Cuadrícula</button><button id="v-lista" class="texto" aria-pressed="false">Lista</button></div>
     </div>
@@ -43,9 +43,11 @@
   <div class="velo" id="velo"></div>
   <section class="hoja-filtros" role="dialog" aria-modal="true" aria-label="Filtrar recetas">
     <div class="cuerpo-filtros">
-      <div class="sec"><i></i><h3>Tipo de plato</h3><i></i></div>
-      <input id="buscar-cat" type="search" placeholder="Buscar tipo de plato" aria-label="Buscar tipo de plato" autocomplete="off" hidden>
-      <ul id="lista-cats" class="lista-cats"></ul>
+      <div class="sec"><i></i><h3>Volumen</h3><i></i></div>
+      <ul id="lista-vol" class="lista-cats"></ul>
+      <div id="bloque-cat"><div class="sec"><i></i><h3>Categoría</h3><i></i></div>
+      <input id="buscar-cat" type="search" placeholder="Buscar categoría" aria-label="Buscar categoría" autocomplete="off" hidden>
+      <ul id="lista-cats" class="lista-cats"></ul></div>
       <div id="bloque-etq"><div class="sec"><i></i><h3>Etiquetas</h3><i></i></div><div id="lista-etq" class="etq"></div></div>
     </div>
     <div class="pie-filtros"><button id="borrar" class="texto">Borrar filtros</button><button id="aplicar" class="boton solido"></button></div>
