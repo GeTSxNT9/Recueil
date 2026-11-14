@@ -1,8 +1,8 @@
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const norm = s => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
-const es = (a, b) => a.localeCompare(b, 'es');
+const norm = s => String(s ?? '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const cap = s => { s = String(s ?? ''); return s.charAt(0).toUpperCase() + s.slice(1); };
+const es = (a, b) => String(a ?? '').localeCompare(String(b ?? ''), 'es', { numeric: true });
 const leer = (k, d) => { try { return localStorage.getItem(k) || d; } catch (e) { return d; } };
 const guardar = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
 
@@ -34,7 +34,7 @@ const minutos = t => {
 function filtradas() {
   const q = norm(busqueda.trim());
   return recetas.filter(r =>
-    (!selVol.size || selVol.has(r.volumen)) &&
+    (!selVol.size || selVol.has(String(r.volumen))) &&
     (!selCat.size || selCat.has(r.categoria)) &&
     [...selEtq].every(t => (r.etiquetas || []).includes(t)) &&
     (!q || norm(r.titulo).includes(q) || r.ingredientes.some(i => i.nombre && norm(i.nombre).includes(q))));
@@ -89,9 +89,9 @@ pintarVista();
 function pintarPanel() {
   const cats = [...new Set(recetas.map(r => r.categoria))].sort(es);
   const etqs = [...new Set(recetas.flatMap(r => r.etiquetas || []))].sort(es);
-  const vols = [...new Set(recetas.map(r => r.volumen))].sort(es);
+  const vols = [...new Set(recetas.map(r => String(r.volumen)))].sort(es);
   $('#lista-vol').innerHTML = vols.map(v =>
-    `<li><button aria-pressed="${selVol.has(v)}" data-v="${esc(v)}"><span class="p"></span><span>${esc(v)}</span><i></i><span class="c">${recetas.filter(r => r.volumen === v).length}</span></button></li>`).join('');
+    `<li><button aria-pressed="${selVol.has(v)}" data-v="${esc(v)}"><span class="p"></span><span>${esc(v)}</span><i></i><span class="c">${recetas.filter(r => String(r.volumen) === v).length}</span></button></li>`).join('');
   const buscar = $('#buscar-cat'); buscar.hidden = cats.length <= 10;
   const q = norm(buscar.value);
   $('#lista-cats').innerHTML = cats.filter(c => norm(c).includes(q)).map(c =>
@@ -196,7 +196,13 @@ document.addEventListener('visibilitychange', () => {
 });
 
 /* ---------- Inicio ---------- */
-fetch('recipes.json')
-  .then(r => r.json())
-  .then(data => { recetas = data; pintarFiltros(); pintarRejilla(); ruta(); })
-  .catch(() => { $('#vacio').hidden = false; $('#vacio').textContent = 'No se pudo cargar recipes.json. Si abres index.html directamente desde el ordenador, usa un servidor local o súbelo a GitHub Pages.'; });
+Promise.all([
+  fetch('recipes.json').then(r => { if (!r.ok) throw new Error('HTTP ' + r.status + ' en recipes.json'); return r.json(); }),
+  fetch('volumes.json').then(r => r.ok ? r.json() : []).catch(() => [])
+]).then(([data, vols]) => {
+  const nombres = {}; vols.forEach(v => { nombres[v.n] = v.nombre; });
+  data.forEach(r => {
+    if (typeof r.volumen === 'number') r.volumen = String(r.volumen).padStart(2, '0') + (nombres[r.volumen] ? '. ' + nombres[r.volumen] : '');
+  });
+  recetas = data; pintarFiltros(); pintarRejilla(); ruta();
+}).catch(e => { $('#vacio').hidden = false; $('#vacio').textContent = 'No se pudieron mostrar las recetas (' + e.message + '). Si abres index.html directamente desde el ordenador, usa un servidor local o súbelo a GitHub Pages.'; });
