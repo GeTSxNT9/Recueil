@@ -124,7 +124,7 @@ function pintarIngredientes() {
   const k = actual.raciones ? raciones / actual.raciones : 1;
   $('#ings').innerHTML = actual.ingredientes.map(i => {
     if (i.grupo) return `<li class="grupo">${esc(i.grupo)}</li>`;
-    const q = i.cantidad == null ? 'al gusto' : fmt(i.cantidad * k) + (i.unidad ? ' ' + i.unidad : '');
+    const q = i.cantidad == null ? (i.pendiente ? 'por confirmar' : 'al gusto') : fmt(i.cantidad * k) + (i.unidad ? ' ' + i.unidad : '');
     return `<li><label><input type="checkbox"><span class="n">${esc(cap(i.nombre))}</span><i class="l"></i><b>${esc(q)}</b></label></li>`;
   }).join('');
   const n = $('#n'); if (n) n.textContent = raciones;
@@ -147,7 +147,7 @@ function abrir(r) {
       ${r.tiempo ? `<p class="datos">Tiempo <b>${esc(r.tiempo)}</b></p>` : ''}
       ${r.etiquetas && r.etiquetas.length ? `<p class="datos">${esc(r.etiquetas.map(cap).join(' / '))}</p>` : ''}
       ${marco(r, 'grande')}
-      ${sec('Ingredientes')}
+      ${r.ingredientes.length ? sec('Ingredientes') : ''}
       ${r.raciones ? `<div class="escalador">${r.racionesEstimadas ? 'Raciones aprox.' : 'Raciones'} <button id="menos" aria-label="Menos raciones">−</button><b id="n"></b><button id="mas" aria-label="Más raciones">+</button></div>` : ''}
       <ul class="ingredientes" id="ings"></ul>
       ${sec('Elaboración')}
