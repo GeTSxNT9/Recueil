@@ -93,7 +93,9 @@
    }
   ],
   "pasos": [
-   "Pon a hervir el agua con sal. Cuando esté hirviendo echa los bisaltos lavados y cuando recupere el hervor se cuecen 8 minutos Escúrrelos y aliña con el aceite, vinagre y sal."
+   "Pon a hervir agua con sal.",
+   "Cuando hierva, echa los bisaltos lavados y, cuando recupere el hervor, cuécelos 8 minutos.",
+   "Escúrrelos y aliña con el aceite, el vinagre y la sal."
   ],
   "raciones": 4,
   "imagen": "img/bisaltos.jpg"
@@ -1858,7 +1860,9 @@
    }
   ],
   "pasos": [
-   "Tritura todos los ingredientes menos el pimentón dulce que es para decorar al final de la elaboración."
+   "Escurre los garbanzos cocidos.",
+   "Tritura los garbanzos con el ajo, el zumo de limón, la tahina, el comino, la sal y un chorro de aceite de oliva hasta obtener una crema fina. Si queda muy espesa, añade un poco de agua.",
+   "Sirve espolvoreado con el pimentón dulce."
   ],
   "origen": "Líbano/ oriente medio",
   "raciones": 3,
@@ -6231,7 +6235,8 @@
    }
   ],
   "pasos": [
-   "Mezcla las dos elaboraciones y bate hasta obtener un puré muy espeso."
+   "Mezcla la brandada de bacalao con el puré de patata espeso.",
+   "Bate hasta obtener una crema muy espesa."
   ],
   "raciones": 3,
   "racionesEstimadas": true,
@@ -9489,7 +9494,9 @@
    }
   ],
   "pasos": [
-   "Tuesta el pan y unta una fina capa de salsa rosa. Colocar encima huevo rallado, atún y anchoa, finalizando con una gota adicional de salsa rosa."
+   "Tuesta el pan y unta una capa fina de salsa rosa.",
+   "Ralla el huevo duro por encima y coloca el atún y la anchoa.",
+   "Termina con una gota de salsa rosa."
   ],
   "raciones": 6,
   "racionesEstimadas": true,
@@ -10237,13 +10244,18 @@
    }
   ],
   "pasos": [
-   "Sumerge los papeles de arroz en agua fría 1 minuto Coloca en la tabla y poneos en el centro una línea con todos los ingredientes. Enrolla metiendo los bordes hacia el centro y puedes servir crudos, fritos o al vapor."
+   "Prepara los ingredientes: corta la zanahoria en juliana y el repollo en tiras finas, y cuece o saltea el pollo (o la panceta) y córtalo en tiras.",
+   "Sumerge los papeles de arroz en agua fría 1 minuto.",
+   "Colócalos sobre la tabla y pon en el centro una línea con todos los ingredientes.",
+   "Enrolla metiendo los bordes hacia el centro.",
+   "Sirve los rollitos crudos, fritos o al vapor, con salsa de soja."
   ],
   "raciones": 6,
   "racionesEstimadas": true,
   "_old": 3,
   "racionesCalculadas": true,
-  "imagen": "img/rollitos-vietnamitas.jpg"
+  "imagen": "img/rollitos-vietnamitas.jpg",
+  "notas": "Se ha añadido el paso de cocinar el pollo o la panceta, que no figuraba en el original."
  },
  {
   "id": "tortilla-espanola",
@@ -12027,11 +12039,10 @@
     "nombre": "Levadura prensada"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 20,
+    "unidad": "g",
     "nombre": "Azúcar",
-    "nota": "pizca",
-    "pendiente": true
+    "nota": "pizca"
    },
    {
     "cantidad": null,
@@ -12052,7 +12063,8 @@
   "racionesEstimadas": true,
   "_old": 4,
   "racionesCalculadas": true,
-  "imagen": "img/pan-bao.jpg"
+  "imagen": "img/pan-bao.jpg",
+  "notas": "El original no indicaba el azúcar: se han tomado 20 g para 250 g de harina, dentro del rango de las recetas de referencia (15-25 g)."
  },
  {
   "id": "pan-brioche",
@@ -12601,13 +12613,16 @@
    }
   ],
   "pasos": [
-   "Calienta todo e infusiona, cuando llegue a ebullición, echa el arroz y cuenta 25 minutos removiendo."
+   "Calienta la leche de coco con el agua, la sal, el azúcar, la citronela y las hojas de lima kéfir para infusionar.",
+   "Cuando llegue a ebullición, añade el arroz.",
+   "Cuece 25 minutos, removiendo.",
+   "Retira la citronela y las hojas de lima kéfir antes de servir."
   ],
   "raciones": 72,
   "racionesEstimadas": true,
   "_old": 12,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 72 raciones. Usa el escalador de raciones para adaptarlas.",
+  "notas": "Cantidades de producción: dan unas 72 raciones. Usa el escalador de raciones para adaptarlas. Se ha añadido el paso de retirar la citronela y la lima kéfir antes de servir.",
   "imagen": "img/arroz-con-leche-de-coco.jpg"
  },
  {
@@ -16000,7 +16015,10 @@
    }
   ],
   "pasos": [
-   "Calienta nata con el agua, el azúcar y el cacao, vierte encima de la cobertura de chocolate, tritura hasta que esté todo mezclado, echa la mantequilla en dados y emulsiona."
+   "Calienta la nata con el agua, el azúcar y el cacao.",
+   "Vierte la mezcla caliente sobre el chocolate 70 %.",
+   "Tritura hasta que todo esté bien mezclado.",
+   "Añade la mantequilla en dados y emulsiona."
   ],
   "raciones": 22,
   "racionesEstimadas": true,
@@ -17055,64 +17073,54 @@
     "nombre": "Garbanzos secos. 500 g de garbanzos si son cocidos"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Cebolla",
-    "pendiente": true
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Cebolla"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Berenjena",
-    "pendiente": true
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Berenjena"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Zanahoria",
-    "pendiente": true
+    "cantidad": 3,
+    "unidad": "ud",
+    "nombre": "Zanahoria"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Patata",
-    "pendiente": true
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Patata"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Tomate",
-    "pendiente": true
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Tomate"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Ajo",
-    "pendiente": true
+    "cantidad": 3,
+    "unidad": "ud",
+    "nombre": "dientes de ajo"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Calabaza",
-    "pendiente": true
+    "cantidad": 400,
+    "unidad": "g",
+    "nombre": "Calabaza"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Calabacín",
-    "pendiente": true
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Calabacín"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Col",
-    "pendiente": true
+    "cantidad": 300,
+    "unidad": "g",
+    "nombre": "Col"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Judía verde",
-    "pendiente": true
+    "cantidad": 200,
+    "unidad": "g",
+    "nombre": "Judía verde"
    },
    {
     "cantidad": 500.0,
@@ -17154,14 +17162,18 @@
    }
   ],
   "pasos": [
-   "Trocea la carne y sofríe con mantequilla y chorro de aceite. Pasados 5 minutos echa la cebolla y las especias. Añade 2 litros de agua y en que hierva, echa las hortalizas y los garbanzos.",
-   "Pon el grano de cuscús en una bandeja y cuando los garbanzos y la carne estén cocinados, echa la misma cantidad de caldo hirviendo, dejándolo tapado 5 minutos Remuévelo con un tenedor y añádele un poco de aceite para que no se apelmace.",
-   "Sirve haciendo una montaña con el cuscús y echa alrededor o en un hueco en el centro, haciendo como un volcán, las hortalizas, la carne y los garbanzos."
+   "Trocea la carne y sofríela con la mantequilla y un chorro de aceite.",
+   "A los 5 minutos, añade la cebolla y las especias (azafrán, canela y jengibre).",
+   "Añade 2 litros de agua. Cuando hierva, incorpora las hortalizas cortadas en trozos grandes y los garbanzos (si son secos, déjalos en remojo la noche anterior).",
+   "Cuece hasta que la carne y los garbanzos estén tiernos.",
+   "Pon el grano de cuscús en una bandeja, añade la misma cantidad de caldo hirviendo y tápalo 5 minutos.",
+   "Remuévelo con un tenedor y añade un poco de aceite para que no se apelmace.",
+   "Sirve el cuscús haciendo una montaña y coloca las hortalizas, la carne y los garbanzos alrededor o en un hueco en el centro, como un volcán. Decora con los dátiles y acompaña con cilantro, perejil, ras el hanout o kefta."
   ],
   "origen": "Maghreb/ senegal/ gambia",
   "raciones": 7,
   "racionesEstimadas": true,
-  "notas": "Cilantro, perejil, hanout o kefta.",
+  "notas": "Cilantro, perejil, hanout o kefta. El original no indicaba las cantidades de las hortalizas: se han estimado para 500 g de cuscús a partir de recetas de cuscús tradicional para 4-6 personas (Directo al Paladar, Hola, Esdiario, EcuRed). Pendiente de verificar.",
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/cuscus.jpg"
@@ -18118,7 +18130,8 @@
    }
   ],
   "pasos": [
-   "Tritura todo con un tercio del AOVE hasta formar una pasta y se termina emulsionando con el resto del AOVE."
+   "Tritura todos los ingredientes con un tercio del AOVE hasta formar una pasta.",
+   "Termina emulsionando con el resto del AOVE."
   ],
   "raciones": 18,
   "racionesEstimadas": true,
