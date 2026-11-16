@@ -3380,10 +3380,9 @@
     "nombre": "Huevos"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Leche o caldo",
-    "pendiente": true
+    "cantidad": 100,
+    "unidad": "ml",
+    "nombre": "Leche o caldo"
    },
    {
     "cantidad": null,
@@ -3481,7 +3480,7 @@
   ],
   "raciones": 7,
   "racionesEstimadas": true,
-  "notas": "Opcional: Cebolla, zanahoria…. Opcional: Con setas y tocino curado = la cazadora.",
+  "notas": "Opcional: Cebolla, zanahoria…. Opcional: Con setas y tocino curado = la cazadora. El original no indicaba la leche o el caldo: se han tomado 100 ml para empapar los 100 g de miga de pan (proporción habitual 1:1). Pendiente de verificar.",
   "_old": 9,
   "racionesCalculadas": true,
   "imagen": "img/albondigas-almondigas.jpg"
@@ -5768,10 +5767,9 @@
     "grupo": "Rebozado"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Maicena",
-    "pendiente": true
+    "cantidad": 1,
+    "unidad": "cda",
+    "nombre": "Maicena"
    },
    {
     "cantidad": null,
@@ -5790,7 +5788,8 @@
   "racionesEstimadas": true,
   "imagen": "img/pollo-al-limon.jpg",
   "_old": 2,
-  "racionesCalculadas": true
+  "racionesCalculadas": true,
+  "notas": "Maicena estimada: 1 cucharada para unos 200 ml de líquido, la proporción habitual para ligar una salsa. Pendiente de verificar."
  },
  {
   "id": "pollo-en-pepitoria",
@@ -8181,10 +8180,9 @@
     "gusto": true
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Pan",
-    "pendiente": true
+    "cantidad": 5,
+    "unidad": "rebanadas",
+    "nombre": "Pan"
    },
    {
     "cantidad": null,
@@ -8205,7 +8203,8 @@
   "racionesEstimadas": true,
   "imagen": "img/sopa-de-cebolla.jpg",
   "_old": 6,
-  "racionesCalculadas": true
+  "racionesCalculadas": true,
+  "notas": "El pan se estima en 1 rebanada por ración."
  },
  {
   "id": "sopa-de-patata-y-comino",
@@ -9638,28 +9637,25 @@
   "fuente": "ENTREMESES, PINTXOS Y MONTADITOS",
   "ingredientes": [
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Croissant de mantequilla",
-    "pendiente": true
+    "cantidad": 4,
+    "unidad": "ud",
+    "nombre": "Croissant de mantequilla"
    },
    {
     "cantidad": null,
     "unidad": "",
     "nombre": "Mostaza",
-    "pendiente": true
+    "gusto": true
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Queso gruyere",
-    "pendiente": true
+    "cantidad": 4,
+    "unidad": "lonchas",
+    "nombre": "Queso gruyere"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Jamón",
-    "pendiente": true
+    "cantidad": 4,
+    "unidad": "lonchas",
+    "nombre": "Jamón"
    }
   ],
   "pasos": [
@@ -9668,7 +9664,8 @@
   ],
   "raciones": 4,
   "racionesEstimadas": true,
-  "imagen": "img/montaditos-de-croissant-mixto.jpg"
+  "imagen": "img/montaditos-de-croissant-mixto.jpg",
+  "notas": "Cantidades estimadas a razón de 1 croissant, 1 loncha de jamón y 1 de queso por montadito (4 raciones). La mostaza se pone al gusto."
  },
  {
   "id": "nachos-mexicanos",
@@ -10379,10 +10376,9 @@
   "fuente": "ENTREMESES, PINTXOS Y MONTADITOS",
   "ingredientes": [
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Pan tostado",
-    "pendiente": true
+    "cantidad": 4,
+    "unidad": "rebanadas",
+    "nombre": "Pan tostado"
    },
    {
     "cantidad": 1.0,
@@ -10453,7 +10449,8 @@
   "racionesEstimadas": true,
   "_old": 2,
   "racionesCalculadas": true,
-  "imagen": "img/tostadas-coronation-chicken.jpg"
+  "imagen": "img/tostadas-coronation-chicken.jpg",
+  "notas": "El pan se estima en 1 rebanada por ración."
  },
  {
   "id": "tostadas-de-ricotta",
@@ -10463,10 +10460,9 @@
   "fuente": "ENTREMESES, PINTXOS Y MONTADITOS",
   "ingredientes": [
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Pan tostado",
-    "pendiente": true
+    "cantidad": 2,
+    "unidad": "rebanadas",
+    "nombre": "Pan tostado"
    },
    {
     "cantidad": 200.0,
@@ -10512,7 +10508,8 @@
   "racionesEstimadas": true,
   "_old": 3,
   "racionesCalculadas": true,
-  "imagen": "img/tostadas-de-ricotta.jpg"
+  "imagen": "img/tostadas-de-ricotta.jpg",
+  "notas": "El pan se estima en 1 rebanada por ración."
  },
  {
   "id": "bobotie",
@@ -11770,11 +11767,10 @@
     "nombre": "Harina"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 80,
+    "unidad": "ml",
     "nombre": "Vino blanco",
-    "nota": "chorro",
-    "pendiente": true
+    "nota": "chorro"
    },
    {
     "cantidad": null,
@@ -11792,7 +11788,8 @@
   "racionesEstimadas": true,
   "_old": 8,
   "racionesCalculadas": true,
-  "imagen": "img/masa-de-empanada.jpg"
+  "imagen": "img/masa-de-empanada.jpg",
+  "notas": "El original no indicaba el vino blanco: se han tomado 80 ml para 500 g de harina (Invitado de Invierno; otras recetas usan de 75 a 100 ml). Si la masa queda blanda, reduce un poco el agua."
  },
  {
   "id": "masa-de-gyoza",
@@ -14578,10 +14575,9 @@
     "nombre": "Vainilla en rama"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Caramelo",
-    "pendiente": true
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "azúcar para el caramelo"
    }
   ],
   "pasos": [
@@ -14595,7 +14591,8 @@
   "racionesEstimadas": true,
   "imagen": "img/flan-de-huevo-y-nata.jpg",
   "_old": 7,
-  "racionesCalculadas": true
+  "racionesCalculadas": true,
+  "notas": "El original no indicaba la cantidad del caramelo: se han tomado 100 g de azúcar (con unas cucharadas de agua), la cantidad habitual en flanes caseros de ese tamaño según las recetas de referencia (Diario Uno, El Español, MDZ, LM Neuquén)."
  },
  {
   "id": "flan-de-queso",
@@ -14631,10 +14628,9 @@
     "gusto": true
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Caramelo",
-    "pendiente": true
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "azúcar para el caramelo"
    }
   ],
   "pasos": [
@@ -14647,7 +14643,8 @@
   "racionesEstimadas": true,
   "imagen": "img/flan-de-queso.jpg",
   "_old": 6,
-  "racionesCalculadas": true
+  "racionesCalculadas": true,
+  "notas": "El original no indicaba la cantidad del caramelo: se han tomado 100 g de azúcar (con unas cucharadas de agua), la cantidad habitual en flanes caseros de ese tamaño según las recetas de referencia (Diario Uno, El Español, MDZ, LM Neuquén)."
  },
  {
   "id": "flao-ibicenco",
@@ -19297,18 +19294,16 @@
   "fuente": "REBOZADOS",
   "ingredientes": [
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 50,
+    "unidad": "g",
     "nombre": "Harina de trigo",
-    "nota": "a partes iguales con la de garbanzo",
-    "pendiente": true
+    "nota": "a partes iguales con la de garbanzo"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 50,
+    "unidad": "g",
     "nombre": "Harina de garbanzo",
-    "nota": "a partes iguales con la de trigo",
-    "pendiente": true
+    "nota": "a partes iguales con la de trigo"
    },
    {
     "cantidad": null,
@@ -19330,7 +19325,7 @@
    "https://www.directoalpaladar.com/curso-de-cocina/que-rebozado-que-tipos-hay-como-hacerlo-mejor-para-cada-tipo-comida-no-fallar-intento",
    "https://www.sanpedrodelpinatar.es/wp-content/uploads/2019/01/FRITURA.pdf"
   ],
-  "notas": "Técnica sin huevo; con harina de garbanzo queda más crujiente. La proporción a partes iguales de trigo y garbanzo es una de las variantes habituales; la cantidad total depende del producto a rebozar."
+  "notas": "Técnica sin huevo; con harina de garbanzo queda más crujiente. La proporción a partes iguales de trigo y garbanzo es una de las variantes habituales; la cantidad total depende del producto a rebozar. El original no indicaba las cantidades: se usan partes iguales de harina de trigo y de garbanzo (50 g de cada una para 4 raciones), como en la receta de Directo al Paladar para chipirones fritos."
  },
  {
   "id": "rebozado-a-la-romana",
