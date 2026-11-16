@@ -87,7 +87,9 @@ pintarVista();
 
 /* ---------- Panel de filtros ---------- */
 function pintarPanel() {
-  const cats = [...new Set(recetas.map(r => r.categoria))].sort(es);
+  const enVol = r => selVol.has(String(r.volumen));
+  const cats = selVol.size ? [...new Set(recetas.filter(enVol).map(r => r.categoria))].sort(es) : [];
+  $('#bloque-cat').hidden = !selVol.size;
   const etqs = [...new Set(recetas.flatMap(r => r.etiquetas || []))].sort(es);
   const vols = [...new Set(recetas.map(r => String(r.volumen)))].sort(es);
   $('#lista-vol').innerHTML = vols.map(v =>
@@ -95,7 +97,7 @@ function pintarPanel() {
   const buscar = $('#buscar-cat'); buscar.hidden = cats.length <= 10;
   const q = norm(buscar.value);
   $('#lista-cats').innerHTML = cats.filter(c => norm(c).includes(q)).map(c =>
-    `<li><button aria-pressed="${selCat.has(c)}" data-v="${esc(c)}"><span class="p"></span><span>${esc(c)}</span><i></i><span class="c">${recetas.filter(r => r.categoria === c).length}</span></button></li>`).join('');
+    `<li><button aria-pressed="${selCat.has(c)}" data-v="${esc(c)}"><span class="p"></span><span>${esc(c)}</span><i></i><span class="c">${recetas.filter(r => r.categoria === c && enVol(r)).length}</span></button></li>`).join('');
   $('#bloque-etq').hidden = !etqs.length;
   $('#lista-etq').innerHTML = etqs.map(t => `<button aria-pressed="${selEtq.has(t)}" data-v="${esc(t)}">${esc(cap(t))}</button>`).join('');
   const n = filtradas().length;
@@ -109,7 +111,7 @@ $('#velo').onclick = $('#aplicar').onclick = cerrarPanel;
 $('#buscar-cat').oninput = pintarPanel;
 $('#borrar').onclick = () => { selVol.clear(); selCat.clear(); selEtq.clear(); refrescar(); };
 const alternar = (set, e) => { const b = e.target.closest('button'); if (!b) return; const v = b.dataset.v; set.has(v) ? set.delete(v) : set.add(v); refrescar(); };
-$('#lista-vol').onclick = e => alternar(selVol, e);
+$('#lista-vol').onclick = e => { alternar(selVol, e); [...selCat].forEach(c => { if (!recetas.some(r => r.categoria === c && selVol.has(String(r.volumen)))) selCat.delete(c); }); refrescar(); };
 $('#lista-cats').onclick = e => alternar(selCat, e);
 $('#lista-etq').onclick = e => alternar(selEtq, e);
 
@@ -124,7 +126,7 @@ function pintarIngredientes() {
   const k = actual.raciones ? raciones / actual.raciones : 1;
   $('#ings').innerHTML = actual.ingredientes.map(i => {
     if (i.grupo) return `<li class="grupo">${esc(i.grupo)}</li>`;
-    const q = i.cantidad == null ? (i.pendiente ? 'por confirmar' : 'al gusto') : fmt(i.cantidad * k) + (i.unidad ? ' ' + i.unidad : '');
+    const q = i.cantidad == null ? (i.texto || (i.pendiente ? 'por confirmar' : 'al gusto')) : fmt(i.cantidad * k) + (i.unidad ? ' ' + i.unidad : '');
     return `<li><label><input type="checkbox"><span class="n">${esc(cap(i.nombre))}</span><i class="l"></i><b>${esc(q)}</b></label></li>`;
   }).join('');
   const n = $('#n'); if (n) n.textContent = raciones;

@@ -3,7 +3,7 @@
   "id": "berenjena-a-la-miel",
   "titulo": "Berenjena a la miel",
   "volumen": 1,
-  "categoria": "Verduras y hortalizas",
+  "categoria": "Verduras salteadas, fritas y cocidas",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -59,7 +59,7 @@
   "id": "bisaltos",
   "titulo": "Bisaltos",
   "volumen": 1,
-  "categoria": "Verduras y hortalizas",
+  "categoria": "Verduras salteadas, fritas y cocidas",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -104,7 +104,7 @@
   "id": "escalivada",
   "titulo": "Escalivada",
   "volumen": 1,
-  "categoria": "Verduras y hortalizas",
+  "categoria": "Verduras asadas y guisadas",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -167,7 +167,7 @@
   "id": "fritada",
   "titulo": "Fritada",
   "volumen": 1,
-  "categoria": "Verduras y hortalizas",
+  "categoria": "Verduras salteadas, fritas y cocidas",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -287,7 +287,7 @@
   "id": "judias-verdes-con-kimchi",
   "titulo": "Judías verdes con kimchi",
   "volumen": 1,
-  "categoria": "Verduras y hortalizas",
+  "categoria": "Verduras salteadas, fritas y cocidas",
   "fuente": "JUDIAS VERDES",
   "ingredientes": [
    {
@@ -347,8 +347,8 @@
  {
   "id": "kimchi",
   "titulo": "Kimchi",
-  "volumen": 1,
-  "categoria": "Fermentados",
+  "volumen": 17,
+  "categoria": "Fermentados y conservas",
   "fuente": "ASIÁTICO",
   "ingredientes": [
    {
@@ -429,7 +429,7 @@
   "id": "menestra-de-verduras",
   "titulo": "Menestra de verduras",
   "volumen": 1,
-  "categoria": "Verduras y hortalizas",
+  "categoria": "Verduras asadas y guisadas",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -503,7 +503,7 @@
   "id": "panache",
   "titulo": "Panaché",
   "volumen": 1,
-  "categoria": "Verduras y hortalizas",
+  "categoria": "Verduras asadas y guisadas",
   "fuente": "ETC",
   "ingredientes": [
    {
@@ -836,10 +836,9 @@
     "gusto": true
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Sal",
-    "gusto": true
+    "cantidad": 1,
+    "unidad": "pizca",
+    "nombre": "Sal"
    },
    {
     "cantidad": null,
@@ -868,25 +867,22 @@
     "nombre": "Salsa perrins"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "MSG",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Comino",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -1005,7 +1001,7 @@
   "id": "pisto-manchego",
   "titulo": "Pisto manchego",
   "volumen": 1,
-  "categoria": "Verduras y hortalizas",
+  "categoria": "Verduras asadas y guisadas",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -1120,7 +1116,7 @@
   "id": "revuelto-de-judias-verdes-con-jamon",
   "titulo": "Revuelto de judías verdes con jamón",
   "volumen": 1,
-  "categoria": "Verduras y hortalizas",
+  "categoria": "Verduras salteadas, fritas y cocidas",
   "fuente": "JUDIAS VERDES",
   "ingredientes": [
    {
@@ -1145,11 +1141,10 @@
     "gusto": true
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "Nata",
-    "nota": "chorro",
-    "gusto": true
+    "nota": "chorro"
    },
    {
     "cantidad": null,
@@ -1246,7 +1241,7 @@
   "id": "tumbet",
   "titulo": "Tumbet",
   "volumen": 1,
-  "categoria": "Verduras y hortalizas",
+  "categoria": "Verduras asadas y guisadas",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -1309,7 +1304,7 @@
   "id": "alubias-estofadas-en-blanco",
   "titulo": "Alubias estofadas en blanco",
   "volumen": 2,
-  "categoria": "Alubias y judías",
+  "categoria": "Alubias y fabadas",
   "fuente": "LEGUMBRES",
   "ingredientes": [
    {
@@ -1365,7 +1360,7 @@
   "id": "cocido",
   "titulo": "Cocido",
   "volumen": 2,
-  "categoria": "Cocidos",
+  "categoria": "Cocidos y potajes",
   "fuente": "ESTOFADOS Y GUISOS",
   "ingredientes": [
    {
@@ -1513,7 +1508,7 @@
   "id": "fabada-asturiana",
   "titulo": "Fabada asturiana",
   "volumen": 2,
-  "categoria": "Fabadas",
+  "categoria": "Alubias y fabadas",
   "fuente": "ESTOFADOS Y GUISOS",
   "ingredientes": [
    {
@@ -2157,10 +2152,9 @@
     "nombre": "Cebolla"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Agua",
-    "gusto": true
+    "cantidad": 2.0,
+    "unidad": "L",
+    "nombre": "Agua"
    },
    {
     "cantidad": null,
@@ -2796,7 +2790,7 @@
   "id": "padthai",
   "titulo": "Padthai",
   "volumen": 4,
-  "categoria": "Pasta y noodles",
+  "categoria": "Pasta oriental y noodles",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -2912,11 +2906,10 @@
     "nombre": "Sal"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "Aceite",
-    "nota": "chorro",
-    "gusto": true
+    "nota": "chorro"
    }
   ],
   "pasos": [
@@ -2936,7 +2929,7 @@
   "id": "tofu-marinado-con-tallarines",
   "titulo": "Tofu marinado con tallarines",
   "volumen": 4,
-  "categoria": "Pasta y noodles",
+  "categoria": "Pasta oriental y noodles",
   "fuente": "PASTAS",
   "ingredientes": [
    {
@@ -3380,9 +3373,10 @@
     "nombre": "Huevos"
    },
    {
-    "cantidad": 100,
-    "unidad": "ml",
-    "nombre": "Leche o caldo"
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Leche o caldo",
+    "texto": "según necesidad"
    },
    {
     "cantidad": null,
@@ -3480,7 +3474,7 @@
   ],
   "raciones": 7,
   "racionesEstimadas": true,
-  "notas": "Opcional: Cebolla, zanahoria…. Opcional: Con setas y tocino curado = la cazadora. El original no indicaba la leche o el caldo: se han tomado 100 ml para empapar los 100 g de miga de pan (proporción habitual 1:1). Pendiente de verificar.",
+  "notas": "Opcional: Cebolla, zanahoria…. Opcional: Con setas y tocino curado = la cazadora.",
   "_old": 9,
   "racionesCalculadas": true,
   "imagen": "img/albondigas-almondigas.jpg"
@@ -4010,11 +4004,10 @@
     "nombre": "Vino tinto"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Comino",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -4443,11 +4436,10 @@
     "nombre": "Aceite de oliva"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "Salsa de soja",
-    "nota": "chorro",
-    "pendiente": true
+    "nota": "chorro"
    }
   ],
   "pasos": [
@@ -4604,13 +4596,13 @@
     "cantidad": null,
     "unidad": "",
     "nombre": "Nata",
-    "pendiente": true
+    "texto": "según necesidad"
    },
    {
     "cantidad": null,
     "unidad": "",
     "nombre": "Parmesano",
-    "pendiente": true
+    "texto": "según necesidad"
    },
    {
     "cantidad": null,
@@ -4775,11 +4767,10 @@
     "nombre": "Solomillo o entrecot de vaca"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "Aceite de oliva",
-    "nota": "chorro",
-    "gusto": true
+    "nota": "chorro"
    },
    {
     "cantidad": null,
@@ -4788,11 +4779,10 @@
     "gusto": true
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -5596,13 +5586,13 @@
     "cantidad": null,
     "unidad": "",
     "nombre": "Mantequilla o manteca",
-    "pendiente": true
+    "texto": "según necesidad"
    },
    {
     "cantidad": null,
     "unidad": "",
     "nombre": "Fondo blanco o agua para el guiso",
-    "pendiente": true
+    "texto": "según necesidad"
    }
   ],
   "pasos": [
@@ -5767,9 +5757,10 @@
     "grupo": "Rebozado"
    },
    {
-    "cantidad": 1,
-    "unidad": "cda",
-    "nombre": "Maicena"
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Maicena",
+    "texto": "según necesidad"
    },
    {
     "cantidad": null,
@@ -5788,8 +5779,7 @@
   "racionesEstimadas": true,
   "imagen": "img/pollo-al-limon.jpg",
   "_old": 2,
-  "racionesCalculadas": true,
-  "notas": "Maicena estimada: 1 cucharada para unos 200 ml de líquido, la proporción habitual para ligar una salsa. Pendiente de verificar."
+  "racionesCalculadas": true
  },
  {
   "id": "pollo-en-pepitoria",
@@ -6276,25 +6266,22 @@
     "nombre": "Lomos de bacalao desalado"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Bicarbonato",
-    "nota": "pizca",
-    "pendiente": true
+    "nota": "pizca"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Colorante",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
     "grupo": "Salsa de pimientos"
@@ -6353,10 +6340,9 @@
     "nombre": "Aceite de girasol"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Sal",
-    "gusto": true
+    "cantidad": 1,
+    "unidad": "pizca",
+    "nombre": "Sal"
    }
   ],
   "pasos": [
@@ -7320,13 +7306,13 @@
     "cantidad": null,
     "unidad": "",
     "nombre": "Pulpo",
-    "pendiente": true
+    "texto": "según necesidad"
    },
    {
     "cantidad": null,
     "unidad": "",
     "nombre": "Puré de patata",
-    "pendiente": true
+    "texto": "según necesidad"
    }
   ],
   "pasos": [
@@ -8180,9 +8166,10 @@
     "gusto": true
    },
    {
-    "cantidad": 5,
-    "unidad": "rebanadas",
-    "nombre": "Pan"
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pan",
+    "texto": "según necesidad"
    },
    {
     "cantidad": null,
@@ -8203,8 +8190,7 @@
   "racionesEstimadas": true,
   "imagen": "img/sopa-de-cebolla.jpg",
   "_old": 6,
-  "racionesCalculadas": true,
-  "notas": "El pan se estima en 1 rebanada por ración."
+  "racionesCalculadas": true
  },
  {
   "id": "sopa-de-patata-y-comino",
@@ -8868,22 +8854,19 @@
     "nombre": "Ajo"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Aceite de oliva",
-    "gusto": true
+    "cantidad": 100.0,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Sal",
-    "gusto": true
+    "cantidad": 1.0,
+    "unidad": "cdta",
+    "nombre": "Sal"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Vinagre",
-    "gusto": true
+    "cantidad": 20.0,
+    "unidad": "ml",
+    "nombre": "Vinagre"
    },
    {
     "cantidad": null,
@@ -9531,18 +9514,16 @@
     "nombre": "Mayonesa"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "AOVE",
-    "nota": "chorro",
-    "gusto": true
+    "nota": "chorro"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "Vinagre blanco",
-    "nota": "chorro",
-    "gusto": true
+    "nota": "chorro"
    },
    {
     "cantidad": null,
@@ -9551,11 +9532,10 @@
     "gusto": true
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
     "cantidad": null,
@@ -9637,9 +9617,10 @@
   "fuente": "ENTREMESES, PINTXOS Y MONTADITOS",
   "ingredientes": [
    {
-    "cantidad": 4,
-    "unidad": "ud",
-    "nombre": "Croissant de mantequilla"
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Croissant de mantequilla",
+    "texto": "según necesidad"
    },
    {
     "cantidad": null,
@@ -9648,14 +9629,16 @@
     "gusto": true
    },
    {
-    "cantidad": 4,
-    "unidad": "lonchas",
-    "nombre": "Queso gruyere"
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Queso gruyere",
+    "texto": "según necesidad"
    },
    {
-    "cantidad": 4,
-    "unidad": "lonchas",
-    "nombre": "Jamón"
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Jamón",
+    "texto": "según necesidad"
    }
   ],
   "pasos": [
@@ -9664,8 +9647,7 @@
   ],
   "raciones": 4,
   "racionesEstimadas": true,
-  "imagen": "img/montaditos-de-croissant-mixto.jpg",
-  "notas": "Cantidades estimadas a razón de 1 croissant, 1 loncha de jamón y 1 de queso por montadito (4 raciones). La mostaza se pone al gusto."
+  "imagen": "img/montaditos-de-croissant-mixto.jpg"
  },
  {
   "id": "nachos-mexicanos",
@@ -10376,9 +10358,10 @@
   "fuente": "ENTREMESES, PINTXOS Y MONTADITOS",
   "ingredientes": [
    {
-    "cantidad": 4,
-    "unidad": "rebanadas",
-    "nombre": "Pan tostado"
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pan tostado",
+    "texto": "según necesidad"
    },
    {
     "cantidad": 1.0,
@@ -10406,11 +10389,10 @@
     "nombre": "Pimentón picante"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "Vino blanco",
-    "nota": "chorro",
-    "pendiente": true
+    "nota": "chorro"
    },
    {
     "cantidad": 200.0,
@@ -10449,8 +10431,7 @@
   "racionesEstimadas": true,
   "_old": 2,
   "racionesCalculadas": true,
-  "imagen": "img/tostadas-coronation-chicken.jpg",
-  "notas": "El pan se estima en 1 rebanada por ración."
+  "imagen": "img/tostadas-coronation-chicken.jpg"
  },
  {
   "id": "tostadas-de-ricotta",
@@ -10460,9 +10441,10 @@
   "fuente": "ENTREMESES, PINTXOS Y MONTADITOS",
   "ingredientes": [
    {
-    "cantidad": 2,
-    "unidad": "rebanadas",
-    "nombre": "Pan tostado"
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pan tostado",
+    "texto": "según necesidad"
    },
    {
     "cantidad": 200.0,
@@ -10475,17 +10457,16 @@
     "nombre": "Nata para montar"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
     "cantidad": null,
     "unidad": "",
     "nombre": "Anchoas",
-    "pendiente": true
+    "texto": "según necesidad"
    },
    {
     "cantidad": null,
@@ -10508,8 +10489,7 @@
   "racionesEstimadas": true,
   "_old": 3,
   "racionesCalculadas": true,
-  "imagen": "img/tostadas-de-ricotta.jpg",
-  "notas": "El pan se estima en 1 rebanada por ración."
+  "imagen": "img/tostadas-de-ricotta.jpg"
  },
  {
   "id": "bobotie",
@@ -10636,7 +10616,7 @@
   "id": "crepes-de-trigueros-con-jamon",
   "titulo": "Crepes de trigueros con jamón",
   "volumen": 12,
-  "categoria": "Elaboraciones saladas",
+  "categoria": "Panes y crepes rellenos",
   "fuente": "ETC",
   "ingredientes": [
    {
@@ -10658,18 +10638,16 @@
     "nombre": "Leche"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "Aceite",
-    "nota": "chorro",
-    "gusto": true
+    "nota": "chorro"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "Coñac",
-    "nota": "chorro",
-    "gusto": true
+    "nota": "chorro"
    },
    {
     "cantidad": null,
@@ -10864,10 +10842,9 @@
     "nombre": "Pimiento rojo y verde"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Sal",
-    "gusto": true
+    "cantidad": 10.0,
+    "unidad": "g",
+    "nombre": "Sal"
    }
   ],
   "pasos": [
@@ -10946,7 +10923,7 @@
   "id": "pan-prenao",
   "titulo": "Pan preñao",
   "volumen": 12,
-  "categoria": "Elaboraciones saladas",
+  "categoria": "Panes y crepes rellenos",
   "fuente": "MASAS",
   "ingredientes": [
    {
@@ -11275,7 +11252,7 @@
   "id": "arepas",
   "titulo": "Arepas",
   "volumen": 13,
-  "categoria": "Masas de tortilla y relleno",
+  "categoria": "Masas para rellenar y tortillas",
   "fuente": "MASAS",
   "ingredientes": [
    {
@@ -11469,10 +11446,9 @@
     "nombre": "Huevos"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Esencia de vainilla",
-    "gusto": true
+    "cantidad": 1.0,
+    "unidad": "cdta",
+    "nombre": "Esencia de vainilla"
    },
    {
     "cantidad": null,
@@ -11525,11 +11501,10 @@
     "nombre": "Harina"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -11693,7 +11668,7 @@
   "id": "hojaldre",
   "titulo": "Hojaldre",
   "volumen": 13,
-  "categoria": "Masas de hojaldre",
+  "categoria": "Masas quebradas y de hojaldre",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -11738,7 +11713,7 @@
   "id": "masa-de-empanada",
   "titulo": "Masa de empanada",
   "volumen": 13,
-  "categoria": "Masas",
+  "categoria": "Masas para rellenar y tortillas",
   "fuente": "MASAS",
   "ingredientes": [
    {
@@ -11773,11 +11748,10 @@
     "nota": "chorro"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Pimentón",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -11795,7 +11769,7 @@
   "id": "masa-de-gyoza",
   "titulo": "Masa de gyoza",
   "volumen": 13,
-  "categoria": "Masas de tortilla y relleno",
+  "categoria": "Masas para rellenar y tortillas",
   "fuente": "MASAS",
   "ingredientes": [
    {
@@ -11929,7 +11903,7 @@
   "id": "masa-quebrada-sablee",
   "titulo": "Masa quebrada sablée",
   "volumen": 13,
-  "categoria": "Masas quebradas",
+  "categoria": "Masas quebradas y de hojaldre",
   "fuente": "MASAS",
   "ingredientes": [
    {
@@ -11968,7 +11942,7 @@
   "id": "masa-quebrada-sucree",
   "titulo": "Masa quebrada sucrée",
   "volumen": 13,
-  "categoria": "Masas quebradas",
+  "categoria": "Masas quebradas y de hojaldre",
   "fuente": "MASAS",
   "ingredientes": [
    {
@@ -12042,11 +12016,10 @@
     "nota": "pizca"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -12164,11 +12137,10 @@
     "nombre": "Harina"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Bicarbonato",
-    "nota": "pizca",
-    "pendiente": true
+    "nota": "pizca"
    },
    {
     "cantidad": null,
@@ -12268,11 +12240,10 @@
     "nombre": "Sal"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "Aceite",
-    "nota": "chorro",
-    "gusto": true
+    "nota": "chorro"
    }
   ],
   "pasos": [
@@ -12291,7 +12262,7 @@
   "id": "tortillas-de-trigo",
   "titulo": "Tortillas de trigo",
   "volumen": 13,
-  "categoria": "Masas de tortilla y relleno",
+  "categoria": "Masas para rellenar y tortillas",
   "fuente": "MASAS",
   "ingredientes": [
    {
@@ -12331,7 +12302,7 @@
   "id": "totopos",
   "titulo": "Totopos",
   "volumen": 13,
-  "categoria": "Masas de tortilla y relleno",
+  "categoria": "Masas para rellenar y tortillas",
   "fuente": "MASAS",
   "ingredientes": [
    {
@@ -12360,25 +12331,22 @@
     "nombre": "Agua caliente"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "chorro",
     "nombre": "Aceite",
-    "nota": "chorro",
-    "gusto": true
+    "nota": "chorro"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Cilantro",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Orégano",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -12490,11 +12458,10 @@
     "nombre": "Esencia de vainilla"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -12626,7 +12593,7 @@
   "id": "baba-al-ron",
   "titulo": "Babá al ron",
   "volumen": 14,
-  "categoria": "Postres",
+  "categoria": "Bizcochos",
   "fuente": "POSTRES",
   "ingredientes": [
    {
@@ -12790,11 +12757,10 @@
     "nombre": "Galletas maría"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
     "cantidad": 100.0,
@@ -12826,11 +12792,10 @@
     "nombre": "Maicena"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
     "cantidad": 4.0,
@@ -12856,11 +12821,10 @@
     "nombre": "Azúcar moreno"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
     "cantidad": null,
@@ -12972,11 +12936,10 @@
     "gusto": true
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
     "grupo": "Sopa de chocolate blanco"
@@ -13013,7 +12976,7 @@
   "id": "bizcocho-de-sifon",
   "titulo": "Bizcocho de sifón",
   "volumen": 14,
-  "categoria": "Postres de sifón y bollería",
+  "categoria": "Bizcochos",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -13099,11 +13062,10 @@
     "nombre": "Levadura royal"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
     "cantidad": 1.0,
@@ -13234,7 +13196,7 @@
     "cantidad": null,
     "unidad": "",
     "nombre": "Crema de chocolate",
-    "pendiente": true
+    "texto": "según necesidad"
    }
   ],
   "pasos": [
@@ -13969,7 +13931,7 @@
   "id": "coulant-jordi-roca",
   "titulo": "Coulant Jordi Roca",
   "volumen": 14,
-  "categoria": "Chocolatería",
+  "categoria": "Tartas y pasteles",
   "fuente": "POSTRES",
   "ingredientes": [
    {
@@ -14426,11 +14388,10 @@
     "gusto": true
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "rama",
     "nombre": "Canela",
-    "nota": "rama",
-    "gusto": true
+    "nota": "rama"
    },
    {
     "cantidad": null,
@@ -15465,7 +15426,7 @@
   "id": "oreo-milk-shake",
   "titulo": "Oreo milk shake",
   "volumen": 14,
-  "categoria": "Batidos",
+  "categoria": "Batidos y smoothies",
   "fuente": "POSTRES",
   "ingredientes": [
    {
@@ -15580,7 +15541,7 @@
   "id": "pancakes",
   "titulo": "Pancakes",
   "volumen": 14,
-  "categoria": "Postres de sifón y bollería",
+  "categoria": "Desayunos y meriendas",
   "fuente": "POSTRES",
   "ingredientes": [
    {
@@ -15635,7 +15596,7 @@
   "id": "pancakes-con-sifon",
   "titulo": "Pancakes con sifón",
   "volumen": 14,
-  "categoria": "Postres de sifón y bollería",
+  "categoria": "Desayunos y meriendas",
   "fuente": "SIFÓN",
   "ingredientes": [
    {
@@ -15744,7 +15705,7 @@
   "id": "pave-de-cacau",
   "titulo": "Pavê de cacau",
   "volumen": 14,
-  "categoria": "Postres",
+  "categoria": "Postres de cuchara y copas",
   "fuente": "TARTAS Y PASTELES DULCES",
   "ingredientes": [
    {
@@ -16079,7 +16040,7 @@
   "id": "smoothie-de-melocoton",
   "titulo": "Smoothie de melocotón",
   "volumen": 14,
-  "categoria": "Batidos",
+  "categoria": "Batidos y smoothies",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -16135,7 +16096,7 @@
   "id": "smoothie-de-oreo",
   "titulo": "Smoothie de oreo",
   "volumen": 14,
-  "categoria": "Batidos",
+  "categoria": "Batidos y smoothies",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -16354,11 +16315,10 @@
     "nombre": "Queso mascarpone"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -16507,11 +16467,10 @@
     "nombre": "Manzanas"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Canela",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
     "cantidad": 150.0,
@@ -16575,11 +16534,10 @@
     "nombre": "Mantequilla"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -16601,7 +16559,7 @@
   "id": "tiramisu-jordi-roca",
   "titulo": "Tiramisú Jordi Roca",
   "volumen": 14,
-  "categoria": "Postres",
+  "categoria": "Postres de cuchara y copas",
   "fuente": "POSTRES",
   "ingredientes": [
    {
@@ -16638,7 +16596,7 @@
     "cantidad": null,
     "unidad": "",
     "nombre": "Bizcocho soletilla",
-    "pendiente": true
+    "texto": "según el molde"
    },
    {
     "cantidad": null,
@@ -16952,10 +16910,9 @@
     "nombre": "Mayonesa"
    },
    {
-    "cantidad": null,
-    "unidad": "",
-    "nombre": "Sal",
-    "gusto": true
+    "cantidad": 1,
+    "unidad": "pizca",
+    "nombre": "Sal"
    }
   ],
   "pasos": [
@@ -17032,11 +16989,10 @@
     "gusto": true
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "puñado",
     "nombre": "Almendras",
-    "nota": "puñado",
-    "gusto": true
+    "nota": "puñado"
    },
    {
     "cantidad": null,
@@ -17502,11 +17458,10 @@
     "nombre": "pimentón dulce"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Romero",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    },
    {
     "cantidad": 0.5,
@@ -18086,8 +18041,8 @@
  {
   "id": "pesto-version-monasterio-de-piedra",
   "titulo": "Pesto (versión Monasterio de Piedra)",
-  "volumen": 16,
-  "categoria": "Salsas y fondos",
+  "volumen": 5,
+  "categoria": "Pestos",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -18169,11 +18124,10 @@
     "nombre": "lima (zumo)"
    },
    {
-    "cantidad": null,
-    "unidad": "",
+    "cantidad": 1,
+    "unidad": "pizca",
     "nombre": "Sal",
-    "nota": "pizca",
-    "gusto": true
+    "nota": "pizca"
    }
   ],
   "pasos": [
@@ -18356,7 +18310,7 @@
     "cantidad": null,
     "unidad": "",
     "nombre": "Café soluble",
-    "pendiente": true
+    "gusto": true
    },
    {
     "cantidad": 200.0,
@@ -18792,7 +18746,7 @@
   "id": "salsa-romescu",
   "titulo": "Salsa romescu",
   "volumen": 16,
-  "categoria": "Salsas y fondos",
+  "categoria": "Salsas frías y cremosas",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
@@ -18847,13 +18801,13 @@
     "cantidad": null,
     "unidad": "",
     "nombre": "Chorizo",
-    "pendiente": true
+    "texto": "según necesidad"
    },
    {
     "cantidad": null,
     "unidad": "",
     "nombre": "Vinagre",
-    "pendiente": true
+    "gusto": true
    }
   ],
   "pasos": [
@@ -19034,7 +18988,7 @@
   "id": "coral",
   "titulo": "Coral",
   "volumen": 17,
-  "categoria": "Decoraciones",
+  "categoria": "Decoraciones y crujientes",
   "fuente": "DECORACIONES",
   "ingredientes": [
    {
@@ -19252,7 +19206,7 @@
   "id": "piruleta-galleta-crujiente-de-queso",
   "titulo": "Piruleta/ galleta/ crujiente de queso",
   "volumen": 17,
-  "categoria": "Crujientes",
+  "categoria": "Decoraciones y crujientes",
   "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
