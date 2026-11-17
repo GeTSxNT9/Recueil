@@ -8,7 +8,7 @@ const guardar = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
 
 let recetas = [], selVol = new Set(), selCat = new Set(), selEtq = new Set(), busqueda = '', actual = null, raciones = 0, cocina = false, wake = null;
 let orden = leer('orden', 'volumen'), vista = leer('vista', 'rejilla');
-if (!['volumen', 'az', 'tiempo', 'nuevas'].includes(orden)) orden = 'az';
+if (!['volumen', 'az', 'nuevas'].includes(orden)) orden = 'az';
 if (!['rejilla', 'lista'].includes(vista)) vista = 'rejilla';
 
 /* ---------- Tema ---------- */
@@ -26,11 +26,6 @@ function foto(r) {
   return `<img class="foto" src="${esc(r.imagen)}" alt="${esc(r.titulo)}" loading="lazy" onerror="this.outerHTML=this.dataset.ph" data-ph="${esc(ph)}">`;
 }
 const marco = (r, extra = '') => `<div class="marco ${extra}"><div class="in">${foto(r)}</div></div>`;
-const minutos = t => {
-  if (!t) return Infinity;
-  const h = /(\d+)\s*h/.exec(t), m = /(\d+)\s*min/.exec(t), n = /(\d+)/.exec(t);
-  return h || m ? (h ? +h[1] * 60 : 0) + (m ? +m[1] : 0) : n ? +n[1] : Infinity;
-};
 function filtradas() {
   const q = norm(busqueda.trim());
   return recetas.filter(r =>
@@ -43,12 +38,11 @@ function ordenadas(l) {
   const c = [...l];
   if (orden === 'volumen') c.sort((a, b) => es(a.volumen, b.volumen) || es(a.categoria, b.categoria) || es(a.titulo, b.titulo));
   else if (orden === 'az') c.sort((a, b) => es(a.titulo, b.titulo));
-  else if (orden === 'tiempo') c.sort((a, b) => minutos(a.tiempo) - minutos(b.tiempo) || es(a.titulo, b.titulo));
   else c.sort((a, b) => (b.fecha || '9999').localeCompare(a.fecha || '9999') || recetas.indexOf(b) - recetas.indexOf(a));
   return c;
 }
 const tarjeta = r => {
-  const meta = [r.tiempo, r.raciones ? r.raciones + ' raciones' : ''].filter(Boolean).join(' / ');
+  const meta = r.raciones ? r.raciones + ' raciones' : '';
   return `<a class="tarjeta" href="#${esc(r.id)}">${marco(r)}
     <span class="sello">— ${esc(r.categoria)} —</span>
     <h2>${esc(r.titulo)}</h2>${meta ? `<p class="meta">${esc(meta)}</p>` : ''}</a>`;
@@ -56,7 +50,7 @@ const tarjeta = r => {
 const fila = r => {
   const sub = [r.categoria, ...(r.etiquetas || []).map(cap)].join(' / ');
   return `<a class="fila" href="#${esc(r.id)}"><span class="thumb">${r.imagen ? `<img src="${esc(r.imagen)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</span>
-    <span class="txt"><span class="l1"><b>${esc(r.titulo)}</b>${r.tiempo ? `<i></i><em>${esc(r.tiempo)}</em>` : ''}</span><span class="l2">${esc(sub)}</span></span></a>`;
+    <span class="txt"><span class="l1"><b>${esc(r.titulo)}</b></span><span class="l2">${esc(sub)}</span></span></a>`;
 };
 function pintarRejilla() {
   const lista = ordenadas(filtradas());
@@ -146,7 +140,6 @@ function abrir(r) {
       <span class="sello">— ${esc(r.categoria)} —</span>
       <h2>${esc(r.titulo)}</h2>
       <p class="datos">${esc(r.volumen.replace(/^\d+\.\s*/, 'Volumen ' + r.volumen.slice(0, 2) + ': '))}${r.origen ? ' / ' + esc(r.origen) : ''}</p>
-      ${r.tiempo ? `<p class="datos">Tiempo <b>${esc(r.tiempo)}</b></p>` : ''}
       ${r.etiquetas && r.etiquetas.length ? `<p class="datos">${esc(r.etiquetas.map(cap).join(' / '))}</p>` : ''}
       ${marco(r, 'grande')}
       ${r.ingredientes.length ? sec('Ingredientes') : ''}
