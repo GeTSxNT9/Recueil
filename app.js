@@ -143,7 +143,7 @@ function abrir(r) {
       ${r.etiquetas && r.etiquetas.length ? `<p class="datos">${esc(r.etiquetas.map(cap).join(' / '))}</p>` : ''}
       ${marco(r, 'grande')}
       ${r.ingredientes.length ? sec('Ingredientes') : ''}
-      ${r.raciones ? `<div class="escalador">${r.racionesEstimadas ? 'Raciones aprox.' : 'Raciones'} <button id="menos" aria-label="Menos raciones">−</button><b id="n"></b><button id="mas" aria-label="Más raciones">+</button></div>` : ''}
+      ${r.raciones ? `<div class="escalador">Raciones <button id="menos" aria-label="Menos raciones">−</button><b id="n"></b><button id="mas" aria-label="Más raciones">+</button></div>` : ''}
       <ul class="ingredientes" id="ings"></ul>
       ${sec('Elaboración')}
       <ol class="pasos">${r.pasos.map(p => p.grupo ? `<li class="sub">${esc(p.grupo)}</li>` : `<li>${esc(p)}</li>`).join('')}</ol>

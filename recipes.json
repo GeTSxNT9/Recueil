@@ -50,7 +50,7 @@
   ],
   "origen": "Andalucía/ córdoba",
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/berenjena-a-la-miel.jpg"
@@ -98,7 +98,8 @@
    "Escúrrelos y aliña con el aceite, el vinagre y la sal."
   ],
   "raciones": 4,
-  "imagen": "img/bisaltos.jpg"
+  "imagen": "img/bisaltos.jpg",
+  "racionesEstimadas": false
  },
  {
   "id": "escalivada",
@@ -152,8 +153,8 @@
    "Quita la piel y separa las verduras en tiras a mano.",
    "Sirve en frío, como una ensalada."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "notas": "El original no indica la cantidad de tomate: se han tomado 2 ud, en línea con las versiones consultadas (2 a 4). El tiempo depende del tamaño de las verduras.",
   "fuentes": [
    "https://www.directoalpaladar.com/recetas-de-legumbres-y-verduras/receta-de-escalivada",
@@ -214,8 +215,8 @@
    "Fríe la cebolla y el pimiento cortados en mirepoix. Cuando estén tiernos, añádelos a la fuente.",
    "Sazona y añade el huevo duro cortado."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 13,
+  "racionesEstimadas": false,
   "notas": "El original no indica la cantidad de cebolla: se ha estimado 1 ud.",
   "_old": 4,
   "racionesCalculadas": true,
@@ -277,8 +278,8 @@
    "Añade los huevos batidos, las hortalizas picadas en brunoise, la sal, las especias y mezcla todo.",
    "Calienta la plancha y dales forma presionando bien o utilizando un timbal. Cocina durante 1 minuto por cada lado."
   ],
-  "raciones": 1,
-  "racionesEstimadas": true,
+  "raciones": 2,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/hamburguesa-de-soja-texturizada.jpg"
@@ -338,8 +339,8 @@
    "Agrega las semillas de sésamo y la salsa de soja. Cuando empiecen a tostarse, añade las judías escurridas.",
    "Emplata y en la misma sartén echa el kimchi con la miel,viértelo encima de las judías."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/judias-verdes-con-kimchi.jpg"
@@ -419,11 +420,12 @@
    "Añade el resto de ingredientes introduciendo en un bote y aplastando para evitar la formación de burbujas de aire.",
    "Cierra y deja fermentar 15 días."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 20,
+  "racionesEstimadas": false,
   "imagen": "img/kimchi.jpg",
   "_old": 6,
-  "racionesCalculadas": true
+  "racionesCalculadas": true,
+  "notas": "Cantidades de producción: dan 20 raciones. Usa el escalador de raciones para adaptarlas."
  },
  {
   "id": "menestra-de-verduras",
@@ -492,8 +494,8 @@
    "Hay que cambiar para que sea rentable los ingredientes según la temporada en que se esté. * receta francesa: Panaché."
   ],
   "origen": "Navarra",
-  "raciones": 12,
-  "racionesEstimadas": true,
+  "raciones": 16,
+  "racionesEstimadas": false,
   "notas": "Receta de primavera-verano: cambia las verduras según la temporada. Se puede añadir caldo de carne o tomate triturado. La versión francesa es el panaché.",
   "_old": 8,
   "racionesCalculadas": true,
@@ -552,8 +554,8 @@
    "Reparte la mantequilla en trozos sobre la bandeja de hortalizas cocidas y mételo al horno a 120 °C durante 10 minutos o saltea cada verdura por separado.",
    "Coloca la bandeja en el centro de la mesa o emplata un poco de cada hortaliza en el plato."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 12,
+  "racionesEstimadas": false,
   "_old": 10,
   "racionesCalculadas": true,
   "imagen": "img/panache.jpg"
@@ -588,8 +590,8 @@
    "Tira el exceso de agua y deja secar las patatas 2 minutos más al fuego. Sírvelas con mojo rojo (picón) y mojo verde."
   ],
   "origen": "Islas canarias",
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "notas": "Los mojos rojo y verde están en el Volumen 16. Tradicionalmente se agita la olla en lugar de remover.",
   "_old": 5,
   "racionesCalculadas": true,
@@ -677,8 +679,8 @@
    "Añade una cucharada de harina y el vino blanco, y mezcla bien.",
    "Añade el fondo, el perejil, rectifica de sal si es necesario, mete las patatas, cocina destapado a fuego medio durante 15 minutos y otros 10 minutos tapado."
   ],
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "notas": "Receta tradicional de origen palentino. Las fuentes consultadas usan entre 250 ml y 1,5 L de caldo según la cazuela; el original indica 1,5 L. Muchas versiones añaden azafrán.",
   "fuentes": [
    "https://www.hola.com/cocina/recetas/20210421188232/patatas-importancia-receta-tradicional/",
@@ -751,8 +753,8 @@
    "Reduce el fuego a medio y deja cocer con la olla destapada para que el caldo vaya reduciendo hasta que las patatas estén en su punto.",
    "Si se desea espesar el guiso, puedes sacar unas cuantas patatas, machacarlas hasta hacerlas puré e integrarlas de nuevo en la olla."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "fuentes": [
    "https://www.publico.es/culturas/recetas/receta-patatas-riojana.html"
   ],
@@ -811,8 +813,8 @@
    "En el mismo aceite, fríe la cebolla y añádela sobre las patatas.",
    "Reparte el majado de ajo, sal y perejil sobre las patatas y aclara el mortero con el vinagre. Distribuye el vinagre sobre la bandeja y métela al horno a 160 °C durante 20 minutos. Finalmente, sirve."
   ],
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/patatas-a-lo-pobre.jpg"
@@ -891,8 +893,8 @@
    "En un bol, mezcla la creme fresh, el yogur, el ajo en polvo, la salsa perrins, la sal, el glutamato monosódico (MSG) y el comino.",
    "Emplata con la salsa como base en un plato, se añaden las patatas y se espolvorea con pimienta negra por encima."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "notas": "El original no indica el número de patatas: se han estimado 4 medianas. El MSG es opcional.",
   "_old": 4,
   "racionesCalculadas": true,
@@ -932,7 +934,7 @@
    "Para servir, monta las patatas en el plato formando la figura de un puente."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/patatas-puente-nuevo.jpg"
@@ -995,7 +997,8 @@
    "Emplata decorando con los torreznos y el perejil."
   ],
   "raciones": 4,
-  "imagen": "img/patatas-revolconas.jpg"
+  "imagen": "img/patatas-revolconas.jpg",
+  "racionesEstimadas": false
  },
  {
   "id": "pisto-manchego",
@@ -1060,8 +1063,8 @@
    "Cuece 15 minutos más, destapado, y salpimienta. Puedes completar con huevo, cocinado de cualquier forma."
   ],
   "origen": "Castilla la mancha",
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/pisto-manchego.jpg"
@@ -1106,8 +1109,8 @@
    "Pélalas y pásalas por el pasapurés.",
    "Añade la mantequilla en dados y la leche caliente, y ajusta de sal y pimienta."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/pure-de-patata.jpg"
@@ -1158,8 +1161,8 @@
    "En una sartén, saltea el jamón picado con un chorro de aceite. Vierte la mezcla del bol en la sartén. Cuando empiece a cuajar, apaga el fuego.",
    "Añade una pizca de pimienta y rectifica la sal. Remueve para que se termine de cuajar."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/revuelto-de-judias-verdes-con-jamon.jpg"
@@ -1226,8 +1229,8 @@
    "Cubre con el queso rallado y hornea a 150 °C durante 45 minutos."
   ],
   "origen": "Francia",
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "notas": "Tradicionalmente lleva queso reblochon. Las fuentes consultadas precuecen las patatas con piel y hornean a 180-200 °C durante 20-30 minutos; el original usa patata cruda en láminas finas a 150 °C, así que conviene comprobar que estén tiernas antes de servir.",
   "fuentes": [
    "https://www.directoalpaladar.com/recetario/tartiflette-receta",
@@ -1293,8 +1296,8 @@
    "Termina poniendo por encima la salsa de tomate."
   ],
   "origen": "Islas baleares",
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "notas": "Algunas versiones lo terminan en el horno.",
   "_old": 4,
   "racionesCalculadas": true,
@@ -1350,8 +1353,8 @@
    "Agrega el resto de los ingredientes enteros y pelados, tapa y mantén a fuego lento durante 40 minutos. Destapa y si las alubias están tiernas, retira las hortalizas y añade la sal.",
    "Puedes triturar las hortalizas y añadirlas al caldo para darle sabor y espesor. También puedes mezclarlas con cualquier guiso para darle sabor."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/alubias-estofadas-en-blanco.jpg"
@@ -1429,7 +1432,7 @@
    "Sirve los garbanzos en una bandeja, las carnes en otra y la sopa en un puchero."
   ],
   "raciones": 6,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/cocido.jpg"
@@ -1499,7 +1502,7 @@
   ],
   "origen": "Asia/ india",
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/dhal-curri-de-lentejas-y-coco.jpg"
@@ -1564,8 +1567,8 @@
    "En el segundo asustado, saca la cebolla, tritura, vuelve a echar y la ultima hora de deja la olla cociendo destapada.",
    "Saca el compango, córtalo y sírvelo en un plato aparte, o devuélvelo a la olla. Rectifica de sal y sirve."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/fabada-asturiana.jpg"
@@ -1635,8 +1638,8 @@
    "Deja reposar la mezcla durante 30 minutos y forma bolas del tamaño de una pelota de golf.",
    "Aplástalas un poco y fríelas de 2 a 3 minutos"
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/falafel.jpg"
@@ -1716,8 +1719,8 @@
    "Pocha la cebolla picada con la mantequilla. Añade la guindilla y el jengibre rallado. Echa las especias en la sartén y cuando se hayan tostado, añade la leche de coco y los garbanzos cocidos.",
    "Cuando empiece a hervir, trocea el mango y repártelo en la preparación. Ajusta el punto de sal y espolvorea con cilantro rallado, ralladura de lima y su zumo."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/garbanzos-al-curry.jpg"
@@ -1801,7 +1804,7 @@
    "En un bol, mezcla el pan rallado con hierbas provenzales al gusto y el queso rallado. Reparte esta mezcla por encima y gratina hasta que esté dorado."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/garbanzos-provenzales.jpg"
@@ -1861,7 +1864,7 @@
   ],
   "origen": "Líbano/ oriente medio",
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/hummus.jpg"
@@ -1964,8 +1967,8 @@
    "Si las lentejas comienzan a secarse o se prefieren más caldosas, agrega agua fría para detener la cocción momentáneamente y permitir que las lentejas se ablanden más.",
    "Añade la sal durante últelos minutos de cocción, ajustándola al gusto."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/lentejas.jpg"
@@ -2036,7 +2039,7 @@
    "Mantén tapadas al fuego durante media hora. Ajusta el punto de sal y termina de cocer, añadiendo o quitando caldo según sea necesario."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/lentejas-con-chipirones.jpg"
@@ -2109,7 +2112,7 @@
    "Finalmente, añade la sal y sirve con un poco de aceite por encima del plato."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 8,
   "racionesCalculadas": true,
   "imagen": "img/lentejas-con-chorizo.jpg"
@@ -2171,8 +2174,8 @@
    "Cuando empiecen a hervir, desespuma, agrega la cebolla pochada y reduce el fuego al mínimo.",
    "Remueve de vez en cuando hasta que las lentejas estén tiernas y rectifica de sal."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/lentejas-lionesas.jpg"
@@ -2275,7 +2278,7 @@
    "Rectifica de sal, baja el fuego y cuece 10 minutos más, tapado. Apagar el fuego, deja reposar 5 minutos sin destapar y sirve."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "notas": "El arroz debe quedar con un punto gelatinoso. Se le puede añadir también chorizo, salchichas, oreja y manitas.",
   "_old": 4,
   "racionesCalculadas": true,
@@ -2358,7 +2361,7 @@
    "Decora con romero y sirve."
   ],
   "raciones": 6,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/paella-valenciana.jpg",
   "_old": 5,
   "racionesCalculadas": true
@@ -2438,7 +2441,7 @@
    "Retira del fuego, salpimienta y añade el resto de la mantequilla (70 g), fría, junto con el parmesano. Remover bien, tapa y deja reposar 2 minutos."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/risotto.jpg",
   "_old": 5,
   "racionesCalculadas": true
@@ -2505,7 +2508,7 @@
    "Termina la cocción del arroz, apaga el fuego y añade el grana padano junto con la mantequilla fría. Mantecar y finaliza con pimienta."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/risotto-de-pera-y-gorgonzola.jpg",
   "_old": 5,
   "racionesCalculadas": true
@@ -2566,7 +2569,7 @@
    "Añade a la sartén el arroz y la tortilla, mezcla todo y saltea."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/tres-delicias.jpg",
   "_old": 5,
   "racionesCalculadas": true
@@ -2656,8 +2659,8 @@
    "Reparte el tomate frito en una bandeja de horno, coloca los canelones de tres en tres, cúbrelos con la bechamel y el queso rallado.",
    "Gratina durante 10 minutos a 220 °C."
   ],
-  "raciones": 14,
-  "racionesEstimadas": true,
+  "raciones": 12,
+  "racionesEstimadas": false,
   "notas": "El paso de las setas y el asado previo de la panceta se han reconstruido a partir de los ingredientes (no figuraban en el original).",
   "_old": 5,
   "racionesCalculadas": true,
@@ -2739,7 +2742,7 @@
    "Coloca los langostinos por encima y pasa la cazuela al horno, precalentado a 190 °C, durante 5 minutos más."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "notas": "Colocar los langostinos antes de hornear es una reconstrucción: el original no indica cuándo se reincorporan. La cantidad de fumet (2 L para 350 g de fideos) es superior a la habitual: pendiente de verificar.",
   "_old": 4,
   "racionesCalculadas": true,
@@ -2780,8 +2783,8 @@
    "Espolvorea harina sobre la mesa, toma una porción de masa y forma un cilindro. Cortarlo en trozos de aproximadamente un dedo de largo.",
    "Cuece los ñoquis en agua hirviendo hasta que floten. Retirarlos y sirve con la salsa deseada."
   ],
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/gnocchi.jpg"
@@ -2876,11 +2879,11 @@
    "Reparte en platos y decora con los cacahuetes, la lima en cuartos y el cilantro picado."
   ],
   "origen": "Tailandia",
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "notas": "El original menciona «la salsa» sin detallarla (en el pad thai tradicional suele llevar tamarindo, salsa de pescado y azúcar): pendiente de verificar. El huevo se ha añadido a los ingredientes porque aparece en la elaboración.",
   "_old": 4,
-  "racionesCalculadas": true,
+  "racionesCalculadas": false,
   "imagen": "img/padthai.jpg"
  },
  {
@@ -2919,7 +2922,7 @@
    "Envuelve la masa y déjala reposar 30 minutos antes de estirarla."
   ],
   "raciones": 1,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "notas": "Cantidades para una ración (100 g de harina y 1 huevo); multiplicar según los comensales. El reposo de la masa es una técnica estándar añadida.",
   "_old": 1,
   "racionesCalculadas": true,
@@ -2987,7 +2990,7 @@
    "Sirve los tallarines en un plato, coloca encima el tofu y espolvorea con sésamo."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "notas": "Los 500 g de tallarines figuraban solo en la elaboración y se han añadido a los ingredientes; las raciones se calculan sobre esa cantidad.",
   "_old": 6,
   "racionesCalculadas": true,
@@ -3033,8 +3036,8 @@
    "Tritura todos los ingredientes en una licuadora con la mitad del AOVE.",
    "Cuando la mezcla se convierta en una salsa consistente, añade el resto del AOVE y emulsionar."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "imagen": "img/pesto.jpg",
   "_old": 3,
   "racionesCalculadas": true
@@ -3087,8 +3090,8 @@
    "Cocina tapado a fuego suave durante 20 minutos.",
    "Con el fuego apagado, añade unas hojas de albahaca para que aromaticen la salsa."
   ],
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-arrabbiata.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -3174,8 +3177,8 @@
    "Desglasa con el vino tinto y añade el tomate frito y el fondo blanco.",
    "Cocina a fuego lento durante media hora y rectifica de sal."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-bolonesa.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -3226,7 +3229,7 @@
    "Aparta la sartén del fuego y vierte la mezcla sobre la pasta. Añadir un poco del agua de cocción de la pasta y manteca hasta obtener una crema."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-carbonara.jpg",
   "notas": "Apartar la sartén del fuego antes de añadir el huevo evita que cuaje: paso añadido (técnica estándar).",
   "_old": 4,
@@ -3329,8 +3332,8 @@
    "Vuelca la mezcla a un vaso y tritura.",
    "Vierte el caldo y lleva a ebullición, disuelve el majado en el caldo, rectifica de sal, añade las albóndigas y espolvorea con perejil."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "imagen": "img/albondigas-en-salsa-de-almendras.jpg",
   "_old": 7,
   "racionesCalculadas": true
@@ -3472,8 +3475,8 @@
    "Cuando empiece a hervir el agua/ caldo y deja cocer 10 minutos",
    "Guarnición: Corta las patatas en cuadros. Fríe. Hierve los guisantes, mezcla con el huevo duro y perejil. Echa por encima de las albóndigas."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "notas": "Opcional: Cebolla, zanahoria…. Opcional: Con setas y tocino curado = la cazadora.",
   "_old": 9,
   "racionesCalculadas": true,
@@ -3536,8 +3539,8 @@
    "Espalma y estira los filetes, salpimiéntalos y monta con el jamón y el queso.",
    "Cierra y aplasta nuevamente, empánalos y fríe."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/cachopo-asturiano.jpg"
@@ -3602,8 +3605,8 @@
    "Salpimenta los filetes y enharina, fríe en la grasa y retira a una bandeja. En la manteca que queda, se pocha la cebolla en juliana tapada durante 20 minutos.",
    "Añade los filetes y cubre con la cerveza y el fondo. Cocina a fuego lento durante 1 hora, tapado, y sirve acompañado de las patatas hervidas."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 13,
+  "racionesEstimadas": false,
   "_old": 7,
   "racionesCalculadas": true,
   "imagen": "img/carbonada-flamenca.jpg"
@@ -3677,8 +3680,8 @@
    "Haz un majado con todos los ingredientes."
   ],
   "origen": "Argentina",
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/churrasco.jpg"
@@ -3734,8 +3737,8 @@
    "Saca las costillas del horno, vuélvelas a pincelar con la mezcla y devuélvelas al horno, aumentando la temperatura a 200 °C.",
    "Retíralas del horno cada 10 minutos para volver a pincelarlas, repitiendo el proceso 2 o 3 veces hasta que se agote la salsa y déjalas en el horno apagado hasta el momento de servir."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/costilla-carnosa-con-miel-y-mostaza.jpg"
@@ -3797,8 +3800,8 @@
    "Reduce la salsa de la marinada para eliminar el alcohol y mézclala con la nata. Dale un hervor y corrige el punto de sal.",
    "Sirve los dados con la salsa por encima."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/dados-de-lomo-en-salsa-de-lima-y-nata.jpg"
@@ -3863,8 +3866,8 @@
    "Reduce los jugos y sírvelos por encima.",
    "Quita el papel film de la pechuga, corta en medallones, dora el bacon en una sartén y sirve sobre una base de la salsa."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/falda-de-ternera-a-baja-temperatura.jpg"
@@ -3930,8 +3933,8 @@
    "Acompaña con una ensalada o con patatas fritas."
   ],
   "origen": "Córdoba y jaén",
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/flamenquines.jpg"
@@ -4016,8 +4019,8 @@
    "Una vez que las verduras estén pochadas, se agrega la carne con la harina y las especias.",
    "Añade el vino y, cuando haya hervido, se cubre con el caldo y se deja cocer a fuego lento tapado durante 1 hora y media."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 6,
   "racionesCalculadas": true,
   "imagen": "img/goulash.jpg"
@@ -4094,8 +4097,8 @@
    "Añade los trozos de lomo, cubre con el fondo blanco, lleva a ebullición y cocina en la olla express durante aproximadamente 30 minutos.",
    "Luego de liberar la presión de la olla, agrega las patatas chascadas y deja cocer durante otros 15 minutos. Prueba y ajusta el punto de sal antes de servir."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/guiso-de-lomo-con-patatas.jpg"
@@ -4172,8 +4175,8 @@
    "Cubre con el vino y agrega la manzana pelada y troceada.",
    "Tritura la mezcla y añade el caldo con la maicena disuelta. Prueba el punto de sal, incorpora los filetes y añade la nata hasta que comience a hervir."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 9,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/lomo-al-pedro-ximenez.jpg"
@@ -4238,8 +4241,8 @@
    "En la misma sartén donde marca el lomo, añade la cebolla en juliana y saltéala. Incorpora el brandy, el agua y la mantequilla. Cuando llegue a la ebullición, vierte esta mezcla sobre el lomo.",
    "Pela los melocotones y córtalos en 8 partes cada uno. Colócalos en la bandeja junto al lomo con un poco de sal y hornea a 200 °C durante 20 minutos."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "_old": 6,
   "racionesCalculadas": true,
   "imagen": "img/lomo-de-cerdo-con-melocoton-asado.jpg"
@@ -4304,8 +4307,8 @@
    "En la misma sartén, fríe el ajo y la cebolla picados. Cuando estén dorados, agrega la harina y remueve para tostarla.",
    "Añade las hierbas, el tomate picado y, cuando hierva, tritura la mezcla. Incorpora el fondo blanco y las magras, y cuece tapado durante 15 minutos."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/magras-con-tomate.jpg"
@@ -4373,7 +4376,7 @@
    "Deja enfriar durante un día para permitir que tome forma, córtalo en medallones de aproximadamente un dedo de grosor, empánalos y fríe en aceite muy caliente."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/manitas-de-cerdo-a-la-charcutera.jpg"
@@ -4450,8 +4453,8 @@
    "Después de este periodo, puedes almacenar refrigerada en la misma bolsa. Para regenerar, calienta a 70 °C durante 15 minutos.",
    "Al momento de servir, retira de la bolsa y marca a fuego muy fuerte por las seis caras."
   ],
-  "raciones": 9,
-  "racionesEstimadas": true,
+  "raciones": 13,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/papada-de-cerdo-a-baja-temperatura.jpg"
@@ -4508,8 +4511,8 @@
    "Cocina todos los ingredientes durante 1 hora y permite que se enfríen en el caldo.",
    "Corta en filetes o tacos y marca en la plancha a la máxima temperatura."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 7,
   "racionesCalculadas": true,
   "imagen": "img/papada-en-dos-cocciones.jpg"
@@ -4637,8 +4640,8 @@
    "Añade una capa de piña, tomillo, cubre con el puré de patata, aceite de oliva y parmesano rallado.",
    "Lleva al horno a 180 °C durante 20 minutos y gratina durante 5 minutos adicionales."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "_old": 6,
   "racionesCalculadas": true,
   "imagen": "img/parmentier-de-carrillera-de-ternera-con-pina-caramelizada.jpg"
@@ -4718,8 +4721,8 @@
    "Corta la pierna en tacos pequeños, el chorizo en rodajas y la panceta en tiras, dora todos estos ingredientes con el aceite. Después, añade el ajo y la cebolla picados, y cuando comiencen a tostar, se agrega el coñac y se flambea.",
    "Incorpora el caldo y las patatas chascadas. Cocina hasta que la carne empiece a estar tierna. Añade las hierbas, incorpora el arroz, ajusta el punto de sal y cocina durante 20 minutos más."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "_old": 8,
   "racionesCalculadas": true,
   "imagen": "img/rancho-de-ternasco.jpg"
@@ -4792,8 +4795,8 @@
    "Prueba y ajusta los condimentos según sea necesario.",
    "Al emplatar, forma un volcán y coloca en el centro la yema de huevo, rodeándola con las tostadas de pan para comer untándolo como un paté."
   ],
-  "raciones": 1,
-  "racionesEstimadas": true,
+  "raciones": 2,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/steak-tartar.jpg"
@@ -4846,8 +4849,8 @@
    "Saca las bandejas, retira las paletillas, cuela y liga el jugo.",
    "Regenera a 220 °C durante 14 minutos con la piel hacia arriba."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "imagen": "img/ternasco-asado.jpg",
   "_old": 2,
   "racionesCalculadas": true
@@ -4916,8 +4919,8 @@
    "Mantén tapado a fuego lento durante 1 hora.",
    "Retira la carne a una bandeja. En la sartén, agrega el atún, las anchoas y el zumo de limón, da un hervor, tritura, incorpora la ternera y decora con las alcaparras."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/vitello-tonnato.jpg"
@@ -4998,7 +5001,8 @@
   ],
   "origen": "Cádiz, málaga y jaén",
   "raciones": 4,
-  "imagen": "img/zurrapa-con-manteca-colorada.jpg"
+  "imagen": "img/zurrapa-con-manteca-colorada.jpg",
+  "racionesEstimadas": false
  },
  {
   "id": "blefl-sk",
@@ -5053,8 +5057,8 @@
    "Sobre la bandeja, coloca una rejilla donde distribuye la panceta y hornea durante 15 minutos a 200 °C.",
    "Retira del horno, transfiere la panceta a un plato y mezcla la manzana con el azúcar."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/blefl-sk.jpg"
@@ -5116,8 +5120,8 @@
    "A los 15 minutos, riégalas con la mitad de la salsa y hornea 10 minutos más.",
    "Dar la vuelta a las alitas, rocíalas con el resto de la salsa y hornea hasta que se doren."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "imagen": "img/alitas-de-pollo-a-la-coca-cola.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -5164,7 +5168,7 @@
    "Vuelve a colocarlas en el plato con la salsa y añade las tiras de piel de naranja."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/codorniz-a-la-naranja.jpg",
   "notas": "Raciones calculadas a razón de 2 codornices por persona.",
   "_old": 2,
@@ -5258,8 +5262,8 @@
    "Conserva en el frigorífico: mantén desde 1 semana hasta 3-4 meses."
   ],
   "origen": "España",
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "notas": "La cebolla es opcional: acorta la duración del escabeche por el agua y el azúcar que aporta; para evitarlo hay que cocinarla bien. La cantidad de puerro (1 ud) es una estimación.",
   "_old": 4,
   "racionesCalculadas": true,
@@ -5344,7 +5348,7 @@
    "Cocina tapado a fuego lento durante 20 minutos y deja enfriar."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/escabeche-suave-de-pollo-y-seta-de-chopo.jpg",
   "_old": 2,
   "racionesCalculadas": true
@@ -5448,7 +5452,7 @@
    "Escurre los trozos de pollo, pásalos por el rebozado y fríelos en aceite caliente hasta que estén dorados."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/palomitas-de-pollo.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -5533,7 +5537,7 @@
    "Rebózalas en harina, huevo batido y pan rallado, y fríelas."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/pechugas-villaroy.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -5606,8 +5610,8 @@
    "Sirve los muslos con la salsa y, de guarnición, unas chalotas confitadas."
   ],
   "origen": "China- hunan",
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/pollo-a-la-naranja.jpg"
@@ -5699,8 +5703,8 @@
    "Incorpora el sofrito por encima y cocina destapado hasta que la carne se desprenda del hueso.",
    "Sirve acompañado de las rebanadas de pan frito."
   ],
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "notas": "Raciones calculadas a razón de 2 jamoncitos por persona.",
   "_old": 6,
   "racionesCalculadas": true,
@@ -5776,7 +5780,7 @@
    "Emplata cortando las pechugas en tiras y napándolas con la salsa."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/pollo-al-limon.jpg",
   "_old": 2,
   "racionesCalculadas": true
@@ -5862,7 +5866,8 @@
   ],
   "origen": "Castilla y león. Tradición árabe- judía",
   "raciones": 6,
-  "imagen": "img/pollo-en-pepitoria.jpg"
+  "imagen": "img/pollo-en-pepitoria.jpg",
+  "racionesEstimadas": false
  },
  {
   "id": "pollo-korma",
@@ -5949,7 +5954,7 @@
    "Sirve con el cilantro picado por encima."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/pollo-korma.jpg",
   "notas": "Los 60 g de curry en polvo parecen una cantidad elevada para 400 g de pollo: pendiente de verificar.",
   "_old": 3,
@@ -5993,7 +5998,7 @@
    "Marca los medallones en una sartén y sirve."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/rulos-de-pollo-y-bacon.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -6062,8 +6067,8 @@
    "Forma albóndigas con la masa y pásalas por harina antes de freírlas.",
    "Puedes servirlas con una salsa verde o salsa de almendras."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/albondigas-de-bacalao.jpg"
@@ -6144,7 +6149,7 @@
    "Coloca las almejas en una cazuela de barro, cubre con la salsa, añade el perejil y da un hervor."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/almejas-a-la-marinera.jpg"
@@ -6199,8 +6204,8 @@
    "Puedes batir en la sartén el aceite y la gelatina del bacalao con una varilla o un colador.",
    "También puedes hacerla como una mayonesa aprovechando el agua de cocer el bacalao y el aceite."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/bacalao-al-pil-pil.jpg"
@@ -6228,7 +6233,7 @@
    "Bate hasta obtener una crema muy espesa."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/bacalao-benedictina.jpg"
@@ -6361,8 +6366,8 @@
    "Emulsiona todos los ingredientes para hacer el alioli.",
    "Coloca la mezcla en una manga pastelera y distribúyela por encima del bacalao. Coloca el bacalao sobre la salsa y gratínalo hasta que esté dorado."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/bacalao-orly-en-salsa-de-pimientos-gratinado-con-alioli.jpg"
@@ -6440,8 +6445,8 @@
    "Cuando la preparación comience a hervir, corrige la sazón con sal y pimienta según sea necesario, y deja reducir sin tapar durante unos 5 minutos.",
    "Por último, añade el bonito a la preparación y deja que vuelva a hervir. Una vez que haya recuperado el hervor, retira la sartén del fuego y sirve."
   ],
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/bonito-encebollado.jpg"
@@ -6497,8 +6502,8 @@
    "Pasa las anchoas por harina, huevo y fríelas en aceite muy caliente hasta que estén crujientes.",
    "Si las anchoas son pequeñas, puedes rellenarlas abiertas en mariposa, haciendo un sándwich con dos anchoas."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/boquerones-rellenos-de-bacon-y-queso.jpg"
@@ -6543,8 +6548,8 @@
    "Cuela el aceite y reserva.",
    "A continuación, echa el bacalao en un bol con la leche y ve batiendo con unas varillas, añadiendo el aceite poco a poco hasta conseguir una emulsión espesa. Finalmente, unta esta emulsión sobre las rebanadas."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/brandada-de-bacalao.jpg"
@@ -6584,8 +6589,8 @@
    "Colócalo en una base sólida y aplástalo hasta llegar al tamaño del plato en el que se vaya a emplatar y se introduce en el congelador.",
    "Cuando se vaya a consumir, quita el papel superior, vuélcalo en el plato, retira el papel que falta y se aliña."
   ],
-  "raciones": 1,
-  "racionesEstimadas": true,
+  "raciones": 2,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/carpaccio-de-gambas.jpg"
@@ -6657,7 +6662,7 @@
   ],
   "origen": "Andalucía. En cádiz es llamado bienmesabe",
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/cazon-en-adobo.jpg",
   "racionesCalculadas": false,
   "notas": "El original no indicaba las cantidades de cazón, ajo y vinagre: se han tomado de recetas de referencia para 4 raciones (Directo al Paladar, Público, Hola, OKDiario, Invitado de Invierno), que usan entre 600 y 750 g de cazón, 3 a 5 dientes de ajo y 125 a 200 ml de vinagre.",
@@ -6730,8 +6735,8 @@
    "Emplata con un poco de perejil espolvoreado por encima."
   ],
   "origen": "Uganda/ áfrica",
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/kamba-wa-nazi.jpg"
@@ -6804,8 +6809,8 @@
    "Una vez que el vino haya evaporado, incorpora el fumet y el jugo de limón.",
    "Cuando alcance la textura deseada en la salsa, añade la borraja picada o triturada, rectifica el punto de sal y reintroduce los filetes de lubina en la sartén."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/lubina-en-salsa-verde-de-borraja.jpg"
@@ -6883,7 +6888,7 @@
    "Una vez cocido, saca los mejillones de la concha y córtalos en 2 o 3 trozos. Añádelos a las patatas y puedes agregar parte del caldo de cocción."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 10,
   "racionesCalculadas": true,
   "imagen": "img/marmitako.jpg"
@@ -6965,8 +6970,8 @@
    "Mueve la cazuela para que ligue la salsa.",
    "Cuece 5 minutos, coloca las almejas, reparte el perejil y da un hervor al conjunto."
   ],
-  "raciones": 1,
-  "racionesEstimadas": true,
+  "raciones": 2,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/merluza-a-la-vasca-o-koskera.jpg"
@@ -7077,7 +7082,7 @@
    "Una vez lista, resérvala para su uso."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/merluza-gratinada-con-alioli-en-salsa-de-piquillos.jpg"
@@ -7112,7 +7117,7 @@
    "Una vez transcurrido el tiempo, rompe la costra de sal (que debería salir en bloques) y sirve la merluza."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 10,
   "racionesCalculadas": true,
   "imagen": "img/pescadilla-a-la-sal.jpg"
@@ -7191,8 +7196,8 @@
    "Si está muy caldoso, déjalo cocer destapado para que reduzca.",
    "Puedes servir con arroz blanco o cuscús."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/tajine-de-sepia.jpg"
@@ -7278,7 +7283,7 @@
    "Lleva al horno durante 10 minutos a 180 °C para terminar la cocción."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/trucha-en-escabeche-de-citricos.jpg"
@@ -7321,7 +7326,7 @@
    "Trocea el pulpo, reparte el puré de patata en los vasitos, distribuye el pulpo y decora con aceite de oliva y pimentón."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/vasito-de-pulpo-a-feira.jpg"
  },
  {
@@ -7367,7 +7372,7 @@
    "Emulsiona con el AOVE y pasa por un colador si quieres una textura más fina."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/ajoblanco.jpg",
   "_old": 3,
   "racionesCalculadas": true
@@ -7445,8 +7450,8 @@
    "Tritura todo, cuela y congela.",
    "Tritura de nuevo en pequeñas cantidades durante pocos segundos."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "_old": 11,
   "racionesCalculadas": true,
   "imagen": "img/ajoblanco-suave-de-coco.jpg"
@@ -7490,7 +7495,7 @@
    "Salpimienta, pasa por un chino y añade la nata."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/crema-conde.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -7567,8 +7572,8 @@
    "Saltea el shiitake, añade el jengibre, el sésamo, la guindilla y la salsa de soja.",
    "Sirve la crema, reparte por encima las gambas, el shiitake y espolvorea coco rallado por encima."
   ],
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "imagen": "img/crema-de-curry-con-shiitake-y-gambas.jpg",
   "_old": 6,
   "racionesCalculadas": true
@@ -7612,8 +7617,8 @@
    "Cubre con el fondo, cuece durante 20 minutos y tritura.",
    "Salpimienta y decora con las puntas de los espárragos salteados."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "imagen": "img/crema-de-esparragos-trigueros.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -7684,8 +7689,8 @@
    "Haz una roux con la mantequilla, la harina y vuelca la anterior mezcla para espesar.",
    "Echa la pechuga anteriormente reservada, la nata y cocina unos minutos más."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 9,
+  "racionesEstimadas": false,
   "imagen": "img/crema-de-pollo.jpg",
   "_old": 5,
   "racionesCalculadas": true
@@ -7744,11 +7749,11 @@
    "Vuelca en la olla express, cierra y cuenta 30 minutos desde que pille presión.",
    "Quita presión mientras en otra olla echa la nata, ve triturando la zanahoria con el jugo y ve volcando con la nata, levanta y corrige el punto de sal."
   ],
-  "raciones": 48,
-  "racionesEstimadas": true,
+  "raciones": 52,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 48 raciones. Usa el escalador de raciones para adaptarlas.",
+  "notas": "Cantidades de producción: dan 52 raciones. Usa el escalador de raciones para adaptarlas.",
   "imagen": "img/crema-de-zanahoria-y-naranja.jpg"
  },
  {
@@ -7797,8 +7802,8 @@
    "Incorpora las lentejas y la nata, cuando comience a hervir, tritura y rectifica de sal.",
    "Sirve la crema, reparte por encima el pimentón y la panceta."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "imagen": "img/crema-esau.jpg",
   "_old": 3,
   "racionesCalculadas": true
@@ -7842,8 +7847,8 @@
    "Bate las yemas con la nata y vuelca la velouté hirviendo.",
    "Dar el punto de sal y pimienta."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 9,
+  "racionesEstimadas": false,
   "imagen": "img/crema-reina.jpg",
   "_old": 8,
   "racionesCalculadas": true
@@ -7902,8 +7907,8 @@
    "Tritura los ingredientes y emulsiona con la mitad del AOVE restante.",
    "Pasa por el colador si se desea una textura más fina."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "imagen": "img/gazpacho.jpg",
   "_old": 3,
   "racionesCalculadas": true
@@ -7965,8 +7970,8 @@
    "Puedes servir en frío, templado o caliente.",
    "También puedes triturarla."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "_old": 8,
   "racionesCalculadas": true,
   "imagen": "img/purrusalda-o-porrusalda-vizcaina.jpg"
@@ -8054,8 +8059,8 @@
    "Emplata en un cuenco con la sopa y decora con el huevo partido por la mitad, el pollo y las gambas.",
    "Puedes decorar con cebollino, sésamo, cilantro, brotes de soja..."
   ],
-  "raciones": 12,
-  "racionesEstimadas": true,
+  "raciones": 13,
+  "racionesEstimadas": false,
   "notas": "Opcional: Un puñado de escamas de pescado, pato, panceta curada, lomo de cerdo, cebollino, brotes de bambú, pasta miso, naruto maki….",
   "_old": 10,
   "racionesCalculadas": true,
@@ -8116,8 +8121,8 @@
    "Vuelve a triturar con el pan, el AOVE, el ajo y la sal.",
    "Decora con virutas de jamón y huevo cocido picado."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "imagen": "img/salmorejo.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -8186,8 +8191,8 @@
    "Corta rodajas de pan y tuéstalas.",
    "Sirve la sopa en un bol, coloca las rodajas de pan, añade el queso por encima y gratina."
   ],
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "imagen": "img/sopa-de-cebolla.jpg",
   "_old": 6,
   "racionesCalculadas": true
@@ -8257,7 +8262,8 @@
   ],
   "origen": "Extremadura/ sierra de gredos",
   "raciones": 4,
-  "imagen": "img/sopa-de-patata-y-comino.jpg"
+  "imagen": "img/sopa-de-patata-y-comino.jpg",
+  "racionesEstimadas": false
  },
  {
   "id": "sopa-de-patata-y-salmon",
@@ -8321,7 +8327,7 @@
   ],
   "origen": "Países nórdicos- escandinava",
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/sopa-de-patata-y-salmon.jpg"
@@ -8364,8 +8370,8 @@
    "Añade las patatas, cubre con el caldo y cuece durante 15 minutos.",
    "Salpimienta, tritura, tamiza y antes de emplatar mezclar con la nata fría."
   ],
-  "raciones": 9,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "imagen": "img/vichysoisse.jpg",
   "_old": 10,
   "racionesCalculadas": true
@@ -8431,8 +8437,8 @@
    "Pica el pimiento, el tomate, la cebolla, los huevos cocidos y el atún al tamaño de las alubias.",
    "Mezcla todo, aliña con aceite, vinagre y sal, y deja reposar 1 hora en la nevera."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/ensalada-de-alubias-y-atun.jpg"
@@ -8529,8 +8535,8 @@
    "En el momento de servir, coloca la coliflor templada, repartir por encima la cebolla y el apio, aliña con la vinagreta y decora con la naranja y el perejil picado.",
    "Opcionalmente, añade por encima un diente de ajo picado."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "notas": "Vinagreta al gusto; la proporción habitual es de 3 partes de aceite por 1 de vinagre.",
   "_old": 4,
   "racionesCalculadas": true,
@@ -8599,8 +8605,8 @@
    "Pica los huevos duros, los pepinillos y el cebollino, y mézclalos con la mayonesa.",
    "Sirve en el plato los garbanzos con la morcilla, aliñados con aceite, vinagre y sal, y decora con la mayonesa preparada."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/ensalada-de-garbanzos-y-morcilla.jpg"
@@ -8688,8 +8694,8 @@
    "Monta la ensalada formando cuencos con las hojas enteras de lechuga iceberg. Colocar en el interior el resto de los ingredientes: las patatas, las judías, el atún, los huevos duros, los tomates cherry, las aceitunas, las alcaparras y las anchoas.",
    "Aliña con la vinagreta al gusto justo antes de servir."
   ],
-  "raciones": 16,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/ensalada-nicoise.jpg"
@@ -8751,8 +8757,8 @@
    "Añade la mayonesa y rectifica de sal.",
    "Reparte en platos y decora con el huevo duro rallado, los pimientos en tiras y las aceitunas reservados."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 7,
   "racionesCalculadas": true,
   "imagen": "img/ensaladilla-rusa.jpg"
@@ -8815,8 +8821,8 @@
    "Para la vinagreta, mezclar la mayonesa con la mostaza, el eneldo picado y 40 ml del agua de los pepinillos.",
    "Corta en mirepoix todos los ingredientes y mézclalos con la vinagreta."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/kartoffelsalat.jpg"
@@ -8881,8 +8887,8 @@
    "Mezcla el majado con las hortalizas, como si fuera una ensalada, y decora con la clara picada."
   ],
   "origen": "Andalucía/ jaén",
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/pipirana.jpg"
@@ -8935,8 +8941,8 @@
    "Sirve frío o templado sobre tostadas, o como ensalada acompañada de olivas y huevo duro."
   ],
   "origen": "Murcia",
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/rin-ran-de-bacalao.jpg"
@@ -9001,8 +9007,8 @@
    "Añade el resto de ingredientes picados y el zumo de limón.",
    "Remueve y sirve."
   ],
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "notas": "Apunte del original sobre el tajín (Marruecos): olla de barro de forma cónica, con un agujero en la parte superior, que se utiliza para guisar.",
   "_old": 4,
   "racionesCalculadas": true,
@@ -9066,8 +9072,8 @@
    "Mezcla con una vinagreta o aliño y decora con la cebolla en juliana y el huevo duro cortado en cuartos."
   ],
   "origen": "Extremeño/ la vera",
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/zorongollo.jpg"
@@ -9149,7 +9155,7 @@
    "Reserva en la nevera un rato antes de freírlas."
   ],
   "raciones": 8,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 10,
   "racionesCalculadas": true,
   "imagen": "img/bomba-de-patata.jpg"
@@ -9247,7 +9253,7 @@
    "Cubre con papel film pegado a la masa y deja enfriar en la nevera. Al día siguiente, córtalas, dales forma, reboza y fríe."
   ],
   "raciones": 10,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/croquetas-de-jamon.jpg"
@@ -9323,7 +9329,7 @@
    "Fríe en abundante aceite muy caliente y sirve."
   ],
   "raciones": 12,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/croquetas-de-pollo.jpg"
@@ -9367,7 +9373,7 @@
    "Suelta las esferas y las puedes comer así o rellenarlas."
   ],
   "raciones": 10,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/esferas-de-parmesano.jpg"
@@ -9437,7 +9443,7 @@
    "Para emplatar, coloca los latkes, añade una cucharadita de crema fresca con un hueco en el centro y rellena el hueco con la salsa de manzana."
   ],
   "raciones": 10,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/latkes-con-creme-fraiche-y-salsa-de-manzana.jpg"
@@ -9480,8 +9486,8 @@
    "Ralla el huevo duro por encima y coloca el atún y la anchoa.",
    "Termina con una gota de salsa rosa."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/montadito-de-bonito-y-anchoa.jpg"
@@ -9554,8 +9560,8 @@
    "Añade la passata, la mayonesa, el aceite de oliva virgen extra (AOVE), el vinagre, la sal, el tabasco y el pimentón. Remueve bien la mezcla.",
    "Rellena los huevos con la mezcla y decora con pimentón por encima."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/montadito-de-huevo.jpg"
@@ -9603,8 +9609,8 @@
    "Agrega la manzana picada en brunoise, y cuando empiece a dorarse, añade el membrillo y el queso para que se fundan. Apaga el fuego, casca los huevos y mezcla bien.",
    "Reparte la mezcla sobre el pan tostado."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/montadito-de-morcilla-manzana-queso-de-cabra-y-membrillo.jpg"
@@ -9646,7 +9652,7 @@
    "En una sartén con mantequilla, fríe el croissant, aplastándolo por ambas caras. Deja enfriar y corta."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/montaditos-de-croissant-mixto.jpg"
  },
  {
@@ -9821,7 +9827,7 @@
    "Monta el plato con los nachos, añade el chili con carne, la salsa de queso cheddar, el cremoso de aguacate y finalmente, el pico de gallo."
   ],
   "raciones": 14,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/nachos-mexicanos.jpg"
@@ -9867,7 +9873,7 @@
    "Pinta la superficie con una mezcla de tomate frito y orégano, espolvorea queso por encima y introduce en el horno precalentado a 200 °C, en la parte inferior, durante 10 a 15 minutos."
   ],
   "raciones": 1,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/palitos-de-pizza.jpg"
@@ -9932,8 +9938,8 @@
    "Con la batidora en marcha, incorpora el AOVE en hilo fino hasta conseguir un paté fino y homogéneo. Rectifica de sal.",
    "Reserva en frío unas horas y sirve, por ejemplo, sobre pan tostado."
   ],
-  "raciones": 16,
-  "racionesEstimadas": true,
+  "raciones": 17,
+  "racionesEstimadas": false,
   "notas": "Pasos reconstruidos: el documento original solo traía los ingredientes (cantidades de producción). Técnica de triturado estándar, sin contrastar con una receta publicada equivalente.",
   "_old": 12,
   "racionesCalculadas": true,
@@ -10001,8 +10007,8 @@
    "Barniza los bollitos con huevo, espolvorea con sésamo y hornea a 180 °C en la parte inferior del horno de 20 a 25 minutos.",
    "Finalmente, deja enfriar, corta en rodajas y sirve con la salsa de nuestra elección."
   ],
-  "raciones": 12,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "_old": 6,
   "racionesCalculadas": true,
   "imagen": "img/pigs-in-a-blanket.jpg"
@@ -10054,8 +10060,8 @@
    "Vuelve a ponerle el tallo, añade aceite en una sartén y marca durante 2 minutos por cada lado.",
    "También puedes hornearlos con una base de tomate frito y queso rallado por encima a 200 °C durante 5 minutos."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "_old": 6,
   "racionesCalculadas": true,
   "imagen": "img/pimientos-rellenos-de-tortilla-de-patata.jpg"
@@ -10115,8 +10121,8 @@
    "Enrolla las pechugas con la loncha de queso y el bacon, sujétalas con un palillo y hornéalas a 180 °C durante 5 minutos.",
    "Salsea con la mezcla que ha quedado en la sartén."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 2,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/pincho-de-pollo-bacon-y-queso.jpg"
@@ -10171,7 +10177,7 @@
    "Fríe en aceite muy caliente."
   ],
   "raciones": 16,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/rollitos-de-primavera.jpg",
   "notas": "Se puede sustituir la pasta wonton por pasta filo.",
   "_old": 6,
@@ -10230,7 +10236,7 @@
    "Sirve los rollitos crudos, fritos o al vapor, con salsa de soja."
   ],
   "raciones": 6,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/rollitos-vietnamitas.jpg",
@@ -10285,7 +10291,8 @@
    "Añade otra cucharada de aceite a la sartén y vuelca la tortilla para cocinar el otro lado. Puedes darle la vuelta unas cuantas veces más para cocinarla según nuestro gusto."
   ],
   "raciones": 6,
-  "imagen": "img/tortilla-espanola.jpg"
+  "imagen": "img/tortilla-espanola.jpg",
+  "racionesEstimadas": false
  },
  {
   "id": "tostada-canibal",
@@ -10344,8 +10351,8 @@
    "Pica los condimentos y mezcla con la carne y la mayonesa.",
    "Unta la mezcla sobre las rebanadas de pan y puedes decorar con hojas de lechuga, brotes, encurtidos, etc."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/tostada-canibal.jpg"
@@ -10428,7 +10435,7 @@
    "Deja reposar al menos durante 1 hora en la nevera. Monta la mezcla sobre el pan tostado y termina colocando una piparra encima."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/tostadas-coronation-chicken.jpg"
@@ -10486,7 +10493,7 @@
    "Rellena una manga pastelera con la mezcla y sírvela sobre las tostadas. Coloca una anchoa encima, añade unas gotas AOVE y ralladura de limón."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/tostadas-de-ricotta.jpg"
@@ -10566,7 +10573,7 @@
    "Transfiere la mezcla a una bandeja para horno y extiende otro huevo batido por la superficie. Hornea durante 30 minutos a 180 °C y sirve acompañado de más chutney."
   ],
   "raciones": 10,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 8,
   "racionesCalculadas": true,
   "imagen": "img/bobotie.jpg"
@@ -10606,7 +10613,7 @@
   ],
   "origen": "Cataluña",
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "notas": "Si es con masa madre: 600 g de masa madre y 20 g de sal.",
   "_old": 3,
   "racionesCalculadas": true,
@@ -10692,7 +10699,7 @@
    "En el momento de servir, puedes gratinar con un poco de queso por encima."
   ],
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 6,
   "racionesCalculadas": true,
   "imagen": "img/crepes-de-trigueros-con-jamon.jpg"
@@ -10799,7 +10806,7 @@
    "Rectifica de sal y ajusta la acidez."
   ],
   "raciones": 12,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/empanada.jpg"
@@ -10853,7 +10860,7 @@
    "Pincha la masa con un tenedor por encima. Pinta la superficie con una mezcla de aceite y agua a partes iguales, y hornea a 200 °C durante 20 minutos."
   ],
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/empanada-de-verduras.jpg"
@@ -10913,8 +10920,8 @@
    "Apaga el fuego, añade el pimentón y la sal, y deja que se enfríe.",
    "Coloca las obleas sobre la mesa y pon una cucharadita de relleno en cada una. Cierra con un tenedor, pintando con huevo batido para unir las dos partes, y fríe."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/empanadillas.jpg"
@@ -10961,7 +10968,7 @@
    "Finalmente, hornea a 220 °C durante 20 minutos."
   ],
   "raciones": 8,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/pan-prenao.jpg"
@@ -11052,7 +11059,7 @@
   ],
   "origen": "Marruecos",
   "raciones": 6,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/pastela.jpg"
@@ -11162,7 +11169,7 @@
    "Termina con la decoración al gusto y pinta con huevo."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/pastelillo-de-pollo-a-la-aragonesa.jpg"
@@ -11223,7 +11230,7 @@
    "Bate los huevos y incorpórales la nata. Mezcla esto con la panceta, la leche y rellena la masa quebrada. Cubre con queso rallado y hornea durante 25 minutos a 180 °C."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/quiche-lorraine.jpg"
@@ -11308,7 +11315,7 @@
   ],
   "notas": "Ingrediente: 1 diente de ajo 10 hojas de pasta filo 100 g de pan rallado 100 g de queso de untar 100 ml de aceite de oliva 150 g de queso feta 2 cebollas 2 cucharadas de eneldo 2 huevos 400 g de espinacas Pimienta Sal",
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/spanakopita.jpg"
  },
  {
@@ -11347,7 +11354,7 @@
    "Divide la masa en 4 partes iguales y forma bolas con cada una. Aplasta las bolas para formar discos y cocina a la plancha hasta que estén doradas por ambos lados."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/arepas.jpg"
@@ -11399,7 +11406,7 @@
    "Para comprobar que estén bien cocidas, golpea la parte inferior de las baguettes, si suenan huecas, están listas."
   ],
   "raciones": 6,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 7,
   "racionesCalculadas": true,
   "imagen": "img/baguette.jpg"
@@ -11481,7 +11488,7 @@
    "Rellena un molde, espolvorea azúcar por encima, coloca en la parte inferior del horno a 175 °C con aire, pulveriza con agua, hornea durante 35 minutos y otros 10 minutos cubierto con papel albal."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/bizcocho-base.jpg",
   "_old": 8,
   "racionesCalculadas": true
@@ -11526,7 +11533,7 @@
    "Extiende la mezcla en una placa de horno forrada con papel de horno o engrasada y enharinada. Hornea a 170 °C durante 5 minutos."
   ],
   "raciones": 1,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/bizcocho-soletilla.jpg"
@@ -11577,7 +11584,7 @@
    "Alternativamente, puedes hornearlos a 180 °C durante 15 a 20 minutos."
   ],
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 7,
   "racionesCalculadas": true,
   "imagen": "img/bollo-berlin.jpg"
@@ -11631,7 +11638,7 @@
    "Si quieres una corteza más crujiente, deja el pan con la puerta del horno cerrada y el horno apagado."
   ],
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 9,
   "racionesCalculadas": true,
   "imagen": "img/chapata.jpg"
@@ -11678,7 +11685,7 @@
    "Finalmente, hornea a 230 °C con ventilador durante 20 a 25 minutos."
   ],
   "raciones": 6,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 7,
   "racionesCalculadas": true,
   "imagen": "img/focaccia.jpg"
@@ -11722,7 +11729,7 @@
    "Baja el horno a 200 °C y cuece 40 minutos más."
   ],
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 11,
   "racionesCalculadas": true,
   "imagen": "img/hogaza-de-masa-madre.jpg"
@@ -11766,7 +11773,7 @@
    "Deja el centro más grueso que las esquinas o puntas."
   ],
   "raciones": 14,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "notas": "Porcentajes sobre la masa: harina 41 %, sal 0,5 %, agua 25,5 % y margarina 33 %. Para celiacos, mejor solo el hojaldre. Margarina = vegetal; mantequilla = animal; manteca = animal (cerdo).",
   "_old": 4,
   "racionesCalculadas": true,
@@ -11822,7 +11829,7 @@
    "Divide la masa en dos partes iguales y estíralas con un rodillo para formar una base y una tapa."
   ],
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 8,
   "racionesCalculadas": true,
   "imagen": "img/masa-de-empanada.jpg",
@@ -11861,7 +11868,7 @@
    "Estira un poco más con la mano y coloca una cucharadita de relleno en el centro. Humedece ligeramente la mitad del borde con agua y cierra la gyoza, formando el patrón deseado."
   ],
   "raciones": 9,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 9,
   "racionesCalculadas": true,
   "imagen": "img/masa-de-gyoza.jpg"
@@ -11906,7 +11913,7 @@
    "Transcurrido este tiempo, cubre la masa con los ingredientes deseados y hornéala durante 10 minutos a 220 °C."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/masa-de-pizza.jpg"
@@ -11957,7 +11964,7 @@
    "Retira del horno, agrega los ingredientes al gusto y vuelve a hornear de 5 a 8 minutos más en la parte superior del horno."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/masa-de-pizza-napolitana-65-hidr.jpg"
@@ -11996,7 +12003,7 @@
    "Pasado el tiempo de reposo, prepara la masa quebrada aplanándola con un rodillo. Colócala en un molde para tarta y hornea durante 10 minutos a 180 °C."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/masa-quebrada-sablee.jpg"
@@ -12040,7 +12047,7 @@
    "Envuelve la masa en film transparente y déjala reposar en la nevera durante al menos 2 horas."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/masa-quebrada-sucree.jpg"
@@ -12093,7 +12100,7 @@
    "Fermenta durante 15 minutos y cocínalas al vapor a 100 °C durante 20 minutos."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/pan-bao.jpg",
@@ -12152,7 +12159,7 @@
    "Para rellenarlos, corta verticalmente hasta la mitad y se pueden marcar por los lados en una sartén con mantequilla antes de rellenarlos."
   ],
   "raciones": 14,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/pan-brioche.jpg"
@@ -12220,7 +12227,7 @@
    "Finalmente, hornea a 180 °C con aire durante unos 15 minutos o hasta que los panes estén dorados por encima."
   ],
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 8,
   "racionesCalculadas": true,
   "imagen": "img/pan-de-hamburguesa.jpg"
@@ -12270,7 +12277,7 @@
    "Aplasta cada bolita en una mesa enharinada y hornéalas a 240 °C durante unos 5-10 minutos, hasta que estén doradas. También puedes cocinarlas a la plancha o en una sartén."
   ],
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 8,
   "racionesCalculadas": true,
   "imagen": "img/pan-pita.jpg"
@@ -12316,7 +12323,7 @@
    "Llena una manga pastelera con la masa. Calienta el aceite y fríe los buñuelos por ambos lados hasta que estén dorados. Escúrrelos y espolvorea con azúcar por encima antes de servir."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/porras.jpg"
@@ -12356,7 +12363,7 @@
    "Divide la masa en porciones de 50 o 60 gra y deja reposar durante 15 minutos, tapadas. Estira bien con un rodillo hasta que queden finas y se cocinan en una sartén bien caliente."
   ],
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 11,
   "racionesCalculadas": true,
   "imagen": "img/tortillas-de-trigo.jpg"
@@ -12418,7 +12425,7 @@
    "Estira la masa sobre dos hojas de papel de horno, córtala en triángulos y fríelos en abundante aceite o hornéalos a 150 °C durante 10 minutos y sube la temperatura a 180 °C durante 5 minutos más."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/totopos.jpg"
@@ -12451,8 +12458,8 @@
    "Mantén en el fuego hasta que el azúcar vuelva a fundirse y tome un color oscuro.",
    "Vuelca la mezcla sobre un papel de horno extendiéndola para que se enfríe."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "imagen": "img/almendras-garrapinadas.jpg",
   "_old": 3,
   "racionesCalculadas": true
@@ -12540,8 +12547,8 @@
    "Coloca las manzanas encima, aplana y termina con el resto de la masa por encima sin aplastar.",
    "Hornea a 180 °C durante 35 minutos."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 12,
+  "racionesEstimadas": false,
   "_old": 5,
   "racionesCalculadas": true,
   "imagen": "img/apple-crumble.jpg"
@@ -12590,8 +12597,8 @@
    "Cuece removiendo frecuentemente hasta que el arroz esté al punto durante aproximadamente 25 minutos.",
    "Deja enfriar en recipientes individuales con canela espolvoreada por encima."
   ],
-  "raciones": 12,
-  "racionesEstimadas": true,
+  "raciones": 13,
+  "racionesEstimadas": false,
   "imagen": "img/arroz-con-leche.jpg",
   "_old": 12,
   "racionesCalculadas": true
@@ -12645,11 +12652,11 @@
    "Cuece 25 minutos, removiendo.",
    "Retira la citronela y las hojas de lima kéfir antes de servir."
   ],
-  "raciones": 72,
-  "racionesEstimadas": true,
+  "raciones": 80,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 72 raciones. Usa el escalador de raciones para adaptarlas. Se ha añadido el paso de retirar la citronela y la lima kéfir antes de servir.",
+  "notas": "Se ha añadido el paso de retirar la citronela y la lima kéfir antes de servir. Cantidades de producción: dan 80 raciones. Usa el escalador de raciones para adaptarlas.",
   "imagen": "img/arroz-con-leche-de-coco.jpg"
  },
  {
@@ -12726,8 +12733,8 @@
    "Rellena los moldes ¾ partes y hornea a 180 °C durante 15 minutos.",
    "Saca los bizcochos del horno, desmolda y baña en el almíbar."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "imagen": "img/baba-al-ron.jpg",
   "_old": 6,
   "racionesCalculadas": true
@@ -12797,11 +12804,11 @@
    "Apaga y deja reposar otros 15 minutos"
   ],
   "origen": "Turquía",
-  "raciones": 44,
-  "racionesEstimadas": true,
+  "raciones": 51,
+  "racionesEstimadas": false,
   "_old": 10,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 44 raciones. Usa el escalador de raciones para adaptarlas.",
+  "notas": "Cantidades de producción: dan 51 raciones. Usa el escalador de raciones para adaptarlas.",
   "imagen": "img/baklava.jpg"
  },
  {
@@ -12946,8 +12953,8 @@
    "Repite el proceso y finaliza con la nata montada, extendiéndola con una espátula.",
    "Refrigera al menos media hora."
   ],
-  "raciones": 16,
-  "racionesEstimadas": true,
+  "raciones": 18,
+  "racionesEstimadas": false,
   "_old": 10,
   "racionesCalculadas": true,
   "imagen": "img/banana-cream-pie.jpg"
@@ -13029,8 +13036,8 @@
    },
    "Hierve la leche, apaga el fuego y añade el chocolate blanco, removiendo hasta que se mezcle bien."
   ],
-  "raciones": 9,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "_old": 9,
   "racionesCalculadas": true,
   "imagen": "img/bizcocho-de-calabaza-con-sopa-de-chocolate-blanco.jpg"
@@ -13075,8 +13082,8 @@
    "Es preferible mantener la elaboración en el sifón si no se va a consumir en el mismo día el bizcocho, ya que es un bizcocho que aguantaría poco tiempo."
   ],
   "origen": "Bizcocho original de pistacho",
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "notas": "Vasos de plástico.",
   "_old": 3,
   "racionesCalculadas": true,
@@ -13146,11 +13153,11 @@
    "Emulsiona con el aceite, reparte en 2 bandejas con papel sulfurizado espolvoreando un poco de azúcar por encima.",
    "Hornea a 175 °C, 30 minutos, aire ≡ y da un golpe de vapor al cerrar la puerta."
   ],
-  "raciones": 30,
-  "racionesEstimadas": true,
+  "raciones": 34,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 30 raciones. Usa el escalador de raciones para adaptarlas.",
+  "notas": "Cantidades de producción: dan 34 raciones. Usa el escalador de raciones para adaptarlas.",
   "imagen": "img/bizcocho-desayunos.jpg"
  },
  {
@@ -13207,8 +13214,8 @@
    "Separa la mitad de la masa, mezcla con el cacao y rellena un molde alternando las mezclas.",
    "Hornea a 160 °C durante 40 minutos a media altura."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "imagen": "img/bizcocho-marmolado.jpg",
   "_old": 6,
   "racionesCalculadas": true
@@ -13271,7 +13278,7 @@
    "Pinta con huevo batido, hornea a 220 °C durante 10 minutos y deja enfriar en una rejilla."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/bollycao.jpg",
   "_old": 3,
   "racionesCalculadas": true
@@ -13325,8 +13332,8 @@
    "Coloca una bola del relleno en un extremo y enrolla formando un triángulo.",
    "Hornea a 180 °C durante 10 minutos y, al sacar del horno, riega con miel derretida y decora con sésamo."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 12,
+  "racionesEstimadas": false,
   "imagen": "img/briouats-de-frutos-secos.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -13375,8 +13382,8 @@
    "Rellena un molde engrasado con poca altura y hornea a media - baja altura durante 20 minutos.",
    "Deja enfriar y refrigera."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 9,
+  "racionesEstimadas": false,
   "imagen": "img/brownie.jpg",
   "_old": 7,
   "racionesCalculadas": true
@@ -13429,7 +13436,7 @@
    "Escurre los buñuelos y espolvorea con azúcar glasé."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/bunuelos-de-viento.jpg",
   "_old": 3,
   "racionesCalculadas": true
@@ -13625,9 +13632,9 @@
    "Machaca las nueces, aplica la capa de frosting final al bizcocho, déjalo uniforme y decora las paredes exteriores con las nueces machacadas.",
    "Termina con la salsa de caramelo por encima y déjala enfriar otros 30 minutos en nevera."
   ],
-  "notas": "(por su acidez reacciona con el bicarbonato creando (da dulzor) Cantidades de producción: dan unas 26 raciones. Usa el escalador de raciones para adaptarlas.",
-  "raciones": 26,
-  "racionesEstimadas": true,
+  "notas": "(por su acidez reacciona con el bicarbonato creando (da dulzor) Cantidades de producción: dan 28 raciones. Usa el escalador de raciones para adaptarlas.",
+  "raciones": 28,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/carrot-cake.jpg"
@@ -13714,7 +13721,7 @@
    "Fríe a 170 °C y espolvorea con azúcar glasé y canela."
   ],
   "raciones": 8,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/casadiellas.jpg",
   "_old": 8,
   "racionesCalculadas": true
@@ -13747,8 +13754,8 @@
    "Vigila el proceso y, cuando empiece a formar dibujos de la varilla en la nata, controla que no se corte.",
    "Estará montada cuando al levantar la varilla la nata no se desprenda."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 9,
+  "racionesEstimadas": false,
   "imagen": "img/chantilly.jpg",
   "_old": 9,
   "racionesCalculadas": true
@@ -13854,8 +13861,8 @@
    "En un bol mezclar el queso, el azúcar glasé y bate, añade la leche, la esencia de vainilla, mezcla y reserva.",
    "Saca los rollitos del horno, deja reposar y verte el glaseado por encima."
   ],
-  "raciones": 12,
-  "racionesEstimadas": true,
+  "raciones": 15,
+  "racionesEstimadas": false,
   "imagen": "img/cinnamon-rolls.jpg",
   "_old": 12,
   "racionesCalculadas": true
@@ -13926,8 +13933,8 @@
    "Enfría la masa durante mínimo 1 hora en nevera.",
    "Forma bolas, añade una pizca de sal en escamas por encima y hornea a 180 °C de 7 a 10 minutos."
   ],
-  "raciones": 14,
-  "racionesEstimadas": true,
+  "raciones": 15,
+  "racionesEstimadas": false,
   "imagen": "img/cookies.jpg",
   "_old": 12,
   "racionesCalculadas": true
@@ -13984,8 +13991,8 @@
    "Reparte en copas y enfría en nevera.",
    "Monta la nata con el azúcar, rellena una manga pastelera con boquilla rizada y decora encima de cada copa."
   ],
-  "raciones": 5,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "imagen": "img/copa-danone.jpg",
   "_old": 6,
   "racionesCalculadas": true
@@ -14040,8 +14047,8 @@
    "Encamisa moldes de aluminio, rellena ¾ del molde y deja atemperar en la nevera durante al menos 12 horas.",
    "Hornea a 180 °C de 8 a 10 minutos o 150 °C de 7 a 8 minutos."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 9,
+  "racionesEstimadas": false,
   "imagen": "img/coulant-jordi-roca.jpg",
   "_old": 8,
   "racionesCalculadas": true
@@ -14091,8 +14098,8 @@
    "Retira los aromatizantes de la leche, añade la mezcla de yemas y lleva a ebullición a fuego medio removiendo continuamente.",
    "Vuelca en cazuelas individuales, deja enfriar, espolvorea con azúcar y carameliza con un soplete."
   ],
-  "raciones": 9,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "imagen": "img/crema-catalana.jpg",
   "_old": 10,
   "racionesCalculadas": true
@@ -14131,7 +14138,7 @@
    "Deja enfriar."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/crema-inglesa.jpg",
   "notas": "Ralladura de limón, esencia de vainilla, canela….",
   "_old": 4,
@@ -14177,8 +14184,8 @@
    "Vuelve a pasar la mezcla al cazo, lleva al fuego y remueve hasta que dé el primer hervor.",
    "Pasa la mezcla al bol, echa la mantequilla, remueve y deja enfriar."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "imagen": "img/crema-pastelera.jpg",
   "notas": "Ralladura de limón, esencia de vainilla, canela….",
   "_old": 4,
@@ -14232,8 +14239,8 @@
    "Derrite la mantequilla en la leche caliente, añade el resto de ingredientes y mezcla todo bien.",
    "En una sartén engrasada bien caliente, echa la cantidad justa de la masa para cubrir el fondo mientras se hace un movimiento de muñeca, cuando se empiecen a tostar los bordes, dar la vuelta y terminar."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "imagen": "img/crepes.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -14305,8 +14312,8 @@
    "Reboza las hojas mientras se fríen.",
    "Espolvorea azúcar y canela por encima antes de servir."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "imagen": "img/crespillos-de-borraja.jpg",
   "_old": 7,
   "racionesCalculadas": true
@@ -14386,8 +14393,8 @@
    "En una sartén, echa un cucharón de la masa, haz la tortita por un lado y reserva.",
    "Echa otro cucharón de la masa, pon en el medio una porción del relleno, cubre con la tortita reservada y termina de cocinar por ambos lados sellando los bordes."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "imagen": "img/dorayaki.jpg",
   "_old": 6,
   "racionesCalculadas": true
@@ -14469,8 +14476,8 @@
    "Lleva al fuego hasta que espese y rellena un molde forrado con papel film para meterlo en la nevera y que enfríe durante una noche.",
    "Al día siguiente, saca de la nevera y vuelca sobre 3 o 4 hojas de pasta filo. Ve envolviendo untando con mantequilla derretida y mételo al horno a 200 °C durante 10 minutos Al sacarlo del horno, píntalo con el almíbar y decora con frutos secos tostados o sésamo y hojas de menta."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 18,
+  "racionesEstimadas": false,
   "_old": 9,
   "racionesCalculadas": true,
   "imagen": "img/dulce-real.jpg"
@@ -14519,11 +14526,12 @@
    "Cuando comience a dorar el borde, dale la vuelta y se termia por el otro lado.",
    "El relleno puede ser de crema pastelera."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 20,
+  "racionesEstimadas": false,
   "_old": 6,
-  "racionesCalculadas": true,
-  "imagen": "img/filloas.jpg"
+  "racionesCalculadas": false,
+  "imagen": "img/filloas.jpg",
+  "notas": "En el original: 20-25 raciones."
  },
  {
   "id": "flan-de-huevo",
@@ -14560,8 +14568,8 @@
    "Hornea al baño maría a 150 °C durante 45 minutos.",
    "Deja enfriar a temperatura ambiente y deja en nevera durante al menos 4 horas."
   ],
-  "raciones": 12,
-  "racionesEstimadas": true,
+  "raciones": 13,
+  "racionesEstimadas": false,
   "imagen": "img/flan-de-huevo.jpg",
   "_old": 9,
   "racionesCalculadas": true
@@ -14611,8 +14619,8 @@
    "Cubre el fondo de las flaneras con caramelo, rellena con la mezcla y hornea al baño maría a 110 °C durante 50 minutos.",
    "Deja reposar en nevera durante al menos 4 horas."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "imagen": "img/flan-de-huevo-y-nata.jpg",
   "_old": 7,
   "racionesCalculadas": true,
@@ -14663,8 +14671,8 @@
    "Cubre las flaneras con caramelo, rellena con la mezcla y hornea al baño maría a 150 °C durante 1 hora.",
    "Deja enfriar en nevera hasta el día siguiente."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 9,
+  "racionesEstimadas": false,
   "imagen": "img/flan-de-queso.jpg",
   "_old": 6,
   "racionesCalculadas": true,
@@ -14745,8 +14753,8 @@
    "Añade la menta picada o enteras si son hojas pequeñas.",
    "Estira la masa quebrada en un molde redondo y rellena con la mezcal de queso. Hornea a 180 °C durante 40 minutos decora con azúcar glas y menta fresca."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 12,
+  "racionesEstimadas": false,
   "_old": 8,
   "racionesCalculadas": true,
   "imagen": "img/flao-ibicenco.jpg"
@@ -14853,8 +14861,8 @@
    "Coloca los bollos así formados sobre un papel de horno y resérvalos.",
    "Una vez que se han preparado todos los bollos se hornean a 180 °C durante 20 minutos"
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 12,
+  "racionesEstimadas": false,
   "_old": 9,
   "racionesCalculadas": true,
   "imagen": "img/hotteok.jpg"
@@ -14893,8 +14901,8 @@
    "Añade la mezcla de nueces y, una vez recupere el hervor, remueve durante 10 minutos a fuego suave.",
    "Cuando la mezcla empiece a espesar, transferir a recipientes para enfriar y dejar reposar en nevera."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 12,
+  "racionesEstimadas": false,
   "imagen": "img/intxaursaltsa.jpg",
   "_old": 11,
   "racionesCalculadas": true
@@ -14963,8 +14971,8 @@
    "Corta la mezcla en cuadrados, pasa por harina, huevo batido y fríe.",
    "Deja escurrir el exceso de aceite y reboza con azúcar y canela."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 12,
+  "racionesEstimadas": false,
   "imagen": "img/leche-frita.jpg",
   "_old": 11,
   "racionesCalculadas": true
@@ -15003,8 +15011,8 @@
    "Retira del fuego y añade la mantequilla fría.",
    "Reparte en vasos o para rellenar tartaletas."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "imagen": "img/lemon-curd.jpg",
   "_old": 2,
   "racionesCalculadas": true
@@ -15085,8 +15093,8 @@
    "Hornea a 200 °C sin ventilador durante 12 a 15 minutos.",
    "Si es posible, aplica más calor desde abajo que desde arriba."
   ],
-  "raciones": 14,
-  "racionesEstimadas": true,
+  "raciones": 16,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/magdalenas-naturales.jpg"
@@ -15139,8 +15147,8 @@
    "Mantén al fuego hasta que empiece a hervir, apaga y remueve durante 5 minutos.",
    "Reparte en boles, decora con almendra picada, canela en polvo y deja enfriar en nevera."
   ],
-  "raciones": 9,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "imagen": "img/manjar-blanco.jpg",
   "_old": 9,
   "racionesCalculadas": true
@@ -15175,7 +15183,7 @@
    "Utiliza para secar en el horno entre 80 °C y 100 °C."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/merengue-frances.jpg",
   "notas": "Gotas de limón, vinagre o cremor tártaro.",
   "_old": 2,
@@ -15209,7 +15217,7 @@
    "Monta las claras y añade el almíbar caliente muy despacio mientras se terminan de montar las claras, este es el merengue más brillante para hacer decoraciones."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/merengue-italiano.jpg",
   "_old": 2,
   "racionesCalculadas": true
@@ -15250,7 +15258,7 @@
    "Transfiere la mezcla al cuenco de la batidora y bate a velocidad alta, hasta que quede esponjosa y con cuerpo, añadiendo unas gotas de limón al final."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/merengue-suizo.jpg",
   "notas": "Gotas de limón, vinagre o cremor tártaro. La misma receta aparecía en otro documento como \"Merengue\" (120 g de azúcar y 80 g de claras, a 65 °C): se han unido en una sola ficha.",
   "_old": 2,
@@ -15294,7 +15302,7 @@
   ],
   "origen": "Japón y china",
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/mochis.jpg"
@@ -15349,9 +15357,9 @@
    "Monta la nata muy fría hasta picos firmes. Añade primero un par de cucharadas a la mezcla de limón para evitar el choque térmico y luego el resto, con movimientos envolventes para que no pierda aire.",
    "Reparte en vasos o moldes y refrigera varias horas, hasta que cuaje."
   ],
-  "raciones": 34,
-  "racionesEstimadas": true,
-  "notas": "Pasos reconstruidos: el documento original (Monasterio de Piedra) solo traía los ingredientes, con cantidades de producción. Técnica contrastada con recetas de mousse de limón con gelatina. Cantidades de producción: dan unas 34 raciones. Usa el escalador de raciones para adaptarlas.",
+  "raciones": 38,
+  "racionesEstimadas": false,
+  "notas": "Pasos reconstruidos: el documento original (Monasterio de Piedra) solo traía los ingredientes, con cantidades de producción. Técnica contrastada con recetas de mousse de limón con gelatina. Cantidades de producción: dan 38 raciones. Usa el escalador de raciones para adaptarlas.",
   "fuentes": [
    "https://www.directoalpaladar.com/postres/tarta-mousse-limon-receta-horno-para-rematar-comidas-cenas-estilo"
   ],
@@ -15404,9 +15412,9 @@
    "Monta la nata muy fría hasta picos firmes e incorpórala con movimientos envolventes.",
    "Reparte en vasos o moldes y refrigera al menos 4 horas antes de servir."
   ],
-  "raciones": 72,
-  "racionesEstimadas": true,
-  "notas": "Pasos reconstruidos: el documento original solo traía los ingredientes, con cantidades de producción. Sin bizcocho ni café, que no figuran. Técnica contrastada con recetas de crema de tiramisú con mascarpone. Cantidades de producción: dan unas 72 raciones. Usa el escalador de raciones para adaptarlas.",
+  "raciones": 80,
+  "racionesEstimadas": false,
+  "notas": "Pasos reconstruidos: el documento original solo traía los ingredientes, con cantidades de producción. Sin bizcocho ni café, que no figuran. Técnica contrastada con recetas de crema de tiramisú con mascarpone. Cantidades de producción: dan 80 raciones. Usa el escalador de raciones para adaptarlas.",
   "fuentes": [
    "https://www.directoalpaladar.com/postres/crema-de-tiramisu-receta-facil-y-rapida",
    "https://www.directoalpaladar.com/videos-recetas/claves-buen-tiramisu-casero-video-incluido/amp"
@@ -15450,8 +15458,8 @@
    "Lleva la mezcla al fuego y, sin parar de remover, calienta hasta dar el primer hervor.",
    "Vierte la mezcla en cazuelas individuales, coloca galletas, espolvorea con canela y deja enfriar."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "imagen": "img/natillas.jpg",
   "notas": "Ralladura de limón, esencia de vainilla, canela….",
   "_old": 9,
@@ -15510,8 +15518,8 @@
    "Monta la nata.",
    "Pon el batido en vasos, decora con la nata montada y con trocitos de oreo."
   ],
-  "raciones": 9,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "imagen": "img/oreo-milk-shake.jpg",
   "_old": 9,
   "racionesCalculadas": true
@@ -15565,12 +15573,12 @@
    "Calienta la nata con la vainilla, junta las dos mezclas y empapa las rebanadas.",
    "Coloca las rebanadas en una bandeja de horno, pinta el pan con la mantequilla y hornea a 200 °C de 5 a 10 minutos."
   ],
-  "raciones": 20,
-  "racionesEstimadas": true,
+  "raciones": 22,
+  "racionesEstimadas": false,
   "imagen": "img/pain-perdu.jpg",
   "_old": 5,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 20 raciones. Usa el escalador de raciones para adaptarlas."
+  "notas": "Cantidades de producción: dan 22 raciones. Usa el escalador de raciones para adaptarlas."
  },
  {
   "id": "pancakes",
@@ -15620,8 +15628,8 @@
    "Mezcla los ingredientes secos, añade los húmedos y mezcla hasta que no haya grumos.",
    "Engrasa una sartén a fuego medio, echa un calzo de la masa, tapa y cuando comience a burbujear, da la vuelta."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "imagen": "img/pancakes.jpg",
   "notas": "Ralladura de limón, esencia de vainilla, canela….",
   "_old": 3,
@@ -15669,8 +15677,8 @@
    "Mezcla y bate bien todos los ingredientes.",
    "Tamiza la mezcla al meterla en el sifón y fríe en una sartén bien caliente."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "imagen": "img/pancakes-con-sifon.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -15730,8 +15738,8 @@
    "Con la masa restante, crea un enrejado sobre el dulce de leche.",
    "Hornea durante 40 minutos a 160 °C en la parte baja del horno y dora."
   ],
-  "raciones": 9,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "_old": 9,
   "racionesCalculadas": true,
   "imagen": "img/pasta-frola-con-dulce-de-leche.jpg"
@@ -15785,11 +15793,12 @@
    "Cuando todo esté disuelto, retira del fuego y añade la nata y la leche condensada.",
    "Pon capas en una bandeja de galleta y la crema de chocolate alternando. Puedes rallar por encima chocolate o ponerle un merengue con la clara de los 3 huevos. Guarda en la nevera y sirve."
   ],
-  "raciones": 18,
-  "racionesEstimadas": true,
+  "raciones": 21,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
-  "imagen": "img/pave-de-cacau.jpg"
+  "imagen": "img/pave-de-cacau.jpg",
+  "notas": "Cantidades de producción: dan 21 raciones. Usa el escalador de raciones para adaptarlas."
  },
  {
   "id": "polvorones",
@@ -15849,8 +15858,8 @@
    "Precalienta el horno a 180 °C con grill. Hornea los polvorones durante 8 a 12 minutos o hasta que empiecen a dorarse.",
    "Una vez fuera del horno, transfiere los polvorones a una rejilla y espolvorea azúcar glasé por encima."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 7,
+  "racionesEstimadas": false,
   "_old": 6,
   "racionesCalculadas": true,
   "imagen": "img/polvorones.jpg"
@@ -15910,8 +15919,8 @@
    "Mézclalo para que no queden grumos, vuelca en el bol con la otra mezcla, llena un molde engrasado para horno y se rellena con unos 2 cm de grosor.",
    "Hornea 25 minutos A 160 °C y deja reposar 10 minutos Con el horno apagado. Mete en la nevera 1 hora antes de desmoldar. *se puede decorar con nata montada, chocolate, mermelada de melocotón, azúcar glass, canela…."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "_old": 7,
   "racionesCalculadas": true,
   "imagen": "img/quesada-pasiega.jpg"
@@ -15963,8 +15972,8 @@
    "Reparte el resto del AOVE y el azúcar en el interior de cada masa, dobla las puntas hacia dentro y deja reposar durante 30 minutos.",
    "Pincela con AOVE y espolvorea más azúcar, hornea a 220 °C de 15 a 20 minutos."
   ],
-  "raciones": 4,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "imagen": "img/refollaus.jpg",
   "_old": 4,
   "racionesCalculadas": true
@@ -16013,11 +16022,11 @@
    "Tritura hasta que todo esté bien mezclado.",
    "Añade la mantequilla en dados y emulsiona."
   ],
-  "raciones": 22,
-  "racionesEstimadas": true,
+  "raciones": 24,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 22 raciones. Usa el escalador de raciones para adaptarlas.",
+  "notas": "Cantidades de producción: dan 24 raciones. Usa el escalador de raciones para adaptarlas.",
   "imagen": "img/salsa-chocolate-tarta-hojaldrada.jpg"
  },
  {
@@ -16060,8 +16069,8 @@
    "Devuelve la mezcla al cazo y cocina a fuego suave, removiendo, hasta 82-84 °C: la crema debe cubrir la cuchara y deja huella al pasar el dedo. No dejes que hierva.",
    "Cuela y enfría rápidamente, por ejemplo en un baño de agua con hielo. Sirve con los crepes."
   ],
-  "raciones": 12,
-  "racionesEstimadas": true,
+  "raciones": 14,
+  "racionesEstimadas": false,
   "notas": "Pasos reconstruidos: el documento original solo traía los ingredientes, con cantidades de producción. Técnica de crema inglesa (82-84 °C) contrastada con fuentes de repostería. No se ha podido identificar con certeza qué es la «crema cubana».",
   "fuentes": [
    "https://www.cordonbleu.edu/news/receta-crema-inglesa/es",
@@ -16120,9 +16129,9 @@
    "Prueba y ajusta el azúcar.",
    "Refrigera y sirve muy frío, mejor con hielo."
   ],
-  "raciones": 38,
-  "racionesEstimadas": true,
-  "notas": "Pasos reconstruidos: el documento original solo traía los ingredientes, con cantidades de producción. Técnica de batido estándar, sin contrastar con una receta publicada equivalente. Cantidades de producción: dan unas 38 raciones. Usa el escalador de raciones para adaptarlas.",
+  "raciones": 43,
+  "racionesEstimadas": false,
+  "notas": "Pasos reconstruidos: el documento original solo traía los ingredientes, con cantidades de producción. Técnica de batido estándar, sin contrastar con una receta publicada equivalente. Cantidades de producción: dan 43 raciones. Usa el escalador de raciones para adaptarlas.",
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/smoothie-de-melocoton.jpg"
@@ -16170,9 +16179,9 @@
    "Añade el resto de la leche, la nata, el azúcar, la pasta de vainilla y la sal, y tritura en tandas hasta que quede homogéneo. Cuela si quedan restos.",
    "Refrigera y sirve muy frío, mejor con hielo."
   ],
-  "raciones": 36,
-  "racionesEstimadas": true,
-  "notas": "Pasos reconstruidos: el documento original solo traía los ingredientes, con cantidades de producción. Técnica de batido estándar, sin contrastar con una receta publicada equivalente. Cantidades de producción: dan unas 36 raciones. Usa el escalador de raciones para adaptarlas.",
+  "raciones": 41,
+  "racionesEstimadas": false,
+  "notas": "Pasos reconstruidos: el documento original solo traía los ingredientes, con cantidades de producción. Técnica de batido estándar, sin contrastar con una receta publicada equivalente. Cantidades de producción: dan 41 raciones. Usa el escalador de raciones para adaptarlas.",
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/smoothie-de-oreo.jpg"
@@ -16245,8 +16254,8 @@
    "Cubre las tartaletas con la masa quebrada y hornea durante 10 minutos a 180 °C.",
    "Rellena con la mezcla y gratina."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "imagen": "img/suspiros-de-amante-de-teruel.jpg",
   "_old": 3,
   "racionesCalculadas": true
@@ -16311,8 +16320,8 @@
    "Vierte la mezcla de chocolate sobre la base de galleta en el molde. Lava el cazo o usa otro y repite el mismo procedimiento con los otros dos chocolates (la primera capa debe ser de chocolate negro, la siguiente con leche y la siguiente blanca).",
    "Una vez que todas las capas estén listas, se puede decorar la parte superior a gusto. Deja enfriar durante un par de horas a temperatura ambiente y coloca en la nevera durante al menos 4 horas."
   ],
-  "raciones": 16,
-  "racionesEstimadas": true,
+  "raciones": 17,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/tarta-de-3-chocolates.jpg"
@@ -16362,8 +16371,8 @@
    "Una vez que se saque del horno, se debe dejar atemperar durante un par de horas.",
    "Guarda en nevera hasta el día siguiente y se desmolda con cuidado."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 12,
+  "racionesEstimadas": false,
   "_old": 9,
   "racionesCalculadas": true,
   "imagen": "img/tarta-de-queso-cremosa.jpg"
@@ -16411,8 +16420,8 @@
    "Para el merengue francés, añade la maicena tamizada y la vainilla al merengue. Mezcla con una lengua, formando una corona al levantar bien los bordes. Hornea a 130 °C durante 1 hora y deja enfriar.",
    "Una vez enfriado, rellena el interior de la corona con la nata montada fría y decora con las fresas. ¡Listo para disfrutar!"
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/tarta-pavlova.jpg"
@@ -16484,7 +16493,7 @@
   ],
   "origen": "León",
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/tarta-san-marcos.jpg"
@@ -16525,8 +16534,8 @@
    "Enciende el fuego para que se fundan los ingredientes; cuando comience a caramelizar, apaga el fuego y coloca la masa quebrada sobre la mezcla.",
    "Introduce el conjunto en el horno precalentado a 180 °C durante 20 minutos."
   ],
-  "raciones": 9,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "_old": 9,
   "racionesCalculadas": true,
   "imagen": "img/tarta-tatin.jpg"
@@ -16584,8 +16593,8 @@
    "Cuece las almendras con la nata a fuego medio durante 30 minutos destapadas. Rellena los moldes y deja enfriar en la nevera.",
    "Es importante destacar que la receta original solo utiliza la nata sin las almendras. Sin embargo, si desea aprovechar las almendras, puedes picarlas y usarlas para la masa quebrada, o incluso utilizar algunas para decorar encima de la nata."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 9,
+  "racionesEstimadas": false,
   "_old": 8,
   "racionesCalculadas": true,
   "imagen": "img/tartaletas-de-almendras-garrapinadas.jpg"
@@ -16660,8 +16669,8 @@
    "Empapa las soletillas con la mezcla, pon en bandeja, cubre con la crema de mascarpone y deja reposar en nevera.",
    "Termina espolvoreando el cacao por encima."
   ],
-  "raciones": 12,
-  "racionesEstimadas": true,
+  "raciones": 14,
+  "racionesEstimadas": false,
   "imagen": "img/tiramisu-jordi-roca.jpg",
   "_old": 12,
   "racionesCalculadas": true
@@ -16726,8 +16735,8 @@
    "Pasa las torrijas por el huevo, fríe hasta dorar por ambos lados y saca a un plato con papel absorbente.",
    "Pasa por una mezcla de azúcar, canela y deja enfriar."
   ],
-  "raciones": 9,
-  "racionesEstimadas": true,
+  "raciones": 10,
+  "racionesEstimadas": false,
   "imagen": "img/torrijas.jpg",
   "_old": 9,
   "racionesCalculadas": true
@@ -16761,12 +16770,12 @@
    "Añade el yogurt, remueve y deja reposar en una zona oscura y seca (como un horno) de 15 a 20 horas sin abrirlo ni utilizarlo.",
    "Pasa el yogurt a envases y enfría."
   ],
-  "raciones": 24,
-  "racionesEstimadas": true,
+  "raciones": 27,
+  "racionesEstimadas": false,
   "imagen": "img/yogur-casero.jpg",
   "_old": 12,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 24 raciones. Usa el escalador de raciones para adaptarlas."
+  "notas": "Cantidades de producción: dan 27 raciones. Usa el escalador de raciones para adaptarlas."
  },
  {
   "id": "zabaione",
@@ -16803,7 +16812,7 @@
    "Cuando espese, corta la cocción con un baño maría inverso."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/zabaione.jpg",
   "_old": 2,
   "racionesCalculadas": true
@@ -16887,7 +16896,7 @@
    "Finalmente, sirve todo en un plato y acompaña con aguacate."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/bandeja-paisa.jpg"
@@ -16960,7 +16969,7 @@
   ],
   "origen": "Perú",
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 7,
   "racionesCalculadas": true,
   "imagen": "img/causa-limena.jpg"
@@ -17042,8 +17051,8 @@
    "A los 5 minutos destapa, échale un chorro de aceite y desgrana con un tenedor.",
    "Pon en el centro las hortalizas y decora con las almendras, los dátiles sin hueso y las ciruelas pasas."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 5,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/couscous-de-verduras.jpg"
@@ -17159,8 +17168,8 @@
    "Sirve el cuscús haciendo una montaña y coloca las hortalizas, la carne y los garbanzos alrededor o en un hueco en el centro, como un volcán. Decora con los dátiles y acompaña con cilantro, perejil, ras el hanout o kefta."
   ],
   "origen": "Maghreb/ senegal/ gambia",
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 6,
+  "racionesEstimadas": false,
   "notas": "Cilantro, perejil, hanout o kefta. El original no indicaba las cantidades de las hortalizas: se han estimado para 500 g de cuscús a partir de recetas de cuscús tradicional para 4-6 personas (Directo al Paladar, Hola, Esdiario, EcuRed). Pendiente de verificar.",
   "_old": 4,
   "racionesCalculadas": true,
@@ -17220,7 +17229,7 @@
    "*si le falta cuajar puedes volver a encender el fuego."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/duelos-y-quebrantos.jpg"
@@ -17269,8 +17278,8 @@
    "Fríe los ajos con el jamón, retira, fríe el pan y reserva,.",
    "Vuelca las farinetas en el aceite, remueve, añade el sofrito, rectifica de sal y decora con los picatostes."
   ],
-  "raciones": 2,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "imagen": "img/farinetas.jpg",
   "notas": "Opcionales: Longaniza, lomo, chorizo, huevo frito, setas….",
   "_old": 5,
@@ -17366,7 +17375,7 @@
    "El estofado de plátano con pollo es tradicional servirlo acompañado con una guarnición de espinacas y calabacín."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/matoke.jpg",
@@ -17374,50 +17383,46 @@
  },
  {
   "id": "migas-al-pastor",
-  "titulo": "Migas al pastor",
+  "titulo": "Migas de pastor",
   "volumen": 15,
   "categoria": "Cocina regional española",
-  "fuente": "ARAGONÉS",
+  "fuente": "COCINA INTERNACIONAL",
   "ingredientes": [
    {
-    "cantidad": 300,
+    "cantidad": 600,
     "unidad": "g",
-    "nombre": "pan duro tipo candeal"
-   },
-   {
-    "cantidad": 100,
-    "unidad": "ml",
-    "nombre": "agua"
-   },
-   {
-    "cantidad": 150,
-    "unidad": "g",
-    "nombre": "chorizo fresco"
-   },
-   {
-    "cantidad": 150,
-    "unidad": "g",
-    "nombre": "panceta"
-   },
-   {
-    "cantidad": 5,
-    "unidad": "ud",
-    "nombre": "dientes de ajo"
-   },
-   {
-    "cantidad": 0.5,
-    "unidad": "cdta",
-    "nombre": "pimentón dulce"
+    "nombre": "pan seco"
    },
    {
     "cantidad": 4,
-    "unidad": "ud",
-    "nombre": "huevos (para servir)"
+    "unidad": "dientes",
+    "nombre": "ajo"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "sebo de cordero (o aceite o manteca)"
+   },
+   {
+    "cantidad": 200,
+    "unidad": "g",
+    "nombre": "longaniza"
+   },
+   {
+    "cantidad": 150,
+    "unidad": "g",
+    "nombre": "chorizo"
    },
    {
     "cantidad": null,
     "unidad": "",
-    "nombre": "aceite de oliva",
+    "nombre": "pimentón",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "agua",
     "gusto": true
    },
    {
@@ -17428,22 +17433,17 @@
    }
   ],
   "pasos": [
-   "Desmiga el pan en trozos pequeños, rocíalo con el agua y una pizca de sal, y déjalo reposar unos minutos para que se humedezca de forma uniforme.",
-   "Corta la panceta y el chorizo en trozos pequeños y dóralos en una sartén grande con un poco de aceite. Retíralos y resérvalos.",
-   "En la grasa que han soltado, rehoga los ajos enteros y con piel. Añade las migas de pan humedecidas.",
-   "Cocina a fuego medio-bajo, removiendo sin parar, hasta que las migas estén sueltas, doradas y crujientes.",
-   "Devuelve la panceta y el chorizo a la sartén, espolvorea el pimentón, remueve e inmediatamente retira del fuego para que el pimentón no se queme.",
-   "Fríe los huevos y sirve las migas con ellos."
+   "El día anterior, corta el pan y humedécelo.",
+   "Fríe los ajos picados con el sebo, el chorizo y la longaniza.",
+   "Cuando los ajos empiecen a dorar, baja el fuego y añade el pan.",
+   "Remueve durante 10 minutos para que no se queme, hasta que esté completamente cocinado.",
+   "Sirve con un huevo frito."
   ],
   "raciones": 4,
   "imagen": "img/migas-al-pastor.jpg",
-  "racionesEstimadas": true,
-  "notas": "Receta reconstruida: la ficha original estaba vacía. Cantidades de Directo al Paladar (4 personas), contrastadas con Hola, MDZ Online y Turismo de Castilla y León, que usan entre 300 y 500 g de pan. Se puede acompañar con uvas, sardinas o pimientos.",
-  "fuentes": [
-   "https://www.directoalpaladar.com/recetario/migas-pastor-receta-humilde-deliciosa-cocina-tradicional-espanola",
-   "https://www.hola.com/cocina/tecnicas-de-cocina/20230131225314/como-hacer-migas",
-   "https://turismocastillayleon.com/es/enoturismo-gastronomia/platos-tipicos/migas-pastoriles"
-  ]
+  "racionesEstimadas": false,
+  "notas": "Para 4-5 personas. Opcional: pimiento, uvas, sardinas, naranja, manzana, piña, chocolate o huevo frito.",
+  "racionesCalculadas": false
  },
  {
   "id": "morteruelo",
@@ -17528,7 +17528,7 @@
   ],
   "origen": "Castilla la mancha/ cuenca",
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 3,
   "racionesCalculadas": true,
   "imagen": "img/morteruelo.jpg"
@@ -17616,7 +17616,7 @@
    "Rectifica de sal, haz hueco en la sartén y echa los huevos, termina de cocinar los huevos con la tapa y termina con perejil por encima."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/shakshuka.jpg"
@@ -17656,8 +17656,8 @@
    "Vuelca en un bol, añade el vinagre de arroz y remueve aireando hasta que se enfríe."
   ],
   "origen": "Japón",
-  "raciones": 1,
-  "racionesEstimadas": true,
+  "raciones": 3,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/sushi.jpg"
@@ -17747,7 +17747,7 @@
    "Monta el taco poniendo debajo el guiso de carne, encima el pico de gallo y un poco de lechuga. También puedes añadir queso rallado o guacamole."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/tacos.jpg"
@@ -17817,8 +17817,8 @@
    "Comienza pochando la cebolla y añadiendo el resto de ingredientes mientras remueve a fuego bajo.",
    "Cuando los ingredientes comiencen a ablandarse, retira la guindilla y la canela, guárdalas en un bote y consérvalas refrigeradas."
   ],
-  "raciones": 10,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/chutney-de-mango.jpg"
@@ -17893,11 +17893,11 @@
    "Cuando empiece a cocer, añade el vinagre y con el fuego al mínimo cocina 30 minutos puedes conservar en botes como la mermelada y servirlo en trozos o triturado.",
    "Acompaña tanto a carnes como pescados."
   ],
-  "raciones": 28,
-  "racionesEstimadas": true,
+  "raciones": 29,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 28 raciones. Usa el escalador de raciones para adaptarlas. Puedes utilizar cualquier otra fruta. Es una especie de mermelada, compota de fruta con otros vegetales, vinagre, picante y especias. No se tritura. Es una buena conserva.",
+  "notas": "Puedes utilizar cualquier otra fruta. Es una especie de mermelada, compota de fruta con otros vegetales, vinagre, picante y especias. No se tritura. Es una buena conserva. Cantidades de producción: dan 29 raciones. Usa el escalador de raciones para adaptarlas.",
   "imagen": "img/chutney-de-melocoton.jpg"
  },
  {
@@ -17954,7 +17954,7 @@
    "Añade el aguacate y mezcla."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/guacamole.jpg",
   "_old": 6,
   "racionesCalculadas": true
@@ -18013,8 +18013,8 @@
    "Añade los pimientos, el pimentón y por último el pan haciendo una pasta espesa.",
    "También puedes prepararlo triturando todo con la batidora."
   ],
-  "raciones": 8,
-  "racionesEstimadas": true,
+  "raciones": 9,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/mojo-rojo.jpg"
@@ -18068,7 +18068,7 @@
    "En un mortero, maja los ajos con el comino, el cilantro y la sal. Añade la pimienta, el aceite y el vinagre haciendo una pasta espesa. También puedes prepararlo triturando todo con la batidora."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 2,
   "racionesCalculadas": true,
   "imagen": "img/mojo-verde.jpg"
@@ -18120,8 +18120,8 @@
    "Tritura todos los ingredientes con un tercio del AOVE hasta formar una pasta.",
    "Termina emulsionando con el resto del AOVE."
   ],
-  "raciones": 18,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/pesto-version-monasterio-de-piedra.jpg"
@@ -18169,7 +18169,7 @@
    "Pica todo en brunoise y adereza con zumo de lima y sal. Es un acompañamiento o ensalada."
   ],
   "raciones": 12,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
   "imagen": "img/pico-de-gallo.jpg"
@@ -18211,12 +18211,12 @@
    "Saca la mezcla, pásala a un vaso batidor y tritura a máxima potencia hasta emulsionar.",
    "Pasa por un colador para eliminar posibles restos de piel o pepitas, trasvasa a un envase hermético y refrigera o congela."
   ],
-  "raciones": 20,
-  "racionesEstimadas": true,
+  "raciones": 30,
+  "racionesEstimadas": false,
   "imagen": "img/salmorreta.jpg",
   "_old": 10,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 20 raciones. Usa el escalador de raciones para adaptarlas."
+  "notas": "Cantidades de producción: dan 30 raciones. Usa el escalador de raciones para adaptarlas."
  },
  {
   "id": "salsa-agridulce",
@@ -18272,7 +18272,7 @@
    "Añade la maicena disuelta, hierve durante 5 minutos y deja enfriar."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-agridulce.jpg",
   "_old": 6,
   "racionesCalculadas": true
@@ -18375,8 +18375,8 @@
    "Junta las elaboraciones y añade el tomate frito, la salsa BBQ y el agua.",
    "Rectifica de sal y lleva a ebullición."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-barbacoa.jpg",
   "_old": 6,
   "racionesCalculadas": true,
@@ -18428,9 +18428,9 @@
    "Sube el fuego a medio y hierve removiendo durante un par de minutos."
   ],
   "raciones": 20,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-bechamel.jpg",
-  "notas": "Se puede sustituir la harina por maicena para conseguir una bechamel más clara. Cantidades de producción: dan unas 20 raciones. Usa el escalador de raciones para adaptarlas.",
+  "notas": "Se puede sustituir la harina por maicena para conseguir una bechamel más clara. Cantidades de producción: dan 20 raciones. Usa el escalador de raciones para adaptarlas.",
   "_old": 12,
   "racionesCalculadas": true
  },
@@ -18489,8 +18489,8 @@
    "Fríe la mezcla, añade el vinagre y la sal.",
    "Tritura y pasa por un colador para eliminar imperfecciones."
   ],
-  "raciones": 7,
-  "racionesEstimadas": true,
+  "raciones": 11,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-brava.jpg",
   "_old": 5,
   "racionesCalculadas": true
@@ -18537,8 +18537,8 @@
   "pasos": [
    "Mezcla bien todos los ingredientes."
   ],
-  "raciones": 3,
-  "racionesEstimadas": true,
+  "raciones": 4,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-de-yogur.jpg",
   "_old": 2,
   "racionesCalculadas": true
@@ -18588,7 +18588,7 @@
    "Tritura, ajusta el punto de sal, añade la nata y cocina durante 5 minutos más."
   ],
   "raciones": 8,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-de-zanahoria.jpg",
   "_old": 9,
   "racionesCalculadas": true
@@ -18625,7 +18625,7 @@
    "Tritura todo a 70 °C y ve añadiendo los cubos de mantequilla poco a poco para emulsionar."
   ],
   "raciones": 10,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/salsa-mantequilla.jpg"
@@ -18674,11 +18674,11 @@
    "Hierve el agua con el zumo de limón y el caldo de pescado, emulsiona con la mantequilla en dados y termina ligando ligeramente con maicena.",
    "A la hora de servir, añade alcaparras."
   ],
-  "raciones": 80,
-  "racionesEstimadas": true,
+  "raciones": 81,
+  "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 80 raciones. Usa el escalador de raciones para adaptarlas.",
+  "notas": "Cantidades de producción: dan 81 raciones. Usa el escalador de raciones para adaptarlas.",
   "imagen": "img/salsa-meuniere.jpg"
  },
  {
@@ -18756,11 +18756,10 @@
    "Haz un majado con todos los ingredientes añadiendo aceite crudo para emulsionar y se le añade un chorro de vinagre."
   ],
   "origen": "Cataluña/ tarragona",
-  "raciones": 26,
-  "racionesEstimadas": true,
+  "raciones": 13,
+  "racionesEstimadas": false,
   "_old": 4,
   "racionesCalculadas": true,
-  "notas": "Cantidades de producción: dan unas 26 raciones. Usa el escalador de raciones para adaptarlas.",
   "imagen": "img/salsa-romescu.jpg"
  },
  {
@@ -18810,7 +18809,7 @@
    "Mezcla bien con una batidora y rectifica de sal."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-rosa.jpg",
   "_old": 7,
   "racionesCalculadas": true
@@ -18864,7 +18863,7 @@
    "Añade el cebollino o el perejil y vuelve a mezclar."
   ],
   "raciones": 6,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/salsa-tartara.jpg",
   "_old": 7,
   "racionesCalculadas": true
@@ -18917,8 +18916,8 @@
    "Mezcla el ajo con el zumo de limón, el yogurt y el AOVE.",
    "Aplasta el pepino sobre el colador y añádelo a la mezcla del yogurt junto con la menta picada."
   ],
-  "raciones": 6,
-  "racionesEstimadas": true,
+  "raciones": 8,
+  "racionesEstimadas": false,
   "imagen": "img/tzatziki.jpg",
   "_old": 2,
   "racionesCalculadas": true
@@ -18957,7 +18956,7 @@
    "Coloca un chorro de la mezcla en el centro, baja el fuego al mínimo y, cuando el coral deje de hacer burbujas, retíralo a un papel absorbente."
   ],
   "raciones": 2,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/coral.jpg",
   "_old": 3,
   "racionesCalculadas": true
@@ -18998,7 +18997,7 @@
    "Fríe en aceite caliente o cocina al horno hasta que esté dorado."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/empanado.jpg",
   "fuentes": [
    "https://www.directoalpaladar.com/curso-de-cocina/que-rebozado-que-tipos-hay-como-hacerlo-mejor-para-cada-tipo-comida-no-fallar-intento"
@@ -19026,7 +19025,7 @@
    "Fríe o cocina enseguida, antes de que la harina absorba la humedad del alimento."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/enharinado.jpg",
   "fuentes": [
    "https://www.directoalpaladar.com/curso-de-cocina/que-rebozado-que-tipos-hay-como-hacerlo-mejor-para-cada-tipo-comida-no-fallar-intento",
@@ -19085,7 +19084,7 @@
    "Un chorro de aceite virgen extra."
   ],
   "raciones": 7,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "notas": "Opcional: 2 yemas tapadas una mezcla de 3 partes de sal y 2 de azúcar para poner encima de la espuma de patata.",
   "_old": 10,
   "racionesCalculadas": true,
@@ -19136,7 +19135,7 @@
    "Deja reposar durante 15 minutos, reboza y fríe."
   ],
   "raciones": 3,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/pasta-orly.jpg",
   "_old": 5,
   "racionesCalculadas": true
@@ -19174,7 +19173,7 @@
    "Es algo sencillo de hacer y vistoso."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "_old": 11,
   "racionesCalculadas": true,
   "imagen": "img/piruleta-galleta-crujiente-de-queso.jpg"
@@ -19212,7 +19211,7 @@
    "Fríe inmediatamente en aceite abundante y bien caliente, sin pasar por huevo."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/rebozado-a-la-andaluza.jpg",
   "fuentes": [
    "https://www.directoalpaladar.com/curso-de-cocina/que-rebozado-que-tipos-hay-como-hacerlo-mejor-para-cada-tipo-comida-no-fallar-intento",
@@ -19249,7 +19248,7 @@
    "Fríe enseguida en aceite caliente hasta que esté dorado."
   ],
   "raciones": 4,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/rebozado-a-la-romana.jpg",
   "fuentes": [
    "https://www.directoalpaladar.com/curso-de-cocina/que-rebozado-que-tipos-hay-como-hacerlo-mejor-para-cada-tipo-comida-no-fallar-intento",
@@ -19286,7 +19285,7 @@
    "Reboza enseguida el producto, bien seco, y fríelo en aceite muy caliente hasta que esté dorado y crujiente."
   ],
   "raciones": 5,
-  "racionesEstimadas": true,
+  "racionesEstimadas": false,
   "imagen": "img/tempura.jpg",
   "fuentes": [
    "https://www.emagister.com/blog/?p=89028",
