@@ -45,12 +45,23 @@
     <div class="cuerpo-filtros">
       <div class="sec"><i></i><h3>Volumen</h3><i></i></div>
       <ul id="lista-vol" class="lista-cats"></ul>
-      <div id="bloque-cat"><div class="sec"><i></i><h3>Categoría</h3><i></i></div>
-      <input id="buscar-cat" type="search" placeholder="Buscar categoría" aria-label="Buscar categoría" autocomplete="off" hidden>
-      <ul id="lista-cats" class="lista-cats"></ul></div>
       <div id="bloque-etq"><div class="sec"><i></i><h3>Etiquetas</h3><i></i></div><div id="lista-etq" class="etq"></div></div>
     </div>
     <div class="pie-filtros"><button id="borrar" class="texto">Borrar filtros</button><button id="aplicar" class="boton solido"></button></div>
+  </section>
+</div>
+<div id="dialogo" class="panel" hidden>
+  <div class="velo" id="velo2"></div>
+  <section class="hoja-filtros" role="dialog" aria-modal="true" aria-label="Eliminar receta">
+    <div class="cuerpo-filtros">
+      <div class="sec"><i></i><h3>Eliminar receta</h3><i></i></div>
+      <p id="dlg-msg" class="dlg-texto"></p>
+      <label class="campo">Token de GitHub<input id="dlg-token" type="password" autocomplete="off" placeholder="github_pat_…"></label>
+      <label class="campo">Repositorio<input id="dlg-repo" type="text" autocomplete="off" placeholder="usuario/repositorio"></label>
+      <label class="chk"><input id="dlg-recordar" type="checkbox"> Recordar el token solo en esta sesión del navegador</label>
+      <p id="dlg-estado" class="dlg-texto" role="status"></p>
+    </div>
+    <div class="pie-filtros"><button id="dlg-cancelar" class="texto">Cancelar</button><button id="dlg-ok" class="boton solido">Eliminar definitivamente</button></div>
   </section>
 </div>
 <article id="detalle" class="detalle" hidden aria-modal="true" role="dialog"></article>

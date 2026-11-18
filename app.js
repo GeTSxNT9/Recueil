@@ -81,32 +81,35 @@ pintarVista();
 
 /* ---------- Panel de filtros ---------- */
 function pintarPanel() {
-  const enVol = r => selVol.has(String(r.volumen));
-  const cats = selVol.size ? [...new Set(recetas.filter(enVol).map(r => r.categoria))].sort(es) : [];
-  $('#bloque-cat').hidden = !selVol.size;
   const etqs = [...new Set(recetas.flatMap(r => r.etiquetas || []))].sort(es);
   const vols = [...new Set(recetas.map(r => String(r.volumen)))].sort(es);
-  $('#lista-vol').innerHTML = vols.map(v =>
-    `<li><button aria-pressed="${selVol.has(v)}" data-v="${esc(v)}"><span class="p"></span><span>${esc(v)}</span><i></i><span class="c">${recetas.filter(r => String(r.volumen) === v).length}</span></button></li>`).join('');
-  const buscar = $('#buscar-cat'); buscar.hidden = cats.length <= 10;
-  const q = norm(buscar.value);
-  $('#lista-cats').innerHTML = cats.filter(c => norm(c).includes(q)).map(c =>
-    `<li><button aria-pressed="${selCat.has(c)}" data-v="${esc(c)}"><span class="p"></span><span>${esc(c)}</span><i></i><span class="c">${recetas.filter(r => r.categoria === c && enVol(r)).length}</span></button></li>`).join('');
+  $('#lista-vol').innerHTML = vols.map(v => {
+    const sel = selVol.has(v);
+    const cats = sel ? [...new Set(recetas.filter(r => String(r.volumen) === v).map(r => r.categoria))].sort(es) : [];
+    const sub = sel ? `<ul class="subcats">${cats.map(c => `<li><button class="sub" aria-pressed="${selCat.has(c)}" data-c="${esc(c)}"><span class="p"></span><span>${esc(c)}</span><i></i><span class="c">${recetas.filter(r => r.categoria === c && String(r.volumen) === v).length}</span></button></li>`).join('')}</ul>` : '';
+    return `<li><button aria-pressed="${sel}" data-v="${esc(v)}"><span class="p"></span><span>${esc(v)}</span><i></i><span class="c">${recetas.filter(r => String(r.volumen) === v).length}</span></button>${sub}</li>`;
+  }).join('');
   $('#bloque-etq').hidden = !etqs.length;
   $('#lista-etq').innerHTML = etqs.map(t => `<button aria-pressed="${selEtq.has(t)}" data-v="${esc(t)}">${esc(cap(t))}</button>`).join('');
   const n = filtradas().length;
   $('#aplicar').textContent = `Ver ${n} ${n === 1 ? 'receta' : 'recetas'}`;
 }
 const refrescar = () => { pintarPanel(); pintarFiltros(); pintarRejilla(); };
-function abrirPanel() { $('#buscar-cat').value = ''; pintarPanel(); $('#panel').hidden = false; document.body.classList.add('bloqueado'); }
+function abrirPanel() { pintarPanel(); $('#panel').hidden = false; document.body.classList.add('bloqueado'); }
 function cerrarPanel() { $('#panel').hidden = true; document.body.classList.remove('bloqueado'); }
 $('#abrir-filtros').onclick = abrirPanel;
 $('#velo').onclick = $('#aplicar').onclick = cerrarPanel;
-$('#buscar-cat').oninput = pintarPanel;
 $('#borrar').onclick = () => { selVol.clear(); selCat.clear(); selEtq.clear(); refrescar(); };
 const alternar = (set, e) => { const b = e.target.closest('button'); if (!b) return; const v = b.dataset.v; set.has(v) ? set.delete(v) : set.add(v); refrescar(); };
-$('#lista-vol').onclick = e => { alternar(selVol, e); [...selCat].forEach(c => { if (!recetas.some(r => r.categoria === c && selVol.has(String(r.volumen)))) selCat.delete(c); }); refrescar(); };
-$('#lista-cats').onclick = e => alternar(selCat, e);
+$('#lista-vol').onclick = e => {
+  const b = e.target.closest('button'); if (!b) return;
+  if (b.dataset.c) { const c = b.dataset.c; selCat.has(c) ? selCat.delete(c) : selCat.add(c); }
+  else {
+    const v = b.dataset.v; selVol.has(v) ? selVol.delete(v) : selVol.add(v);
+    [...selCat].forEach(c => { if (!recetas.some(r => r.categoria === c && selVol.has(String(r.volumen)))) selCat.delete(c); });
+  }
+  refrescar();
+};
 $('#lista-etq').onclick = e => alternar(selEtq, e);
 
 /* ---------- Cantidades ---------- */
@@ -116,13 +119,25 @@ function fmt(n) {
   const f = { 0: '', .25: '¼', .5: '½', .75: '¾' }[fr];
   return String(ent || !f ? ent : '') + f;
 }
+const UNI = { diente: 'dientes', hoja: 'hojas', rama: 'ramas', loncha: 'lonchas', rebanada: 'rebanadas', vaso: 'vasos', lata: 'latas', sobre: 'sobres', taza: 'tazas', puñado: 'puñados', pizca: 'pizcas', chorro: 'chorros', manojo: 'manojos', ramillete: 'ramilletes', cabeza: 'cabezas', trozo: 'trozos', barra: 'barras', bote: 'botes' };
+const PLU = Object.fromEntries(Object.entries(UNI).map(([s, p]) => [p, s]));
+const unidad = (u, c) => { if (!u) return ''; const s = PLU[u] || u; return UNI[s] ? (c <= 1 ? s : UNI[s]) : u; };
+function secciones(ings) {
+  const out = []; let cur = { titulo: 'Ingredientes', items: [] };
+  for (const i of ings) {
+    if (i.grupo) { if (cur.items.length) out.push(cur); cur = { titulo: i.grupo, items: [] }; }
+    else cur.items.push(i);
+  }
+  if (cur.items.length) out.push(cur);
+  return out;
+}
 function pintarIngredientes() {
   const k = actual.raciones ? raciones / actual.raciones : 1;
-  $('#ings').innerHTML = actual.ingredientes.map(i => {
-    if (i.grupo) return `<li class="grupo">${esc(i.grupo)}</li>`;
-    const q = i.cantidad == null ? (i.texto || (i.pendiente ? 'por confirmar' : 'al gusto')) : fmt(i.cantidad * k) + (i.unidad ? ' ' + i.unidad : '');
+  $('#ings').innerHTML = secciones(actual.ingredientes).map((s, n) => (n ? sec(s.titulo) : '') + '<ul class="ingredientes">' + s.items.map(i => {
+    const c = i.cantidad == null ? null : i.cantidad * k;
+    const q = c == null ? (i.texto || (i.pendiente ? 'por confirmar' : 'al gusto')) : fmt(c) + (i.unidad ? ' ' + unidad(i.unidad, c) : '');
     return `<li><label><input type="checkbox"><span class="n">${esc(cap(i.nombre))}</span><i class="l"></i><b>${esc(q)}</b></label></li>`;
-  }).join('');
+  }).join('') + '</ul>').join('');
   const n = $('#n'); if (n) n.textContent = raciones;
 }
 const sec = t => `<div class="sec"><i></i><h3>${t}</h3><i></i></div>`;
@@ -142,12 +157,13 @@ function abrir(r) {
       <p class="datos">${esc(r.volumen.replace(/^\d+\.\s*/, 'Volumen ' + r.volumen.slice(0, 2) + ': '))}${r.origen ? ' / ' + esc(r.origen) : ''}</p>
       ${r.etiquetas && r.etiquetas.length ? `<p class="datos">${esc(r.etiquetas.map(cap).join(' / '))}</p>` : ''}
       ${marco(r, 'grande')}
-      ${r.ingredientes.length ? sec('Ingredientes') : ''}
+      ${secciones(r.ingredientes).length ? sec(secciones(r.ingredientes)[0].titulo) : ''}
       ${r.raciones ? `<div class="escalador">Raciones <button id="menos" aria-label="Menos raciones">−</button><b id="n"></b><button id="mas" aria-label="Más raciones">+</button></div>` : ''}
-      <ul class="ingredientes" id="ings"></ul>
+      <div id="ings"></div>
       ${sec('Elaboración')}
       <ol class="pasos">${r.pasos.map(p => p.grupo ? `<li class="sub">${esc(p.grupo)}</li>` : `<li>${esc(p)}</li>`).join('')}</ol>
       ${r.notas ? sec('Notas') + `<div class="notas"><p>${esc(r.notas)}</p></div>` : ''}
+      <div class="zona-borrar"><button id="borrar-receta" class="texto">Eliminar receta</button></div>
     </div>`;
   d.hidden = false; d.scrollTop = 0;
   document.body.classList.add('bloqueado');
@@ -158,6 +174,7 @@ function abrir(r) {
     mas.onclick = () => { if (raciones < 40) { raciones++; pintarIngredientes(); } };
   }
   $('#cerrar').onclick = () => { location.hash = ''; };
+  $('#borrar-receta').onclick = () => abrirDialogoBorrar(r);
   $('#cocina').onclick = alternarCocina;
 }
 function cerrar() {
@@ -201,3 +218,58 @@ Promise.all([
   });
   recetas = data; pintarFiltros(); pintarRejilla(); ruta();
 }).catch(e => { $('#vacio').hidden = false; $('#vacio').textContent = 'No se pudieron mostrar las recetas (' + e.message + '). Si abres index.html directamente desde el ordenador, usa un servidor local o súbelo a GitHub Pages.'; });
+
+/* ---------- Eliminar receta (API de GitHub) ---------- */
+let porBorrar = null;
+const b64 = s => { const by = new TextEncoder().encode(s); let t = ''; for (let k = 0; k < by.length; k += 0x8000) t += String.fromCharCode(...by.subarray(k, k + 0x8000)); return btoa(t); };
+const deb64 = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\s/g, '')), c => c.charCodeAt(0)));
+function repoPorDefecto() {
+  try { const g = localStorage.getItem('gh_repo'); if (g) return g; } catch (e) {}
+  const h = location.hostname;
+  if (h.endsWith('.github.io')) { const o = h.split('.')[0]; return o + '/' + (location.pathname.split('/')[1] || h); }
+  return '';
+}
+function abrirDialogoBorrar(r) {
+  porBorrar = r;
+  $('#dlg-msg').textContent = `Se eliminará «${r.titulo}» de recipes.json y su foto (${r.imagen || 'sin foto'}) del repositorio de GitHub. Esta acción no se puede deshacer desde la app.`;
+  $('#dlg-repo').value = repoPorDefecto();
+  try { $('#dlg-token').value = sessionStorage.getItem('gh_token') || ''; } catch (e) { $('#dlg-token').value = ''; }
+  $('#dlg-estado').textContent = ''; $('#dlg-ok').disabled = false;
+  $('#dialogo').hidden = false;
+}
+function cerrarDialogoBorrar() { $('#dialogo').hidden = true; porBorrar = null; }
+async function gh(token, repo, path, { method = 'GET', body, raw = false } = {}) {
+  const res = await fetch(`https://api.github.com/repos/${repo}/contents/${path}`, {
+    method, body: body ? JSON.stringify(body) : undefined,
+    headers: { Authorization: 'Bearer ' + token, Accept: raw ? 'application/vnd.github.raw+json' : 'application/vnd.github+json', ...(body ? { 'Content-Type': 'application/json' } : {}) }
+  });
+  if (res.status === 401 || res.status === 403) throw new Error('Token no válido o sin permiso de escritura (necesita «Contents: Read and write» en este repositorio).');
+  if (res.status === 404 && method === 'GET' && path !== 'recipes.json') return null;
+  if (res.status === 404) throw new Error('No se encuentra el repositorio o el archivo. Revisa el nombre del repositorio.');
+  if (!res.ok) throw new Error('GitHub respondió con el error ' + res.status + '.');
+  return raw ? res.text() : res.json();
+}
+async function eliminarReceta(r, token, repo) {
+  const meta = await gh(token, repo, 'recipes.json');
+  const texto = meta.content && meta.encoding === 'base64' ? deb64(meta.content) : await gh(token, repo, 'recipes.json', { raw: true });
+  const datos = JSON.parse(texto), nuevos = datos.filter(x => x.id !== r.id);
+  if (nuevos.length === datos.length) throw new Error('La receta no figura en el recipes.json del repositorio.');
+  await gh(token, repo, 'recipes.json', { method: 'PUT', body: { message: `Eliminar receta: ${r.titulo}`, content: b64(JSON.stringify(nuevos, null, 1)), sha: meta.sha } });
+  if (r.imagen) {
+    const im = await gh(token, repo, r.imagen);
+    if (im && im.sha) await gh(token, repo, r.imagen, { method: 'DELETE', body: { message: `Eliminar foto: ${r.titulo}`, sha: im.sha } });
+  }
+}
+$('#dlg-cancelar').onclick = $('#velo2').onclick = cerrarDialogoBorrar;
+$('#dlg-ok').onclick = async () => {
+  const token = $('#dlg-token').value.trim(), repo = $('#dlg-repo').value.trim(), est = $('#dlg-estado');
+  if (!token || !/^[^/\s]+\/[^/\s]+$/.test(repo)) { est.textContent = 'Escribe el token y el repositorio con el formato usuario/repositorio.'; return; }
+  $('#dlg-ok').disabled = true; est.textContent = 'Eliminando…';
+  try {
+    await eliminarReceta(porBorrar, token, repo);
+    try { localStorage.setItem('gh_repo', repo); $('#dlg-recordar').checked ? sessionStorage.setItem('gh_token', token) : sessionStorage.removeItem('gh_token'); } catch (e) {}
+    const id = porBorrar.id; recetas = recetas.filter(x => x.id !== id);
+    cerrarDialogoBorrar(); location.hash = ''; pintarFiltros(); pintarRejilla();
+    $('#cuenta').textContent += '  ·  Receta eliminada: GitHub Pages tardará 1-2 minutos en actualizarse.';
+  } catch (e) { est.textContent = e.message; $('#dlg-ok').disabled = false; }
+};
