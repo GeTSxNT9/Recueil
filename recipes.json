@@ -7408,8 +7408,8 @@
  {
   "id": "ajoblanco-suave-de-coco",
   "titulo": "Ajoblanco Suave de Coco",
-  "volumen": 9,
-  "categoria": "Sopas frías",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -7482,7 +7482,8 @@
   "racionesEstimadas": false,
   "_old": 11,
   "racionesCalculadas": true,
-  "imagen": "img/ajoblanco-suave-de-coco.jpg"
+  "imagen": "img/ajoblanco-suave-de-coco.jpg",
+  "tipo": "Sopas, cremas y purés salados / Sopas frías"
  },
  {
   "id": "crema-conde",
@@ -7730,8 +7731,8 @@
  {
   "id": "crema-de-zanahoria-y-naranja",
   "titulo": "Crema de Zanahoria y Naranja",
-  "volumen": 9,
-  "categoria": "Cremas",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -7785,7 +7786,8 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/crema-de-zanahoria-y-naranja.jpg"
+  "imagen": "img/crema-de-zanahoria-y-naranja.jpg",
+  "tipo": "Sopas, cremas y purés salados / Cremas"
  },
  {
   "id": "crema-esau",
@@ -9928,8 +9930,8 @@
  {
   "id": "pate-de-sardinas",
   "titulo": "Paté de Sardinas",
-  "volumen": 11,
-  "categoria": "Aperitivos",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -9990,7 +9992,8 @@
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/pate-de-sardinas.jpg",
-  "notas": "Sirve el paté bien frío, sobre pan tostado."
+  "notas": "Sirve el paté bien frío, sobre pan tostado.",
+  "tipo": "Entrantes y aperitivos / Aperitivos"
  },
  {
   "id": "pigs-in-a-blanket",
@@ -12667,8 +12670,8 @@
  {
   "id": "arroz-con-leche-de-coco",
   "titulo": "Arroz con Leche de Coco",
-  "volumen": 14,
-  "categoria": "Postres lácteos",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -12717,7 +12720,8 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/arroz-con-leche-de-coco.jpg"
+  "imagen": "img/arroz-con-leche-de-coco.jpg",
+  "tipo": "Postres y repostería / Postres lácteos"
  },
  {
   "id": "baba-al-ron",
@@ -13151,8 +13155,8 @@
  {
   "id": "bizcocho-desayunos",
   "titulo": "Bizcocho para Desayunos",
-  "volumen": 14,
-  "categoria": "Bizcochos",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -13216,7 +13220,8 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/bizcocho-desayunos.jpg"
+  "imagen": "img/bizcocho-desayunos.jpg",
+  "tipo": "Postres y repostería / Bizcochos"
  },
  {
   "id": "bizcocho-marmolado",
@@ -15370,8 +15375,8 @@
  {
   "id": "mousse-limon",
   "titulo": "Mousse Limón",
-  "volumen": 14,
-  "categoria": "Mousses",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -15425,13 +15430,14 @@
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/mousse-limon.jpg",
-  "notas": "Incorpora la nata montada con movimientos envolventes para que no pierda aire."
+  "notas": "Incorpora la nata montada con movimientos envolventes para que no pierda aire.",
+  "tipo": "Postres y repostería / Mousses"
  },
  {
   "id": "mousse-tiramisu",
   "titulo": "Mousse Tiramisú",
-  "volumen": 14,
-  "categoria": "Mousses",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -15481,7 +15487,8 @@
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/mousse-tiramisu.jpg",
-  "notas": "Para convertirla en un tiramisú clásico, sirve la mousse sobre bizcocho empapado en café."
+  "notas": "Para convertirla en un tiramisú clásico, sirve la mousse sobre bizcocho empapado en café.",
+  "tipo": "Postres y repostería / Mousses"
  },
  {
   "id": "natillas",
@@ -16039,8 +16046,8 @@
  {
   "id": "salsa-chocolate-tarta-hojaldrada",
   "titulo": "Salsa de Chocolate para Tarta Hojaldrada",
-  "volumen": 14,
-  "categoria": "Tartas y pasteles",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -16084,13 +16091,14 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/salsa-chocolate-tarta-hojaldrada.jpg"
+  "imagen": "img/salsa-chocolate-tarta-hojaldrada.jpg",
+  "tipo": "Postres y repostería / Tartas y pasteles"
  },
  {
   "id": "salsa-inglesa-para-crepes",
   "titulo": "Salsa Inglesa para Crepes",
-  "volumen": 14,
-  "categoria": "Cremas dulces",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -16135,13 +16143,14 @@
   "_old": 12,
   "racionesCalculadas": true,
   "imagen": "img/salsa-inglesa-para-crepes.jpg",
-  "notas": "Cocina la crema a 82-84 °C: es el punto en que cubre la cuchara. Si pasa de esa temperatura, se corta."
+  "notas": "Cocina la crema a 82-84 °C: es el punto en que cubre la cuchara. Si pasa de esa temperatura, se corta.",
+  "tipo": "Postres y repostería / Cremas dulces"
  },
  {
   "id": "smoothie-de-melocoton",
   "titulo": "Smoothie de Melocotón",
-  "volumen": 14,
-  "categoria": "Batidos y smoothies",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -16190,13 +16199,14 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/smoothie-de-melocoton.jpg"
+  "imagen": "img/smoothie-de-melocoton.jpg",
+  "tipo": "Postres y repostería / Batidos y smoothies"
  },
  {
   "id": "smoothie-de-oreo",
   "titulo": "Smoothie de Oreo",
-  "volumen": 14,
-  "categoria": "Batidos y smoothies",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -16239,7 +16249,8 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/smoothie-de-oreo.jpg"
+  "imagen": "img/smoothie-de-oreo.jpg",
+  "tipo": "Postres y repostería / Batidos y smoothies"
  },
  {
   "id": "suspiros-de-amante-de-teruel",
@@ -18146,8 +18157,8 @@
  {
   "id": "pesto-version-monasterio-de-piedra",
   "titulo": "Pesto de Nueces - (Versión Monasterio de Piedra)",
-  "volumen": 5,
-  "categoria": "Pestos",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -18194,7 +18205,8 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/pesto-version-monasterio-de-piedra.jpg"
+  "imagen": "img/pesto-version-monasterio-de-piedra.jpg",
+  "tipo": "Salsas para pasta / Pestos"
  },
  {
   "id": "pico-de-gallo",
@@ -18669,8 +18681,8 @@
  {
   "id": "salsa-mantequilla",
   "titulo": "Salsa de Mantequilla",
-  "volumen": 16,
-  "categoria": "Salsas calientes y bases",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -18701,13 +18713,14 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/salsa-mantequilla.jpg"
+  "imagen": "img/salsa-mantequilla.jpg",
+  "tipo": "Salsas generales y fondos / Salsas calientes y bases"
  },
  {
   "id": "salsa-meuniere",
   "titulo": "Salsa Meunière",
-  "volumen": 16,
-  "categoria": "Salsas calientes y bases",
+  "volumen": 0,
+  "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
   "ingredientes": [
    {
@@ -18751,7 +18764,8 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/salsa-meuniere.jpg"
+  "imagen": "img/salsa-meuniere.jpg",
+  "tipo": "Salsas generales y fondos / Salsas calientes y bases"
  },
  {
   "id": "salsa-romescu",

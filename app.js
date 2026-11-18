@@ -154,7 +154,7 @@ function abrir(r) {
     <div class="ficha">
       <span class="sello">— ${esc(r.categoria)} —</span>
       <h2>${esc(r.titulo)}</h2>
-      <p class="datos">${esc(r.volumen.replace(/^\d+\.\s*/, 'Volumen ' + r.volumen.slice(0, 2) + ': '))}${r.origen ? ' / ' + esc(r.origen) : ''}</p>
+      <p class="datos">${esc(/^00\b/.test(r.volumen) ? 'Restaurantes' : r.volumen.replace(/^\d+\.\s*/, 'Volumen ' + r.volumen.slice(0, 2) + ': '))}${r.origen ? ' / ' + esc(r.origen) : ''}</p>
       ${r.etiquetas && r.etiquetas.length ? `<p class="datos">${esc(r.etiquetas.map(cap).join(' / '))}</p>` : ''}
       ${marco(r, 'grande')}
       ${secciones(r.ingredientes).length ? sec(secciones(r.ingredientes)[0].titulo) : ''}
