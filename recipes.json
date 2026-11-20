@@ -19431,5 +19431,124 @@
   ],
   "fecha": "2026-11-15",
   "imagen": "img/sifon-y-espumas.jpg"
+ },
+ {
+  "id": "salsa-barbacoa-monasterio",
+  "titulo": "Salsa Barbacoa",
+  "categoria": "Monasterio de Piedra",
+  "volumen": 0,
+  "raciones": 216,
+  "racionesEstimadas": false,
+  "racionesCalculadas": true,
+  "fecha": "2026-11-20",
+  "imagen": "img/salsa-barbacoa-monasterio.jpg",
+  "fuente": "MONASTERIO DE PIEDRA",
+  "tipo": "Salsas generales y fondos / Salsas picantes y agridulces",
+  "ingredientes": [
+   {
+    "grupo": "Ingredientes del sofrito"
+   },
+   {
+    "cantidad": 1.5,
+    "unidad": "kg",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "g",
+    "nombre": "Ajo"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Tomillo",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Romero",
+    "gusto": true
+   },
+   {
+    "cantidad": 3,
+    "unidad": "ud",
+    "nombre": "Guindilla"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "cda",
+    "nombre": "Pimienta negra en grano"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "cda",
+    "nombre": "Sal"
+   },
+   {
+    "cantidad": 200,
+    "unidad": "ml",
+    "nombre": "Brandy"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "g",
+    "nombre": "Aroma de humo"
+   },
+   {
+    "grupo": "Ingredientes del caramelo"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "kg",
+    "nombre": "Azúcar"
+   },
+   {
+    "cantidad": 260,
+    "unidad": "ml",
+    "nombre": "Vinagre de Jerez"
+   },
+   {
+    "cantidad": 130,
+    "unidad": "ml",
+    "nombre": "Crema de Módena"
+   },
+   {
+    "cantidad": 25,
+    "unidad": "g",
+    "nombre": "Café soluble"
+   },
+   {
+    "grupo": "Otros ingredientes"
+   },
+   {
+    "cantidad": 7.5,
+    "unidad": "L",
+    "nombre": "Tomate frito"
+   },
+   {
+    "cantidad": 500,
+    "unidad": "g",
+    "nombre": "Salsa BBQ de bote"
+   },
+   {
+    "cantidad": 1.5,
+    "unidad": "L",
+    "nombre": "Agua"
+   },
+   {
+    "cantidad": 40,
+    "unidad": "g",
+    "nombre": "Sal"
+   }
+  ],
+  "pasos": [
+   "Prepara el caramelo con el azúcar, el vinagre de Jerez, la crema de Módena y el café soluble.",
+   "Prepara el sofrito con la cebolla, el ajo, el tomillo, el romero, las guindillas, la pimienta negra, la sal, el brandy y el aroma de humo.",
+   "Tritura el sofrito hasta que no queden grumos.",
+   "Une el sofrito con el caramelo, el tomate frito, la salsa BBQ, el agua y la sal.",
+   "Lleva a ebullición y rectifica de sal."
+  ],
+  "notas": "Es una receta de producción: usa el escalador de raciones para reducirla a la cantidad que necesites."
  }
 ]
