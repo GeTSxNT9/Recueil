@@ -840,11 +840,6 @@
     "gusto": true
    },
    {
-    "cantidad": 1,
-    "unidad": "pizca",
-    "nombre": "Sal"
-   },
-   {
     "cantidad": null,
     "unidad": "",
     "nombre": "Pimienta",
@@ -861,20 +856,23 @@
     "nombre": "Yogurt"
    },
    {
-    "cantidad": 2.0,
-    "unidad": "cdta",
-    "nombre": "Ajo en polvo"
-   },
-   {
     "cantidad": 1.0,
     "unidad": "cdta",
     "nombre": "Salsa perrins"
    },
    {
-    "cantidad": 1,
-    "unidad": "pizca",
+    "unidad": "",
     "nombre": "Sal",
-    "nota": "pizca"
+    "cantidad": null,
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes de la salsa"
+   },
+   {
+    "cantidad": 2.0,
+    "unidad": "cdta",
+    "nombre": "Ajo en polvo"
    },
    {
     "cantidad": 1,
@@ -886,6 +884,12 @@
     "cantidad": 1,
     "unidad": "pizca",
     "nombre": "Comino",
+    "nota": "pizca"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "pizca",
+    "nombre": "Sal",
     "nota": "pizca"
    }
   ],
@@ -1639,7 +1643,7 @@
    "Pon a remojar los garbanzos la noche anterior.",
    "Tritura escurridos y sin cocer junto con las cebollas, los ajos, el bicarbonato y demás ingredientes.",
    "Deja reposar la mezcla durante 30 minutos y forma bolas del tamaño de una pelota de golf.",
-   "Aplástalas un poco y fríelas de 2 a 3 minutos"
+   "Aplástalas un poco y fríelas de 2 a 3 minutos."
   ],
   "raciones": 7,
   "racionesEstimadas": false,
@@ -1964,7 +1968,7 @@
   ],
   "pasos": [
    "Coloca las lentejas y el agua (en proporción de 4 veces el peso de las lentejas) en una olla junto con los ingredientes mencionados anteriormente (excepto la patata), al gusto.",
-   "Añade la cebolla y el pimiento cortados por la mitad, los ajos laminados, las zanahorias en brunoise, el chorizo entero, la hoja de laurel, las especias al gusto y un chorrito de AOVE. Lleva la olla a fuego máximo hasta que hierva, sin agregar sal.",
+   "Añade la cebolla y el pimiento cortados por la mitad, los ajos laminados, las zanahorias en brunoise, el chorizo entero, la hoja de laurel, las especias al gusto y un chorrito de aceite de oliva virgen extra. Lleva la olla a fuego máximo hasta que hierva, sin agregar sal.",
    "Una vez que alcance el punto de ebullición, se agregan las patatas chascadas, se tapa la olla y cocina a fuego bajo durante un total de 45 minutos.",
    "Después de 30 minutos de cocción, retira los trozos de cebolla y pimiento, tritura y vuelve a incorporar a la olla hasta que finalice la cocción.",
    "Si las lentejas comienzan a secarse o se prefieren más caldosas, agrega agua fría para detener la cocción momentáneamente y permitir que las lentejas se ablanden más.",
@@ -2353,7 +2357,7 @@
   ],
   "pasos": [
    "Prepara los ingredientes: trocea el pollo y el conejo y ralla el tomate.",
-   "Calienta un buen chorro de AOVE en una paella y esparce una pizca de sal alrededor.",
+   "Calienta un buen chorro de aceite de oliva virgen extra en una paella y esparce una pizca de sal alrededor.",
    "Añade el pollo y el conejo salpimentados y dóralos bien por todos los lados.",
    "Incorpora la judía verde y el garrofón, y sofríe unos minutos.",
    "Añade el pimentón y el azafrán, y remueve.",
@@ -2439,7 +2443,7 @@
   "pasos": [
    "Prepara los ingredientes: corta la cebolla en brunoise y la rama de apio en brunoise, pica el ajo y corta la mantequilla en dados.",
    "Calienta el fondo en una olla tapada, a fuego mínimo.",
-   "Rehoga las verduras con AOVE y 20 g de la mantequilla, sin que se doren.",
+   "Rehoga las verduras con aceite de oliva virgen extra y 20 g de la mantequilla, sin que se doren.",
    "Añade el arroz, sube el fuego y nacáralo.",
    "Vierte el vino blanco y remueve hasta que se evapore el alcohol.",
    "Añade el fondo caliente poco a poco, a cucharones y removiendo con frecuencia, hasta que el arroz esté en su punto.",
@@ -3042,8 +3046,8 @@
    "Escalda las hojas de albahaca y pásalas a un baño de agua con hielo (baño maría invertido).",
    "Seca muy bien las hojas con papel de cocina.",
    "Tuesta los piñones en una sartén sin aceite.",
-   "Tritura todos los ingredientes en una licuadora con la mitad del AOVE.",
-   "Cuando la mezcla se convierta en una salsa consistente, añade el resto del AOVE y emulsionar."
+   "Tritura todos los ingredientes en una licuadora con la mitad del aceite de oliva virgen extra.",
+   "Cuando la mezcla se convierta en una salsa consistente, añade el resto del aceite de oliva virgen extra y emulsionar."
   ],
   "raciones": 3,
   "racionesEstimadas": false,
@@ -3183,7 +3187,7 @@
   ],
   "pasos": [
    "Prepara los ingredientes: corta la cebolla en brunoise y la zanahoria en brunoise y lamina el ajo.",
-   "Sofríe las hortalizas (cebolla, zanahoria, apio y ajo) en el AOVE.",
+   "Sofríe las hortalizas (cebolla, zanahoria, apio y ajo) en el aceite de oliva virgen extra.",
    "Añade la carne con el orégano, el laurel y la pimienta, y fríe a fuego fuerte hasta que tome color.",
    "Desglasa con el vino tinto y añade el tomate frito y el fondo blanco.",
    "Cocina a fuego lento durante media hora y rectifica de sal."
@@ -3486,7 +3490,7 @@
    "Pocha en la misma olla la cebolla y el ajo cortado en brunoise.",
    "Añade una cucharada de harina y, cuando haya rehogado, añade el vino y el tomate pelado y troceado.",
    "Remueve y echa el laurel y el agua (aquí puedes pasar la salsa por el chino).",
-   "Cuando empiece a hervir el agua/ caldo y deja cocer 10 minutos",
+   "Cuando empiece a hervir el agua/ caldo y deja cocer 10 minutos.",
    "Guarnición: Corta las patatas en cuadros. Fríe. Hierve los guisantes, mezcla con el huevo duro y perejil. Echa por encima de las albóndigas."
   ],
   "raciones": 10,
@@ -3681,7 +3685,9 @@
   "pasos": [
    "Mezcla todas las especias con el aceite y embadurna la carne para dejarlo cubierto 1 noche o 24 horas.",
    "Puedes lavar la carne si no se quiere encontrar las especias y las hierva o directamente sin lavar a la parrilla acompañada de patatas asadas con chimichurri. Fuego muy caliente vuelta y vuelta.",
-   "Chimichurri:",
+   {
+    "grupo": "Elaboración del chimichurri"
+   },
    "- 3 dientes de ajo.",
    "- 1 cucharada de perejil picado.",
    "- ½ cucharada de orégano.",
@@ -4385,7 +4391,7 @@
    "Una vez tiernas, escúrrelas, desecha el agua y retira los huesos largos mientras están calientes.",
    "Enharínalas y dora en la mantequilla a fuego medio y transfiérelas a una bandeja.",
    {
-    "grupo": "Manitas"
+    "grupo": "Elaboración de las manitas"
    },
    "En el paso en el que retira los huesos grandes, elimina todos los huesos que encuentres, incluso si la carne queda deshecha.",
    "Reduce la salsa hasta que adquiera una consistencia espesa.",
@@ -5178,7 +5184,7 @@
   ],
   "pasos": [
    "Prepara los ingredientes: corta la cebolla en brunoise.",
-   "Limpia las codornices, atar las patas y las alas, y dóralas en una sartén con AOVE.",
+   "Limpia las codornices, atar las patas y las alas, y dóralas en una sartén con aceite de oliva virgen extra.",
    "Añade la cebolla y sofríe.",
    "Pela las naranjas y exprímelas. Corta las pieles en tiras, elimina la parte blanca y escáldalas.",
    "Añade el coñac a las codornices y reduce. Incorpora el zumo de naranja, tritura la salsa y añade el jamón.",
@@ -6223,7 +6229,9 @@
    "Con el fuego apagado, comienza a mover la cazuela para que el bacalao suelte la proteína.",
    "Enciende el fuego al mínimo y balancea la sartén hasta que el aceite quede emulsionado.",
    "Por último, añade el ajo frito por encima, la cayena y el perejil picado.",
-   "Trucos:",
+   {
+    "grupo": "Trucos"
+   },
    "Puedes batir en la sartén el aceite y la gelatina del bacalao con una varilla o un colador.",
    "También puedes hacerla como una mayonesa aprovechando el agua de cocer el bacalao y el aceite."
   ],
@@ -6376,7 +6384,7 @@
   "pasos": [
    "Bate todos los ingredientes del orly. Pasa el bacalao por harina y por la mezcla de orly. A continuación, fríelo inmediatamente.",
    {
-    "grupo": "Salsa de pimientos"
+    "grupo": "Elaboración de la salsa de pimientos"
    },
    "Si usas pimientos choriceros, sumérgelos en agua durante 1 hora. Escúrrelos, extrae con una cuchara la carne del interior y resérvala.",
    "En una sartén, rehoga la cebolla cortada en juliana junto con el ajo y el aceite.",
@@ -6384,7 +6392,7 @@
    "Rectifica el punto de sal, añade un chorro de agua y cocina tapado durante 10 minutos.",
    "Tritura la mezcla y coloca en el fondo de una bandeja de horno.",
    {
-    "grupo": "Alioli"
+    "grupo": "Elaboración del alioli"
    },
    "Emulsiona todos los ingredientes para hacer el alioli.",
    "Coloca la mezcla en una manga pastelera y distribúyela por encima del bacalao. Coloca el bacalao sobre la salsa y gratínalo hasta que esté dorado."
@@ -6753,9 +6761,9 @@
   "pasos": [
    "Prepara los ingredientes: pica el perejil.",
    "Pela los gambones y pon en una cacerola baja con un chorrito de aceite y los ajos picados. Marca por los dos lados los gambones.",
-   "Cuando hayan cogido color, añade el tomate y el pimentón. Cocina a fuego lento durante 5 minutos",
+   "Cuando hayan cogido color, añade el tomate y el pimentón. Cocina a fuego lento durante 5 minutos.",
    "Añade la leche de coco, la sal necesaria y lleva a ebullición.",
-   "En un vaso, pon la maicena y añade 3-4 cucharadas del caldo caliente y mezcla bien. Añade a la cacerola y deja cocinando a fuego lento durante 10 minutos",
+   "En un vaso, pon la maicena y añade 3-4 cucharadas del caldo caliente y mezcla bien. Añade a la cacerola y deja cocinando a fuego lento durante 10 minutos.",
    "Emplata con un poco de perejil espolvoreado por encima."
   ],
   "origen": "Uganda/ áfrica",
@@ -6904,7 +6912,9 @@
    "Tapa la olla durante 5 minutos, destapa y añade el tomate triturado.",
    "Agrega el laurel y el perejil picado, cubre con agua o fumet.",
    "Cuando hierva, corrige el punto de sal y deja cocer tapado durante 15 minutos. Añade el bonito desmigado, remueve y mantén el hervor hasta que las patatas estén tiernas. Debe quedar un guiso espeso.",
-   "Versión con mejillones:",
+   {
+    "grupo": "Versión con mejillones"
+   },
    "Lava y desbarba los mejillones.",
    "Ponlos en una olla con un chorrito de vino blanco, una hoja de laurel y una rama de apio.",
    "Tapa la olla y enciende el fuego.",
@@ -7099,7 +7109,7 @@
    "Añade el alioli por encima.",
    "Cuando vaya a servir, gratina la preparación en el horno hasta que el alioli esté bien dorado.",
    {
-    "grupo": "Alioli"
+    "grupo": "Elaboración del alioli"
    },
    "Tritura el ajo junto con la leche y añade el resto de los ingredientes. Con la batidora de mano, mezcla todo a velocidad media, asegurándonos de mantenerla en el fondo del vaso mientras bate.",
    "Si desea una textura más espesa, puedes aumentar la velocidad de la batidora al máximo.",
@@ -7396,8 +7406,8 @@
   ],
   "pasos": [
    "Prepara los ingredientes: trocea el pan seco.",
-   "Cubre el pan con el agua y tritura con el resto de ingredientes excepto el AOVE hasta obtener una pasta uniforme.",
-   "Emulsiona con el AOVE y pasa por un colador si quieres una textura más fina."
+   "Cubre el pan con el agua y tritura con el resto de ingredientes excepto el aceite de oliva virgen extra hasta obtener una pasta uniforme.",
+   "Emulsiona con el aceite de oliva virgen extra y pasa por un colador si quieres una textura más fina."
   ],
   "raciones": 3,
   "racionesEstimadas": false,
@@ -7471,9 +7481,9 @@
   ],
   "pasos": [
    "Tritura el pan con el ajo y las almendras, vierte el agua y vuelve a triturar.",
-   "Añade el resto de ingredientes y sigue triturando, termina emulsionando con el AOVE y cuélalo.",
+   "Añade el resto de ingredientes y sigue triturando, termina emulsionando con el aceite de oliva virgen extra y cuélalo.",
    {
-    "grupo": "Del granizado de piña y albahaca"
+    "grupo": "Elaboración del granizado de piña y albahaca"
    },
    "Tritura todo, cuela y congela.",
    "Tritura de nuevo en pequeñas cantidades durante pocos segundos."
@@ -7937,9 +7947,9 @@
   ],
   "pasos": [
    "Prepara los ingredientes: trocea el tomate, el pimiento verde, la cebolla y el pepino.",
-   "Coloca todos los ingredientes en un bol con el vinagre, la mitad del AOVE y la sal.",
+   "Coloca todos los ingredientes en un bol con el vinagre, la mitad del aceite de oliva virgen extra y la sal.",
    "Mezcla bien, tapa el bol con papel de aluminio y deja reposar en la nevera una noche.",
-   "Tritura los ingredientes y emulsiona con la mitad del AOVE restante.",
+   "Tritura los ingredientes y emulsiona con la mitad del aceite de oliva virgen extra restante.",
    "Pasa por el colador si se desea una textura más fina."
   ],
   "raciones": 4,
@@ -7998,7 +8008,7 @@
    "Limpia los puerros dejando solo la parte blanca.",
    "Córtalos por la mitad a lo largo y pica haciendo medias rodajas.",
    "Pon el puerro picado en una olla al fuego con el aceite a fuego lento para que no se dore.",
-   "Echa las patatas cortadas en rodajas, cúbrela en agua en agua fría y cuece 20 minutos",
+   "Echa las patatas cortadas en rodajas, cúbrela en agua en agua fría y cuece 20 minutos.",
    "Quita la piel al bacalao, desmenúzalo y retira las espinas.",
    "Cuando las patatas estén cocidas, reparte el bacalao y da un hervor fuerte removiendo.",
    "Rectifica el punto de sal y pimienta.",
@@ -8153,7 +8163,7 @@
   ],
   "pasos": [
    "Tritura los tomates y cuela para eliminar posibles grumos.",
-   "Vuelve a triturar con el pan, el AOVE, el ajo y la sal.",
+   "Vuelve a triturar con el pan, el aceite de oliva virgen extra, el ajo y la sal.",
    "Decora con virutas de jamón y huevo cocido picado."
   ],
   "raciones": 5,
@@ -8220,7 +8230,7 @@
   ],
   "pasos": [
    "Prepara los ingredientes: corta la cebolla en juliana.",
-   "Carameliza la cebolla junto con el AOVE, la mitad de la mantequilla y la sal.",
+   "Carameliza la cebolla junto con el aceite de oliva virgen extra, la mitad de la mantequilla y la sal.",
    "Desglasa con el Pedro Ximenez, añade el vino blanco y cocina durante 2 minutos.",
    "Agrega el fondo, el tomillo y cocina destapado durante 30 minutos.",
    "Apaga el fuego, añade el resto de la mantequilla fría y remueve hasta emulsionar.",
@@ -8357,7 +8367,7 @@
    }
   ],
   "pasos": [
-   "Pica la cebolla y pocha con la mantequilla. Añade las patatas peladas y cortadas en dados. Remueve durante 5 minutos añade el fumet y cuece 20 minutos",
+   "Pica la cebolla y pocha con la mantequilla. Añade las patatas peladas y cortadas en dados. Remueve durante 5 minutos añade el fumet y cuece 20 minutos.",
    "Echa el salmón troceado sin espinas y el eneldo. Apaga el fuego, mezcla la nata, salpimienta y sirve.",
    "* la combinación del salmón con el eneldo es muy típico y muy utilizado solo en esta zona."
   ],
@@ -9260,7 +9270,7 @@
    {
     "cantidad": null,
     "unidad": "",
-    "nombre": "Harina",
+    "nombre": "Harina para rebozar",
     "gusto": true
    },
    {
@@ -9354,7 +9364,7 @@
    {
     "cantidad": null,
     "unidad": "",
-    "nombre": "Harina",
+    "nombre": "Harina para rebozar",
     "gusto": true
    },
    {
@@ -9606,7 +9616,7 @@
   ],
   "pasos": [
    "Separa las yemas de las claras y coloca en un bol. Ralla un diente de ajo y machácalo todo con un tenedor.",
-   "Añade la passata, la mayonesa, el aceite de oliva virgen extra (AOVE), el vinagre, la sal, el tabasco y el pimentón. Remueve bien la mezcla.",
+   "Añade la passata, la mayonesa, el aceite de oliva virgen extra (aceite de oliva virgen extra), el vinagre, la sal, el tabasco y el pimentón. Remueve bien la mezcla.",
    "Rellena los huevos con la mezcla y decora con pimentón por encima."
   ],
   "raciones": 3,
@@ -9857,18 +9867,18 @@
   "pasos": [
    "Corta los tomates y la cebolla en mirepoix y colócalos en un bol junto con el perejil o cilantro. Añade el zumo de lima y deja marinar durante un par de horas.",
    {
-    "grupo": "Chili con carne"
+    "grupo": "Elaboración del chili con carne"
    },
    "Sofríe el ajo y la cebolla con un poco de sal en una sartén con aceite de oliva hasta que estén pochados. A continuación, añade la carne picada y la ve deshaciendo poco a poco mientras remuévela.",
    "Cuando la carne empiece a dorarse, echa el vino. Una vez que haya evaporado, añade el comino, la pimienta y el pimentón, y remueve.",
    "Cuando estén bien mezclados, agrega las alubias escurridas y el tomate triturado o frito. Si desea, puedes añadir un toque picante.",
    "Cocina y remueve durante un par de minutos y echa el agua. Prueba y rectifica el punto de sal, remueve para mezclar todo bien y deja reducir a fuego medio o alto.",
    {
-    "grupo": "Cremoso de aguacate"
+    "grupo": "Elaboración del cremoso de aguacate"
    },
    "Tritura en un mortero el aguacate con el zumo de la lima, añadiendo un poco de sal, y reserva.",
    {
-    "grupo": "Salsa de queso cheddar"
+    "grupo": "Elaboración de la salsa de queso cheddar"
    },
    "Corta el queso en cuadraditos y pon un cazo a fuego bajo. Añade la mantequilla y, mientras se derrite, disuelve la maicena en la leche.",
    "Una vez que la mantequilla esté derretida, incorpora la mezcla de leche y maicena, y añade sal al gusto junto con el pimentón.",
@@ -9984,7 +9994,7 @@
    "Escurre los garbanzos cocidos y las sardinas.",
    "Tritura los garbanzos con el ajo, el comino, el pimentón dulce, el orégano y la sal hasta obtener una pasta.",
    "Añade las sardinas y el tomate frito y sigue triturando.",
-   "Con la batidora en marcha, incorpora el AOVE en hilo fino hasta conseguir un paté fino y homogéneo. Rectifica de sal.",
+   "Con la batidora en marcha, incorpora el aceite de oliva virgen extra en hilo fino hasta conseguir un paté fino y homogéneo. Rectifica de sal.",
    "Reserva en frío unas horas y sirve, por ejemplo, sobre pan tostado."
   ],
   "raciones": 17,
@@ -10544,7 +10554,7 @@
   ],
   "pasos": [
    "En un bol, mezcla la ricotta con la nata fría y la sal, utilizando una varilla hasta que obtenga volumen.",
-   "Rellena una manga pastelera con la mezcla y sírvela sobre las tostadas. Coloca una anchoa encima, añade unas gotas AOVE y ralladura de limón."
+   "Rellena una manga pastelera con la mezcla y sírvela sobre las tostadas. Coloca una anchoa encima, añade unas gotas aceite de oliva virgen extra y ralladura de limón."
   ],
   "raciones": 2,
   "racionesEstimadas": false,
@@ -10662,7 +10672,7 @@
   ],
   "pasos": [
    "Mezcla todos los ingredientes hasta que se pueda amasar y se deja fermentar lentamente 4 horas tapada para que no se seque y no se oxide.",
-   "Estira sobre una mesa enharinada para darle forma rectangular. Pon en una bandeja engrasada con aceite de oliva y deja fermentar 30 minutos Pintar con aceite de oliva y hornea a 250 °C durante 10 minutos",
+   "Estira sobre una mesa enharinada para darle forma rectangular. Pon en una bandeja engrasada con aceite de oliva y deja fermentar 30 minutos Pintar con aceite de oliva y hornea a 250 °C durante 10 minutos.",
    "Si la cubres con ingredientes como tomate, escalivada, huevo, romesco, aceitunas o salsa pesto, déjala 15 minutos en el horno."
   ],
   "origen": "Cataluña",
@@ -10843,7 +10853,9 @@
    "En el perol, coloca el agua, el aceite, el huevo, la sal y la manteca.",
    "Añade la harina tamizada junto con la levadura desmenuzada y ponlo en marcha lenta. Cuando la masa se despegue de las paredes y esté homogénea, estará en su punto.",
    "Si la masa está dura, añade agua; si está blanda, añade harina. Deja fermentar durante 2 horas.",
-   "Cocción de la masa",
+   {
+    "grupo": "Cocción de la masa"
+   },
    "Pesa la masa, obteniendo 1 kg.",
    "Espolvorea harina en la mesa, bolea y con un cuchillo, haz 2 cortes en cruz sobre la masa.",
    "Estira la masa desde las 4 puntas, creando un cuadrado.",
@@ -10852,7 +10864,7 @@
    "Pinta con huevo y, si desea, puedes decorar la superficie con figuras de masa. Deja reposar durante 2 horas.",
    "Finalmente, hornea a 180 °C, con más fuego por debajo que por encima, hasta que esté dorado.",
    {
-    "grupo": "Guiso"
+    "grupo": "Elaboración del guiso"
    },
    "Abre el bote de tomate, escúrrelo, coloca el tomate escurrido en un cazo y tritúralo.",
    "En una sartén al fuego, echa el aceite y el tomate, remueve hasta hacer un sofrito que haya evaporado la humedad.",
@@ -11107,7 +11119,7 @@
   "pasos": [
    "Prepara los ingredientes: pica el perejil.",
    "Trocea el pollo, quítale la piel y cuécelo 30 minutos con la zanahoria pelada. Guarda el caldo y deja que se enfríe el pollo, deshuésalo y pícalo en dados.",
-   "Pocha la cebolla en juliana, incorpora el pollo con el ras al hanut, el perejil, la zanahoria troceada, el calabacín en dados y los dátiles. Cubre con el caldo de la cocción del pollo y deja cocinando a fuego lento durante 30 minutos",
+   "Pocha la cebolla en juliana, incorpora el pollo con el ras al hanut, el perejil, la zanahoria troceada, el calabacín en dados y los dátiles. Cubre con el caldo de la cocción del pollo y deja cocinando a fuego lento durante 30 minutos.",
    "Tritura las almendras y mezcla con el azúcar y la canela.",
    "Destapa el guiso del pollo y mezcla la almendra y los 2 huevos batidos.",
    "Tiene que quedar una pasta espesa (si no espesa, se deja a fuego lento hasta que lo esté).",
@@ -11287,7 +11299,7 @@
    }
   ],
   "pasos": [
-   "Precalenta el horno a 180 °C, haz la masa quebrada y haz una primera cocción en crudo de la masa quebrada en la parte inferior del horno durante 5 minutos",
+   "Precalenta el horno a 180 °C, haz la masa quebrada y haz una primera cocción en crudo de la masa quebrada en la parte inferior del horno durante 5 minutos.",
    "Corta la panceta en dados y saltéala en una sartén. Añade la leche, la nuez moscada y la pimienta, y apaga el fuego.",
    "Bate los huevos y incorpórales la nata. Mezcla esto con la panceta, la leche y rellena la masa quebrada. Cubre con queso rallado y hornea durante 25 minutos a 180 °C."
   ],
@@ -11690,7 +11702,7 @@
    {
     "cantidad": null,
     "unidad": "",
-    "nombre": "Harina",
+    "nombre": "Harina para espolvorear",
     "gusto": true
    }
   ],
@@ -11788,7 +11800,7 @@
    "Ponla en un bol engrasado con aceite de oliva, tápala con un paño y deja reposar 45 minutos.",
    "Saca la masa y hazle pliegues hacia el centro.",
    "Repite tres veces el mismo proceso dejando 10 minutos entre pliegue y pliegue enharina una cesta y echa la masa dentro punto se deja fermentar 30 minutos mínimo lo aconsejable es más de 1 hora.",
-   "Precalenta el horno a 220 °C , vuelca la cesta en una bandeja de horno enharinada.",
+   "Precalenta el horno a 220 °C, vuelca la cesta en una bandeja de horno enharinada.",
    "Lo puedes greñar en este punto.",
    "Mete el pan al horno añadiendo vapor de vez en cuando durante veinte minutos.",
    "Baja el horno a 200 °C y cuece 40 minutos más."
@@ -12603,7 +12615,7 @@
    "Coloca en un bol junto con el zumo de limón, la canela y el azúcar, y mezcla.",
    "Vierte en una sartén caliente a fuego medio-alto y cocina durante al menos 10 minutos, luego retira la sartén del fuego.",
    {
-    "grupo": "Masa"
+    "grupo": "Elaboración de la masa"
    },
    "En un bol, mezcla la harina, el azúcar, la levadura y la sal.",
    "Añade la mantequilla rallada, el huevo y la esencia de vainilla, y mezcla bien hasta obtener una textura arenosa.",
@@ -12865,7 +12877,7 @@
    "Añádele otro chorro de almíbar y el resto de láminas de pasta filo con la mantequilla para tapar.",
    "Echa otro chorro de almíbar y mételo en el horno a 170 °C durante 20 minutos saca del horno y marca con un cuchillo rombos sobre la pasta y termina de echar el resto del almíbar que quede.",
    "Mete 15 minutos más al horno.",
-   "Apaga y deja reposar otros 15 minutos"
+   "Apaga y deja reposar otros 15 minutos."
   ],
   "origen": "Turquía",
   "raciones": 51,
@@ -12994,7 +13006,7 @@
    "Forra la base de un molde desmontable con papel sulfurizado. Transfiere la masa al molde, dándole forma, y deja reposar en la nevera durante 2 horas.",
    "Antes de desmoldar, permite que repose a temperatura ambiente durante 2 minutos.",
    {
-    "grupo": "Crema pastelera"
+    "grupo": "Elaboración de la crema pastelera"
    },
    "En un cazo, agrega la leche con la esencia de vainilla y coloca el cazo a fuego medio. Calienta la leche hasta que empiece a humear, evitando que hierva.",
    "Retira el cazo del fuego. En un bol, añade el azúcar blanco, la maicena y la sal. Mezcla bien.",
@@ -13005,7 +13017,7 @@
    "Retira el cazo del fuego, añade la mantequilla fría en cubos e incorpora.",
    "Transfiere la crema pastelera a un bol y cubre inmediatamente con papel film, asegurándonos de que toque la superficie. Deja que la crema enfríe a temperatura ambiente durante 30 minutos y refrigera al menos durante 2 horas.",
    {
-    "grupo": "Nata montada"
+    "grupo": "Elaboración de la nata montada"
    },
    "En un bol, agrega la nata para montar, el azúcar moreno, la sal y la vainilla.",
    "Con unas varillas eléctricas o manuales, bate la nata hasta que forme picos que mantengan la forma.",
@@ -13095,7 +13107,7 @@
    "Termina de mezclar con la harina y la levadura.",
    "Unta un molde de horno con mantequilla o papel de horno y hornea a 170 °C durante 40 minutos.",
    {
-    "grupo": "Sopa de chocolate blanco"
+    "grupo": "Elaboración de la sopa de chocolate blanco"
    },
    "Hierve la leche, apaga el fuego y añade el chocolate blanco, removiendo hasta que se mezcle bien."
   ],
@@ -13153,8 +13165,8 @@
   "notas": "El bizcocho se cuece en vasos de plástico, que sirven de molde."
  },
  {
-  "id": "bizcocho-desayunos",
-  "titulo": "Bizcocho para Desayunos",
+  "id": "bizcocho",
+  "titulo": "Bizcocho",
   "volumen": 0,
   "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
@@ -13220,7 +13232,7 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/bizcocho-desayunos.jpg",
+  "imagen": "img/bizcocho.jpg",
   "tipo": "Postres y repostería / Bizcochos"
  },
  {
@@ -13676,7 +13688,7 @@
    "Rellena un único molde de bizcocho con la mezcla (1h 30 minutos de horno) o en 2 - 3 moldes a gusto dependiendo de las capas que se quieran dar (35 - 45 minutos de horneado), 180 °C calor por abajo con ventilador.",
    "Deja enfriar el bizcocho, desmolda y reserva en la nevera durante al menos 2 horas en una rejilla.",
    {
-    "grupo": "Frosting"
+    "grupo": "Elaboración del frosting"
    },
    "Añade la mantequilla a un cazo a fuego medio y derrítela, deja que hierva para que vaya evaporando el agua, cuando empiece a haber espuma en vez de burbujas baja un poco el fuego sin parar de remover y cuando los lácteos estén tostados pásala a un bol.",
    "Mete un hielo en la mantequilla (para enfriarla y devolverle un poco la hidratación para que luego sea más fácil batir e integrar en el frosting)",
@@ -13685,9 +13697,9 @@
    {
     "grupo": "Decorado"
    },
-   "Pon en una bandeja las nueces y mete al horno a 180 °C durante 10 minutos",
+   "Pon en una bandeja las nueces y mete al horno a 180 °C durante 10 minutos.",
    {
-    "grupo": "Toffee"
+    "grupo": "Elaboración del toffee"
    },
    "Añade el azúcar y el agua a un cazo a fuego medio, cuando esté tostado agrega la mantequilla y remueve hasta integrar.",
    "Agrega la sal, un toque del extracto de vainilla, la nata y remueve bien.",
@@ -14362,7 +14374,7 @@
    {
     "cantidad": null,
     "unidad": "",
-    "nombre": "Azúcar",
+    "nombre": "Azúcar para espolvorear",
     "gusto": true
    },
    {
@@ -14915,7 +14927,7 @@
    "Disuelve la levadura en el agua templada mientras, en un bol, se coloca la harina, el azúcar y la sal, y se mezclan.",
    "Agrega el aceite al bol y incorpora gradualmente el agua con la levadura disuelta, mezclando hasta integrar todos los ingredientes y obtener una masa lisa. Cubre la masa con film transparente y deja reposar durante 2 horas.",
    {
-    "grupo": "Relleno"
+    "grupo": "Elaboración del relleno"
    },
    "Prepara un sofrito con el ajo y el jengibre picados, cuando estén dorados, se agrega la carne picada, se sazona con sal y pimienta y sofríe.",
    "Una vez que la carne esté dorada, añade la col, la zanahoria y la parte verde de la cebolleta ralladas. Agrega cayena o algún picante al gusto y sofríe todo bien.",
@@ -14924,7 +14936,7 @@
    "Con las manos previamente untadas de aceite, toma porciones de masa y aplástalas en la palma de la mano.",
    "Luego, agrega un par de cucharadas del relleno en el centro, cierra la masa por encima estirándola, y aplasta para sellar bien.",
    "Coloca los bollos así formados sobre un papel de horno y resérvalos.",
-   "Una vez que se han preparado todos los bollos se hornean a 180 °C durante 20 minutos"
+   "Una vez que se han preparado todos los bollos se hornean a 180 °C durante 20 minutos."
   ],
   "raciones": 12,
   "racionesEstimadas": false,
@@ -15019,7 +15031,7 @@
    {
     "cantidad": null,
     "unidad": "",
-    "nombre": "Azúcar",
+    "nombre": "Azúcar para espolvorear",
     "gusto": true
    },
    {
@@ -16031,11 +16043,11 @@
   ],
   "pasos": [
    "Disuelve la levadura en el agua, mezcla la harina con la sal y la mitad del azúcar.",
-   "En el centro de la mezcla de harina, vierte el agua y la mitad del AOVE.",
+   "En el centro de la mezcla de harina, vierte el agua y la mitad del aceite de oliva virgen extra.",
    "Amasa hasta obtener una masa elástica y deja que fermente hasta que duplique su tamaño en un bol engrasado y tapado con film.",
    "Divide la masa en 2 trozos iguales y estira sobre una mesa engrasada.",
-   "Reparte el resto del AOVE y el azúcar en el interior de cada masa, dobla las puntas hacia dentro y deja reposar durante 30 minutos.",
-   "Pincela con AOVE y espolvorea más azúcar, hornea a 220 °C de 15 a 20 minutos."
+   "Reparte el resto del aceite de oliva virgen extra y el azúcar en el interior de cada masa, dobla las puntas hacia dentro y deja reposar durante 30 minutos.",
+   "Pincela con aceite de oliva virgen extra y espolvorea más azúcar, hornea a 220 °C de 15 a 20 minutos."
   ],
   "raciones": 5,
   "racionesEstimadas": false,
@@ -16044,8 +16056,8 @@
   "racionesCalculadas": true
  },
  {
-  "id": "salsa-chocolate-tarta-hojaldrada",
-  "titulo": "Salsa de Chocolate para Tarta Hojaldrada",
+  "id": "salsa-de-chocolate",
+  "titulo": "Salsa de Chocolate",
   "volumen": 0,
   "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
@@ -16091,12 +16103,12 @@
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/salsa-chocolate-tarta-hojaldrada.jpg",
+  "imagen": "img/salsa-de-chocolate.jpg",
   "tipo": "Postres y repostería / Tartas y pasteles"
  },
  {
-  "id": "salsa-inglesa-para-crepes",
-  "titulo": "Salsa Inglesa para Crepes",
+  "id": "salsa-inglesa",
+  "titulo": "Salsa Inglesa",
   "volumen": 0,
   "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
@@ -16142,7 +16154,7 @@
   ],
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/salsa-inglesa-para-crepes.jpg",
+  "imagen": "img/salsa-inglesa.jpg",
   "notas": "Cocina la crema a 82-84 °C: es el punto en que cubre la cuchara. Si pasa de esa temperatura, se corta.",
   "tipo": "Postres y repostería / Cremas dulces"
  },
@@ -16534,17 +16546,21 @@
    "Monta las claras con la mitad del azúcar y blanquea las yemas con la otra mitad.",
    "Vuelca las claras sobre las yemas.",
    "Añade la harina, el impulsor y la ralladura de limón (se mueve con la lengua).",
-   "Forra un molde de horno con papel y hornea a 170 °C durante 20 minutos",
+   "Forra un molde de horno con papel y hornea a 170 °C durante 20 minutos.",
    "Almíba:.",
    "- 150 g de agua.",
    "- 175 g de azúcar.",
    "- zumos de limón. Pon el agua a hervir con el azúcar. En que hierva, apaga el fuego y echa el zumo de limón colado.",
-   "Crema o yema tostada:",
+   {
+    "grupo": "Crema o yema tostada"
+   },
    "- 100 g de azúcar.",
    "- 4 yemas.",
    "- 50 ml de agua.",
    "Da un hervor al azúcar con el agua. Vuélcalo poco a poco donde están las yemas batidas en un bol sin dejar de remover. Si no ha espesado lo suficiente, puedes espesarlo a fuego suave o al baño maría.",
-   "Relleno trufa y nata:",
+   {
+    "grupo": "Relleno trufa y nata"
+   },
    "- 500 ml de nata para montar.",
    "- 50 g de azúcar.",
    "- 10 g de cacao en polvo.",
@@ -16662,7 +16678,7 @@
    "Si queda muy seca, puedes agregar una cucharada de agua fría.",
    "Envuelve la masa y déjala reposar durante media hora. Precalenta el horno a 175 °C, estira la masa con el rodillo y harina, forra un molde y hornea durante 15 minutos. Finalmente, deja enfriar.",
    {
-    "grupo": "Para el relleno"
+    "grupo": "Elaboración del relleno"
    },
    "Cuece las almendras con la nata a fuego medio durante 30 minutos destapadas. Rellena los moldes y deja enfriar en la nevera.",
    "Es importante destacar que la receta original solo utiliza la nata sin las almendras. Sin embargo, si desea aprovechar las almendras, puedes picarlas y usarlas para la masa quebrada, o incluso utilizar algunas para decorar encima de la nata."
@@ -16817,8 +16833,8 @@
   "racionesCalculadas": true
  },
  {
-  "id": "yogur-casero",
-  "titulo": "Yogur Casero",
+  "id": "yogur",
+  "titulo": "Yogur",
   "volumen": 14,
   "categoria": "Postres lácteos",
   "fuente": "POSTRES",
@@ -16847,7 +16863,7 @@
   ],
   "raciones": 27,
   "racionesEstimadas": false,
-  "imagen": "img/yogur-casero.jpg",
+  "imagen": "img/yogur.jpg",
   "_old": 12,
   "racionesCalculadas": true
  },
@@ -17687,7 +17703,7 @@
    "Dora el ajo picado a fuego medio, agrega la cebolla en brunoise y sala.",
    "Pocha a fuego lento y añade los pimientos, pocha y añade la passata.",
    "Agrega los tomates cortados y remueve.",
-   "Agrega las especias, remueve y añade un chorrito de agua, deja cocer a fuego bajo tapado durante 10 minutos",
+   "Agrega las especias, remueve y añade un chorrito de agua, deja cocer a fuego bajo tapado durante 10 minutos.",
    "Rectifica de sal, haz hueco en la sartén y echa los huevos, termina de cocinar los huevos con la tapa y termina con perejil por encima."
   ],
   "raciones": 2,
@@ -17814,12 +17830,12 @@
    "Mezcla el agua tibia con la harina hasta hacer una bola.",
    "Haz bolas del tamaño de pelota de pimpón.",
    "Deja reposar 10 minutos tapadas y estira entre dos papeles de horno para darle forma redonda.",
-   "En una sartén o plancha muy caliente y sin engrasar, cocina las tortillas durante 1-2 minutos",
+   "En una sartén o plancha muy caliente y sin engrasar, cocina las tortillas durante 1-2 minutos.",
    "Hasta que úselos, mántenlos amontonados con un paño por encima.",
    "Pica los ajos y cocínalos a fuego suave sin que se doren.",
    "Añade la carne y sube el fuego mientras se remueve.",
    "Cuando se haya secado y soltado la grasa, añade el tomate picado o triturado, el picante y la sal (en este paso se le añadiría los frijoles o el maíz).",
-   "Mantén al fuego durante 30 minutos",
+   "Mantén al fuego durante 30 minutos.",
    "Monta el taco poniendo debajo el guiso de carne, encima el pico de gallo y un poco de lechuga. También puedes añadir queso rallado o guacamole."
   ],
   "raciones": 4,
@@ -18155,8 +18171,8 @@
   "imagen": "img/mojo-verde.jpg"
  },
  {
-  "id": "pesto-version-monasterio-de-piedra",
-  "titulo": "Pesto de Nueces - (Versión Monasterio de Piedra)",
+  "id": "pesto-de-nueces",
+  "titulo": "Pesto de Nueces",
   "volumen": 0,
   "categoria": "Monasterio de Piedra",
   "fuente": "MONASTERIO DE PIEDRA",
@@ -18198,14 +18214,14 @@
    }
   ],
   "pasos": [
-   "Tritura todos los ingredientes con un tercio del AOVE hasta formar una pasta.",
-   "Termina emulsionando con el resto del AOVE."
+   "Tritura todos los ingredientes con un tercio del aceite de oliva virgen extra hasta formar una pasta.",
+   "Termina emulsionando con el resto del aceite de oliva virgen extra."
   ],
   "raciones": 11,
   "racionesEstimadas": false,
   "_old": 12,
   "racionesCalculadas": true,
-  "imagen": "img/pesto-version-monasterio-de-piedra.jpg",
+  "imagen": "img/pesto-de-nueces.jpg",
   "tipo": "Salsas para pasta / Pestos"
  },
  {
@@ -18288,7 +18304,7 @@
    "Prepara los ingredientes: trocea el tomate.",
    "Abre las ñoras, córtalas, quítales las semillas y rehidrátalas en agua templada durante mínimo 2 horas.",
    "Con una puntilla sacar la pulpa de las ñoras desechando la piel.",
-   "Calienta el AOVE en una cazuela a fuego medio, añade el ajo y dora.",
+   "Calienta el aceite de oliva virgen extra en una cazuela a fuego medio, añade el ajo y dora.",
    "Añade la carne de ñora y remueve.",
    "Agrega el tomate troceado, sala, remueve y deja cocinar a fuego bajo destapado removiendo ocasionalmente durante 30 ~ 40 minutos.",
    "Saca la mezcla, pásala a un vaso batidor y tritura a máxima potencia hasta emulsionar.",
@@ -18567,7 +18583,7 @@
   ],
   "pasos": [
    "Prepara los ingredientes: tritura el tomate y lamina el ajo.",
-   "Fríe los ajos con el azúcar y AOVE.",
+   "Fríe los ajos con el azúcar y aceite de oliva virgen extra.",
    "Cuando el azúcar esté caramelizado, añade las cayenas y deshacerlas.",
    "Agrega el tomate triturado, el vino, el vinagre y el pimentón picante.",
    "Fríe la mezcla, añade el vinagre y la sal.",
@@ -19001,7 +19017,7 @@
   "pasos": [
    "Prepara los ingredientes: ralla el pepino y pica el ajo y la menta.",
    "Mezcla el pepino con la sal y pon sobre un colador para que pierda agua.",
-   "Mezcla el ajo con el zumo de limón, el yogurt y el AOVE.",
+   "Mezcla el ajo con el zumo de limón, el yogurt y el aceite de oliva virgen extra.",
    "Aplasta el pepino sobre el colador y añádelo a la mezcla del yogurt junto con la menta picada."
   ],
   "raciones": 8,
@@ -19402,7 +19418,9 @@
    "Las cargas pueden ser de dos tipos y para los siguientes elementos:.",
    "Para bebida —> co2.",
    "Para espumas —> n2o.",
-   "Espumas",
+   {
+    "grupo": "Espumas"
+   },
    "Las espumas pueden hacerse como si fuera una musse (nata montada/ clara montada). Un sifón con gas a presión para hacerlo al momento.",
    "Para espumas sólidas utiliza cargas de n2o que dan como resultado una textura esponjosa. Hay distintos tipos de espumas:.",
    "- espumas frías: Nata montada o merengue directo.",

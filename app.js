@@ -113,8 +113,9 @@ $('#lista-vol').onclick = e => {
 $('#lista-etq').onclick = e => alternar(selEtq, e);
 
 /* ---------- Cantidades ---------- */
-function fmt(n) {
+function fmt(n, u) {
   if (n >= 10) return String(Math.round(n));
+  if (u === 'g' || u === 'ml') return String(Math.round(n * 10) / 10).replace('.', ',');
   const q = Math.round(n * 4) / 4, ent = Math.floor(q), fr = q - ent;
   const f = { 0: '', .25: '¼', .5: '½', .75: '¾' }[fr];
   return String(ent || !f ? ent : '') + f;
@@ -135,10 +136,19 @@ function pintarIngredientes() {
   const k = actual.raciones ? raciones / actual.raciones : 1;
   $('#ings').innerHTML = secciones(actual.ingredientes).map((s, n) => (n ? sec(s.titulo) : '') + '<ul class="ingredientes">' + s.items.map(i => {
     const c = i.cantidad == null ? null : i.cantidad * k;
-    const q = c == null ? (i.texto || (i.pendiente ? 'por confirmar' : 'al gusto')) : fmt(c) + (i.unidad ? ' ' + unidad(i.unidad, c) : '');
+    const q = c == null ? (i.texto || (i.pendiente ? 'por confirmar' : 'al gusto')) : fmt(c, i.unidad) + (i.unidad ? ' ' + unidad(i.unidad, c) : '');
     return `<li><label><input type="checkbox"><span class="n">${esc(cap(i.nombre))}</span><i class="l"></i><b>${esc(q)}</b></label></li>`;
   }).join('') + '</ul>').join('');
   const n = $('#n'); if (n) n.textContent = raciones;
+}
+function pasosHTML(pasos) {
+  const secs = []; let cur = { titulo: null, items: [] };
+  for (const p of pasos) {
+    if (typeof p === 'object') { if (cur.items.length) secs.push(cur); cur = { titulo: p.grupo, items: [] }; }
+    else cur.items.push(p);
+  }
+  secs.push(cur);
+  return secs.filter(s => s.items.length).map(s => (s.titulo ? sec(s.titulo) : '') + `<ol class="pasos">${s.items.map(p => `<li>${esc(p)}</li>`).join('')}</ol>`).join('');
 }
 const sec = t => `<div class="sec"><i></i><h3>${t}</h3><i></i></div>`;
 
@@ -161,7 +171,7 @@ function abrir(r) {
       ${r.raciones ? `<div class="escalador">Raciones <button id="menos" aria-label="Menos raciones">−</button><b id="n"></b><button id="mas" aria-label="Más raciones">+</button></div>` : ''}
       <div id="ings"></div>
       ${sec('Elaboración')}
-      <ol class="pasos">${r.pasos.map(p => p.grupo ? `<li class="sub">${esc(p.grupo)}</li>` : `<li>${esc(p)}</li>`).join('')}</ol>
+      ${pasosHTML(r.pasos)}
       ${r.notas ? sec('Notas') + `<div class="notas"><p>${esc(r.notas)}</p></div>` : ''}
       <div class="zona-borrar"><button id="borrar-receta" class="texto">Eliminar receta</button></div>
     </div>`;

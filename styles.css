@@ -137,3 +137,6 @@ main{max-width:1180px;margin:0 auto;padding:0 1.25rem 6rem}
 .chk{display:flex;gap:.6rem;align-items:center;font-size:.85rem;color:var(--suave);margin-bottom:.5rem}
 #dlg-ok:disabled{opacity:.5;cursor:default}
 #dialogo{z-index:30}
+
+.sec h3{line-height:1.55;text-align:center}
+.sec h3::before,.sec h3::after{flex:none}
