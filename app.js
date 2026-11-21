@@ -166,6 +166,7 @@ function abrir(r) {
       <h2>${esc(r.titulo)}</h2>
       <p class="datos">${esc(/^00\b/.test(r.volumen) ? 'Restaurantes' : r.volumen.replace(/^\d+\.\s*/, 'Volumen ' + r.volumen.slice(0, 2) + ': '))}${r.origen ? ' / ' + esc(r.origen) : ''}</p>
       ${r.etiquetas && r.etiquetas.length ? `<p class="datos">${esc(r.etiquetas.map(cap).join(' / '))}</p>` : ''}
+      ${r.alergenos && r.alergenos.length ? `<p class="datos">Alérgenos: <b>${esc(r.alergenos.join(', '))}</b></p>` : ''}
       ${marco(r, 'grande')}
       ${secciones(r.ingredientes).length ? sec(secciones(r.ingredientes)[0].titulo) : ''}
       ${r.raciones ? `<div class="escalador">Raciones <button id="menos" aria-label="Menos raciones">−</button><b id="n"></b><button id="mas" aria-label="Más raciones">+</button></div>` : ''}

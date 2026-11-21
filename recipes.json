@@ -19550,5 +19550,2583 @@
    "Lleva a ebullición y rectifica de sal."
   ],
   "notas": "Es una receta de producción: usa el escalador de raciones para reducirla a la cantidad que necesites."
+ },
+ {
+  "id": "argentinas-de-pulled-pork",
+  "titulo": "Argentinas de Pulled Pork",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 20,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/argentinas-de-pulled-pork.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Huevos",
+   "Mostaza",
+   "Lácteos"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 4,
+    "unidad": "kg",
+    "nombre": "Cabezada de cerdo"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "rama",
+    "nombre": "Canela en rama"
+   },
+   {
+    "cantidad": 45,
+    "unidad": "g",
+    "nombre": "Pimiento choricero (carne)"
+   },
+   {
+    "cantidad": 6,
+    "unidad": "g",
+    "nombre": "Comino molido"
+   },
+   {
+    "cantidad": 12,
+    "unidad": "g",
+    "nombre": "Curry"
+   },
+   {
+    "cantidad": 4,
+    "unidad": "g",
+    "nombre": "Orégano seco"
+   },
+   {
+    "cantidad": 12,
+    "unidad": "g",
+    "nombre": "Pimentón dulce"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "cantidad": 750,
+    "unidad": "ml",
+    "nombre": "Vino blanco seco"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta negra",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes de la vinagreta y del relleno"
+   },
+   {
+    "cantidad": 150,
+    "unidad": "g",
+    "nombre": "Pimiento tricolor"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Cebolla morada"
+   },
+   {
+    "cantidad": 200,
+    "unidad": "g",
+    "nombre": "Tomate"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": 30,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "ml",
+    "nombre": "Zumo de lima"
+   },
+   {
+    "cantidad": 150,
+    "unidad": "g",
+    "nombre": "Queso cheddar rallado"
+   },
+   {
+    "grupo": "Ingredientes del montaje"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Masa de hojaldre",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "ml",
+    "nombre": "Salsa de mostaza y miel"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Palitos de madera tipo piruleta",
+    "texto": "según necesidad"
+   }
+  ],
+  "pasos": [
+   "Corta la cabezada de cerdo en trozos grandes y trocea la rama de canela.",
+   "Mezcla la carne con la canela, el pimiento choricero, el comino, el curry, el orégano y el pimentón, y embadúrnala por completo. Déjala macerar en el frigorífico a 4 °C durante 12 horas.",
+   "Calienta el aceite en una olla grande a fuego medio-alto, añade la carne macerada y sofríela de 10 a 12 minutos, hasta sellarla.",
+   "Vierte el vino blanco, baja a fuego medio y cuece tapado de 3,5 a 4 horas, hasta que la carne esté muy tierna. Retírala, deja que se temple y desmécala a mano o con dos tenedores.",
+   "Pica en brunoise fina el pimiento tricolor, la cebolla morada y el tomate. Aliña con sal, aceite y el zumo de lima, y mezcla bien.",
+   "Mezcla en un bol amplio la carne desmechada con la vinagreta y el queso cheddar, hasta obtener una mezcla homogénea.",
+   "Extiende la masa de hojaldre, corta círculos y marca el sello de Vértico en cada disco. Pon relleno en el centro, inserta un palito de madera tipo piruleta y cierra con el repulgue argentino.",
+   "Hornea a 180 °C de 13 a 15 minutos, hasta que el hojaldre esté dorado y crujiente.",
+   "Carga una jeringa con la salsa de mostaza y miel e inyéctala en cada empanada caliente, delante del cliente."
+  ],
+  "notas": "Asegura un sellado hermético en el cierre de la empanada para evitar fugas de queso fundido durante el horneado. Mantén el relleno frío antes del montaje: facilita el sellado y evita que el hojaldre se humedezca. Sirve con los palitos orientados hacia el mismo lado."
+ },
+ {
+  "id": "argentinas-vegetarianas",
+  "titulo": "Argentinas Vegetarianas",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 4,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/argentinas-vegetarianas.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Huevos",
+   "Lácteos",
+   "Frutos secos"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 500,
+    "unidad": "g",
+    "nombre": "Tomate"
+   },
+   {
+    "cantidad": 12,
+    "unidad": "g",
+    "nombre": "Curry"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "g",
+    "nombre": "Comino molido"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "g",
+    "nombre": "Orégano seco"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta negra",
+    "gusto": true
+   },
+   {
+    "cantidad": 150,
+    "unidad": "g",
+    "nombre": "Queso mozzarella fresco"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Masa de hojaldre",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Palitos de madera tipo piruleta",
+    "texto": "según necesidad"
+   },
+   {
+    "grupo": "Ingredientes del pesto"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Albahaca fresca"
+   },
+   {
+    "cantidad": 25,
+    "unidad": "g",
+    "nombre": "Piñones"
+   },
+   {
+    "cantidad": 300,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   }
+  ],
+  "pasos": [
+   "Corta los tomates en concassé fino (cubos pequeños, sin exceso de agua) y escúrrelos ligeramente.",
+   "Condimenta con el curry, el comino, el orégano, sal y pimienta.",
+   "Corta la mozzarella en dados pequeños o deshiláchala, e incorpórala con suavidad a la mezcla de tomate.",
+   "Extiende el hojaldre, troquela discos y marca el sello de Vértico. Pon el relleno en el centro, inserta el palito y cierra con el repulgue argentino.",
+   "Hornea a 180 °C de 13 a 15 minutos, según la fuerza del horno.",
+   "Pon en un vaso batidor el aceite, los piñones, la albahaca y una pizca de sal. Procesa a velocidad media hasta obtener una salsa fina y fluida.",
+   "Carga una jeringa con el pesto e inyéctalo en el corazón de cada empanada, delante del comensal."
+  ],
+  "notas": "Escurre ligeramente el tomate tras picarlo para que el exceso de jugo no humedezca el hojaldre antes del horneado."
+ },
+ {
+  "id": "bibimbap-con-vegetales-aragoneses",
+  "titulo": "Bibimbap con Vegetales Aragoneses",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 1,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/bibimbap-con-vegetales-aragoneses.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Huevos",
+   "Soja",
+   "Sésamo",
+   "Sulfitos"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Solomillo de ternera"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Aceite de sésamo"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Salsa de soja"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "dientes",
+    "nombre": "Ajo"
+   },
+   {
+    "cantidad": 20,
+    "unidad": "g",
+    "nombre": "Miel"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "g",
+    "nombre": "Semillas de sésamo tostado"
+   },
+   {
+    "grupo": "Ingredientes de la salsa gochujang"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Gochujang"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "ml",
+    "nombre": "Aceite de sésamo"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Vinagre de arroz"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Vino de Jerez tipo Tío Pepe"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "g",
+    "nombre": "Azúcar moreno"
+   },
+   {
+    "grupo": "Ingredientes del arroz y las verduras"
+   },
+   {
+    "cantidad": 200,
+    "unidad": "g",
+    "nombre": "Arroz D.O. Brazal de Aragón"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "g",
+    "nombre": "Brotes de soja"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "ud",
+    "nombre": "Seta shiitake"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Calabacín"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Zanahoria"
+   },
+   {
+    "cantidad": 150,
+    "unidad": "g",
+    "nombre": "Borraja"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Yema de huevo"
+   }
+  ],
+  "pasos": [
+   "Corta la ternera en láminas muy finas y mézclala con el aceite de sésamo, la salsa de soja, el ajo rallado, la miel y el sésamo tostado. Resérvala en frío 30 minutos.",
+   "Emulsiona el gochujang con el aceite de sésamo, el vinagre de arroz, el vino y el azúcar moreno, hasta disolver los gránulos.",
+   "Corta el shiitake y la cebolla en juliana fina y el calabacín y la zanahoria en bastoncillos. Trocea y limpia bien la borraja. Saltea cada verdura por separado con unas gotas de aceite de 2 a 3 minutos, hasta que estén al dente.",
+   "Cuece el arroz en abundante agua con sal de 16 a 18 minutos. Escúrrelo y mantenlo caliente.",
+   "Calienta el aceite en el dolsot de piedra directamente al fuego e introduce el arroz cocido en el fondo, muy caliente.",
+   "Lleva a la mesa, sobre una bandeja, las verduras salteadas, la ternera marinada y la yema.",
+   "Delante del cliente, añade las verduras, la ternera y la yema sobre el arroz ardiente. Agrega la salsa gochujang al gusto y mezcla con energía, para que el calor de la piedra cocine la carne y la yema."
+  ],
+  "notas": "El secreto del plato está en calentar el dolsot hasta que el arroz del fondo forme una capa dorada y crujiente, el nurungji. Sirve el dolsot muy caliente y advierte al comensal de su temperatura."
+ },
+ {
+  "id": "bombones-de-mi-cuit-de-foie-gras",
+  "titulo": "Bombones de Mi-Cuit de Foie Gras",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 6,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/bombones-de-mi-cuit-de-foie-gras.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Lácteos (en la versión con pan)"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Hígado de pato fresco (500-600 g)"
+   },
+   {
+    "cantidad": 500,
+    "unidad": "ml",
+    "nombre": "Leche entera"
+   },
+   {
+    "cantidad": 500,
+    "unidad": "ml",
+    "nombre": "Agua fría con hielo"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "ml",
+    "nombre": "Vino Harveys (Medium Sherry)"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "ml",
+    "nombre": "Brandy de Jerez"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "ml",
+    "nombre": "Vino tipo Tío Pepe"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal fina",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta negra",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes del emplatado y la decoración"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Mermelada de melocotón de Calanda"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "ml",
+    "nombre": "Reducción de vino tinto Garnacha"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal negra en escamas",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pan de hogaza tostado (o yuca frita para celíacos)",
+    "texto": "según necesidad"
+   }
+  ],
+  "pasos": [
+   "Limpia el hígado y retira todas las venas. Sumérgelo 2 horas en un bol profundo con la leche, el agua y el hielo.",
+   "Escúrrelo, colócalo en una bandeja y báñalo con el Harveys, el brandy y el vino tipo Tío Pepe. Salpimenta generosamente y déjalo macerar tapado a 4 °C durante 2 horas.",
+   "Precalienta el horno a 60 °C y hornea el foie macerado de 4 a 6 minutos, sin sobrepasar esa temperatura.",
+   "Tritura el foie hasta obtener una crema sedosa. Rellena moldes de silicona para bombones y congela 24 horas a -18 °C.",
+   "Dibuja sobre una bandeja plana rectangular blanca la bandera de Aragón: 5 barras amarillas de mermelada de melocotón alternadas con 4 barras rojas de reducción de Garnacha.",
+   "Desmolda los bombones congelados y dispón 5 alineados sobre el plato. Decora con sal negra y acompaña con tostas de pan a la parrilla."
+  ],
+  "notas": "Desmolda los bombones directamente congelados para mantener la precisión del relieve. Para comensales celíacos, sustituye el pan por yuca frita crujiente."
+ },
+ {
+  "id": "brownie-sorpresa",
+  "titulo": "Brownie Sorpresa",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 6,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/brownie-sorpresa.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Huevos",
+   "Lácteos",
+   "Frutos secos"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 1,
+    "unidad": "L",
+    "nombre": "Leche entera"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Arroz D.O. Brazal"
+   },
+   {
+    "cantidad": 70,
+    "unidad": "g",
+    "nombre": "Azúcar"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "trozo",
+    "nombre": "Corteza de limón"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "trozo",
+    "nombre": "Corteza de naranja"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "rama",
+    "nombre": "Canela en rama"
+   },
+   {
+    "grupo": "Ingredientes del brownie"
+   },
+   {
+    "cantidad": 200,
+    "unidad": "g",
+    "nombre": "Chocolate negro 70 %"
+   },
+   {
+    "cantidad": 110,
+    "unidad": "g",
+    "nombre": "Mantequilla sin sal"
+   },
+   {
+    "cantidad": 4,
+    "unidad": "ud",
+    "nombre": "Huevo"
+   },
+   {
+    "cantidad": 120,
+    "unidad": "g",
+    "nombre": "Azúcar"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "ml",
+    "nombre": "Esencia de vainilla"
+   },
+   {
+    "cantidad": 85,
+    "unidad": "g",
+    "nombre": "Harina de trigo"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "g",
+    "nombre": "Bicarbonato sódico"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "g",
+    "nombre": "Pepitas de chocolate negro"
+   },
+   {
+    "cantidad": 40,
+    "unidad": "g",
+    "nombre": "Nueces peladas picadas"
+   },
+   {
+    "grupo": "Ingredientes de la cobertura"
+   },
+   {
+    "cantidad": 200,
+    "unidad": "g",
+    "nombre": "Chocolate negro fundente"
+   },
+   {
+    "cantidad": 40,
+    "unidad": "g",
+    "nombre": "Azúcar"
+   },
+   {
+    "cantidad": 110,
+    "unidad": "ml",
+    "nombre": "Leche entera"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Nueces picadas (para el topping)"
+   }
+  ],
+  "pasos": [
+   "Pon en un cazo el arroz, la leche, la canela y las cortezas de cítricos. Cuece a fuego medio-bajo, removiendo constantemente, de 30 a 35 minutos. Añade el azúcar en los últimos 5 minutos, retira los aromáticos y deja enfriar por completo.",
+   "Funde en el microondas los 200 g de chocolate con la mantequilla, a potencia media y en intervalos de 30 segundos. Mezcla hasta que quede homogéneo.",
+   "Bate los huevos con el azúcar y la vainilla. Incorpora la harina cernida con el bicarbonato.",
+   "Añade el chocolate fundido, las pepitas y las nueces.",
+   "Unta con mantequilla moldes individuales, reparte la masa y hornea a 140 °C durante 15 minutos. Atempera y desmolda.",
+   "Mezcla en un recipiente el chocolate de la cobertura, el azúcar y la leche. Calienta 2 minutos en el microondas a potencia media y bate hasta homogeneizar.",
+   "Haz un hueco circular en el centro de cada brownie y rellénalo con una porción generosa de arroz con leche frío.",
+   "Coloca el brownie en un recipiente metálico curvo y un molde cilíndrico abierto encima. Vierte la cobertura caliente dentro y cubre con nueces picadas. Retira el cilindro delante del cliente para que fluya el chocolate."
+  ],
+  "notas": "Controla el tiempo de horneado a 140 °C para que el brownie quede tierno y húmedo en los bordes. Prepara el arroz con leche con antelación y enfríalo rápidamente en un recipiente poco profundo."
+ },
+ {
+  "id": "canastas-de-cochinita-pibil",
+  "titulo": "Canastas de Cochinita Pibil",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 3,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/canastas-de-cochinita-pibil.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Soja (puede contener gluten)"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 4,
+    "unidad": "kg",
+    "nombre": "Cabezada de cerdo"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta negra",
+    "gusto": true
+   },
+   {
+    "cantidad": 15,
+    "unidad": "g",
+    "nombre": "Pasta de achiote"
+   },
+   {
+    "cantidad": 6,
+    "unidad": "g",
+    "nombre": "Comino molido"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Canela en polvo"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "g",
+    "nombre": "Orégano seco"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "ml",
+    "nombre": "Zumo de limón"
+   },
+   {
+    "cantidad": 250,
+    "unidad": "ml",
+    "nombre": "Vino blanco seco"
+   },
+   {
+    "grupo": "Ingredientes de la cebolla morada encurtida"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "ud",
+    "nombre": "Cebolla morada"
+   },
+   {
+    "cantidad": 300,
+    "unidad": "ml",
+    "nombre": "Agua"
+   },
+   {
+    "cantidad": 300,
+    "unidad": "ml",
+    "nombre": "Vinagre de manzana"
+   },
+   {
+    "cantidad": 300,
+    "unidad": "ml",
+    "nombre": "Zumo de naranja"
+   },
+   {
+    "cantidad": 200,
+    "unidad": "g",
+    "nombre": "Azúcar moreno"
+   },
+   {
+    "grupo": "Ingredientes de las canastas y la guarnición"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "ud",
+    "nombre": "Plátano macho verde"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite para freír",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal fina",
+    "gusto": true
+   },
+   {
+    "cantidad": 6,
+    "unidad": "ud",
+    "nombre": "Hoja de borraja"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "ml",
+    "nombre": "Salsa LOU"
+   }
+  ],
+  "pasos": [
+   "Corta la cebolla morada en juliana fina. Pon en un frasco hermético el agua, el vinagre, el zumo de naranja y el azúcar moreno, sumerge la cebolla y déjala 48 horas en el frigorífico.",
+   "Salpimienta la cabezada y macérala 2 horas con el achiote, el orégano, el comino, la canela y el zumo de limón.",
+   "Colócala en una olla, riégala con el vino blanco y cuece a fuego lento de 3,5 a 4 horas. Desmécala y resérvala en su propio jugo.",
+   "Corta el plátano macho en rodajas gruesas y fríelo una primera vez a 150 °C durante 4 minutos. Escúrrelo y moldéalo enseguida dentro de un exprimidor de limones envuelto en film, para formar cazoletas.",
+   "Fríe de nuevo a 180 °C durante 2 minutos, hasta que doren, y sala.",
+   "Fríe las hojas de borraja limpias y secas en aceite a 180 °C de 20 a 30 segundos, hasta que queden crujientes y traslúcidas. Escúrrelas sobre papel absorbente.",
+   "Rellena las canastas calientes con la cochinita, corona con la cebolla encurtida, inserta una hoja de borraja frita y termina con un hilo de salsa LOU."
+  ],
+  "notas": "Seca perfectamente las hojas de borraja antes de freírlas para evitar salpicaduras y conseguir un crujiente uniforme. Fríe las canastas justo antes del pase para conservar su textura."
+ },
+ {
+  "id": "ceviche-de-altura",
+  "titulo": "Ceviche de Altura",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 1,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/ceviche-de-altura.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Soja",
+   "Sésamo (apto para celíacos)"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 3,
+    "unidad": "tiras",
+    "nombre": "Borraja"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Minimazorca de maíz dulce"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Seta shiitake"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "g",
+    "nombre": "Calabaza"
+   },
+   {
+    "cantidad": 4,
+    "unidad": "ud",
+    "nombre": "Brócoli (florete)"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Zanahoria baby"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Pepino baby"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "ud",
+    "nombre": "Tomate cherry"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Granada (granos)"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "g",
+    "nombre": "Mango maduro"
+   },
+   {
+    "grupo": "Ingredientes de la leche de tigre vegetariana"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "ml",
+    "nombre": "Zumo de lima"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Cilantro fresco"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Salsa de soja sin gluten"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Jengibre fresco rallado"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Aceite de sésamo"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Pimiento verde"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Cebolla morada"
+   },
+   {
+    "grupo": "Ingredientes del topping"
+   },
+   {
+    "cantidad": 0.25,
+    "unidad": "ud",
+    "nombre": "Plátano macho (para chips)"
+   }
+  ],
+  "pasos": [
+   "Pon en el vaso de la batidora el zumo de lima, el cilantro, la salsa de soja, el jengibre, el aceite de sésamo, el pimiento verde y la cebolla morada. Tritura a máxima potencia, cuela por un tamiz fino y reserva en frío.",
+   "Escalda en agua hirviendo con sal la borraja, las minimazorcas, los shiitakes, la calabaza, el brócoli y las zanahorias baby de 4 a 6 minutos, hasta que estén al dente. Enfríalos enseguida en agua con hielo y escúrrelos.",
+   "Corta el pepino en rodajas finas y los tomates cherry por la mitad. Desgrana la granada y corta el mango en juliana fina. Mantén todos los elementos a tamaño de bocado, para comerlos cómodamente con cuchara.",
+   "Corta el plátano macho en trozos finos y fríelo hasta obtener chips crujientes.",
+   "Dispón las verduras cocidas y crudas en la base de un plato hondo, combinando volúmenes. Vierte la leche de tigre muy fría por el contorno y corona con los chips de plátano macho en vertical."
+  ],
+  "notas": "Mantén la leche de tigre a 2 °C hasta el momento de servir: así resalta su carácter cítrico."
+ },
+ {
+  "id": "chuleton-vertico",
+  "titulo": "Chuletón Vértico",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 1,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/chuleton-vertico.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Ninguno (apto para celíacos)"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 500,
+    "unidad": "g",
+    "nombre": "Chuletón de lomo bajo de vacuno madurado"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal marina gruesa",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes de las patatas risoladas y la grasa madurada"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "g",
+    "nombre": "Grasa madurada de vacuno"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Patata baby"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Pimiento del piquillo"
+   },
+   {
+    "grupo": "Ingredientes de las chalotas y los tomates en escabeche"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Chalota"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Tomate cherry"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "cantidad": 25,
+    "unidad": "ml",
+    "nombre": "Vinagre de vino blanco"
+   },
+   {
+    "cantidad": 25,
+    "unidad": "ml",
+    "nombre": "Vino blanco seco"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "hoja",
+    "nombre": "Hoja de laurel"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal fina",
+    "gusto": true
+   }
+  ],
+  "pasos": [
+   "Saca el chuletón de la cámara al menos 30 minutos antes del asado, para que alcance la temperatura ambiente en el centro de la pieza.",
+   "Cuece las patatas baby en agua hirviendo con sal durante 10 minutos, escúrrelas y trocéalas.",
+   "Funde los dados de grasa madurada en una sartén y dora las patatas junto al piquillo, hasta formar una costra dorada.",
+   "Calienta en un cazo el aceite con el vinagre, el vino blanco, el laurel y sal. Estofa suavemente las chalotas y los tomates cherry durante 12 minutos a fuego bajo.",
+   "Pon el chuletón sobre las brasas con abundante sal gruesa y séllalo de 8 a 10 minutos por cara, según el punto que pida el cliente. Retíralo y déjalo reposar 3 minutos sobre una rejilla.",
+   "Separa el hueso con un cuchillo de trinchar y corta el lomo en tiras de 1,5 cm de grosor.",
+   "Sobre una pizarra caliente, apoya el hueso en forma de L, dispón los cortes en abanico y coloca las patatas y el escabeche en el extremo opuesto. Corona el hueso con los chicharrones de grasa madurada."
+  ],
+  "notas": "Respeta los 3 minutos de reposo tras el asado para que la carne no suelte sus jugos sobre la piedra de servicio. El tiempo de parrilla depende del grosor de la pieza y de la intensidad del fuego: usa una sonda si lo necesitas."
+ },
+ {
+  "id": "chupa-chups-de-pollo-en-crema-de-borraja",
+  "titulo": "Chupa-Chups de Pollo en Crema de Borraja",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 5,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/chupa-chups-de-pollo-en-crema-de-borraja.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Frutos secos",
+   "Lácteos",
+   "Sulfitos"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 15,
+    "unidad": "ud",
+    "nombre": "Muslito de pollo de corral sin piel"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "g",
+    "nombre": "Cilantro fresco"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Jengibre fresco"
+   },
+   {
+    "cantidad": 400,
+    "unidad": "g",
+    "nombre": "Tomate triturado"
+   },
+   {
+    "cantidad": 200,
+    "unidad": "ml",
+    "nombre": "Leche de coco"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Panko",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite para freír",
+    "texto": "según necesidad"
+   },
+   {
+    "grupo": "Ingredientes de la pasta Tikka Masala"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Semillas de cilantro"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Semillas de comino"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Chile rojo fresco"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "dientes",
+    "nombre": "Ajo"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Jengibre fresco rallado"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Pimentón ahumado"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "g",
+    "nombre": "Cayena molida"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "g",
+    "nombre": "Garam masala"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal fina",
+    "gusto": true
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Coco rallado"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "g",
+    "nombre": "Almendra picada (granillo)"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Tomate frito concentrado"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "grupo": "Ingredientes de la crema de borraja"
+   },
+   {
+    "cantidad": 500,
+    "unidad": "g",
+    "nombre": "Borraja fresca"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "ml",
+    "nombre": "Nata líquida para cocinar 35 %"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite de oliva virgen extra",
+    "gusto": true
+   }
+  ],
+  "pasos": [
+   "Tuesta en seco el cilantro y el comino durante 1 minuto. Procésalos con los chiles, el ajo, el jengibre, el pimentón, la cayena, el garam masala, el coco, la almendra, el tomate frito, la sal y el aceite, hasta obtener una pasta espesa.",
+   "Marina los muslitos con la pasta Tikka Masala.",
+   "Pocha en una cazuela la cebolla picada con el cilantro, el jengibre y un chile picado. Incorpora los muslitos con su marinado, el tomate triturado, la leche de coco y sal. Estofa a fuego lento de 35 a 40 minutos. Retira los muslitos y deja que se enfríen.",
+   "Cuece la borraja en agua con sal durante 10 minutos, escúrrela con energía y procésala con la nata y un chorro de aceite, hasta obtener un puré verde sedoso.",
+   "Raspa con un cuchillo el hueso de cada muslito para dejar el extremo óseo completamente limpio.",
+   "Pasa los muslitos por panko y fríelos a 170 °C de 1 a 2 minutos, hasta que doren y se recalienten por completo.",
+   "Sirve la crema de borraja tibia en cuencos individuales y coloca encima los muslitos de pie, en vertical."
+  ],
+  "notas": "Limpia bien el extremo del hueso para lograr el acabado de chupa-chups. Comprueba que el interior del pollo alcanza una temperatura segura tras la fritura."
+ },
+ {
+  "id": "churro-gosi-a-3-chocolates",
+  "titulo": "Churro-Gosi a 3 Chocolates",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 4,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/churro-gosi-a-3-chocolates.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Huevo",
+   "Lácteos"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 250,
+    "unidad": "g",
+    "nombre": "Harina de trigo de fuerza"
+   },
+   {
+    "cantidad": 250,
+    "unidad": "ml",
+    "nombre": "Agua"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "g",
+    "nombre": "Azúcar"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Sal fina"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Huevo"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite de girasol para freír",
+    "texto": "según necesidad"
+   },
+   {
+    "grupo": "Ingredientes de la trilogía de chocolates"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Chocolate con leche"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Chocolate blanco"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Chocolate rubí"
+   }
+  ],
+  "pasos": [
+   "Lleva a ebullición en un cazo el agua con el azúcar y la sal. Retira del fuego, añade la harina de golpe y remueve con energía con una cuchara de madera, hasta obtener una masa homogénea que se despegue de las paredes. Deja templar 5 minutos e incorpora el huevo batido hasta integrarlo por completo.",
+   "Forma 4 esferas de masa de tamaño decreciente, de la más grande a la más pequeña. Fríelas en abundante aceite a 170 °C de 4 a 5 minutos, hasta que estén infladas, doradas y cocidas por dentro. Escúrrelas sobre papel absorbente.",
+   "Ensarta los 4 churro-gosi en una brocheta o espada sujeta a un soporte de mesa, con la pieza más pequeña arriba y la más grande en la base.",
+   "Pon en el plato base metálico una capa de chocolate con leche fundido y encima otra de chocolate blanco. Sirve en mesa junto a una jarrita con el chocolate rubí caliente, para verterlo desde arriba y que discurra por toda la torre."
+  ],
+  "notas": "Respeta el orden decreciente de tamaño al ensartar: así el hilo continuo de chocolate rubí baña todas las esferas."
+ },
+ {
+  "id": "el-origen",
+  "titulo": "El Origen - (Mini hamburguesas de Black Angus y trufa)",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 1,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/el-origen.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Lácteos",
+   "Huevos",
+   "Sésamo",
+   "Sulfitos"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 200,
+    "unidad": "g",
+    "nombre": "Carne picada de vacuno Black Angus (21 días de maduración)"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Panecillo mini brioche de patata con sésamo"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Queso trufado D.O. Guara (lasca)"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Huevo de codorniz"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Trufa negra de Teruel"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Mantequilla",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal fina",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes de la salsa de shiitake"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Seta shiitake"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "ml",
+    "nombre": "Vino blanco seco"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta",
+    "gusto": true
+   }
+  ],
+  "pasos": [
+   "Pocha la cebolla picada y los shiitakes en una sartén con el aceite durante 6 minutos. Añade el vino blanco y redúcelo por completo. Tritura ligeramente, conservando trocitos visibles de seta, y reserva tibia.",
+   "Corta los panes brioche horizontalmente con un cuchillo de sierra apoyado plano sobre la mesa. Tuesta las caras interiores en la plancha con mantequilla, sin voltear las tapas.",
+   "Fríe los huevos de codorniz en la plancha, dejando la yema fluida.",
+   "Aplasta las dos bolas de carne para darles forma circular, salpimenta y séllalas en la plancha o la parrilla a fuego vivo, 2 minutos por lado. En el último minuto, pon una lasca de queso trufado sobre cada una y tapa para que se funda.",
+   "Sobre la base del pan, pon una cucharada de salsa de shiitake, la hamburguesa con el queso, el huevo de codorniz frito y trufa negra rallada por encima.",
+   "Presenta las dos minihamburguesas semiabiertas, para que se vea el interior."
+  ],
+  "notas": "Corta el pan perfectamente paralelo para que no se incline al emplatar. No presiones la carne durante la cocción: así conserva sus jugos."
+ },
+ {
+  "id": "el-secreto-de-teruel",
+  "titulo": "El Secreto de Teruel",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 1,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/el-secreto-de-teruel.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Lácteos",
+   "Mostaza",
+   "Frutos secos (apto para celíacos)"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 300,
+    "unidad": "g",
+    "nombre": "Secreto de cerdo Duroc"
+   },
+   {
+    "cantidad": 80,
+    "unidad": "ml",
+    "nombre": "Zumo de pomelo rosa"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Mostaza Dijon suave"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "g",
+    "nombre": "Avellana tostada"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal negra en escamas",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes del puré de patata"
+   },
+   {
+    "cantidad": 300,
+    "unidad": "g",
+    "nombre": "Patata"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "ml",
+    "nombre": "Leche entera"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal fina",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta blanca",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes del acompañamiento y la decoración"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "bola",
+    "nombre": "Helado artesano de tomate y albahaca"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "rodaja",
+    "nombre": "Pomelo rosa"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "g",
+    "nombre": "Menta fresca"
+   }
+  ],
+  "pasos": [
+   "Mezcla el zumo de pomelo, la mostaza Dijon y las avellanas picadas muy finas. Cubre el secreto con esta marinada y déjalo macerar en frío a 4 °C durante al menos 3 horas.",
+   "Pela y trocea las patatas. Cuécelas en la leche a fuego suave durante 20 minutos, hasta que estén tiernas. Salpimenta y tritura con la batidora de brazo hasta obtener un puré liso.",
+   "Retira el secreto de la marinada y sécalo ligeramente con papel absorbente. Cocínalo en parrilla de carbón a temperatura alta de 3 a 4 minutos por lado, hasta obtener un exterior caramelizado y el centro jugoso.",
+   "Trincha el secreto en 8 lonchas oblicuas.",
+   "Extiende el puré en un extremo del plato y haz un hueco central para la bola de helado de tomate, como si fuera un huevo frito. Coloca al lado las lonchas de secreto con sal negra, la rodaja de pomelo marcada en la parrilla y las hojas de menta."
+  ],
+  "notas": "No prolongues la maceración más de lo necesario: la acidez del pomelo puede modificar la textura de la carne. Mantén el puré caliente y coloca la bola de helado en el último instante, para crear contraste térmico."
+ },
+ {
+  "id": "fantasia-de-atun-rojo",
+  "titulo": "Fantasía de Atún Rojo",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 1,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/fantasia-de-atun-rojo.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Pescado",
+   "Soja",
+   "Lácteos (apto para celíacos)"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 125,
+    "unidad": "g",
+    "nombre": "Lomo de atún rojo"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal negra en escamas",
+    "gusto": true
+   },
+   {
+    "cantidad": 1,
+    "unidad": "bola",
+    "nombre": "Helado de wasabi"
+   },
+   {
+    "cantidad": 40,
+    "unidad": "g",
+    "nombre": "Ensalada de alga wakame aliñada"
+   },
+   {
+    "grupo": "Ingredientes de la espuma de soja"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "ml",
+    "nombre": "Salsa de soja reducida en sal"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "ml",
+    "nombre": "Zumo de naranja"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "g",
+    "nombre": "Lecitina de soja en polvo"
+   }
+  ],
+  "pasos": [
+   "Pincela el lomo de atún con unas gotas de aceite y márcalo en la parrilla a fuego muy vivo, 30 segundos por cara, conservando el centro crudo. Córtalo en lonchas tipo tataki de 8 mm de grosor.",
+   "Mezcla la salsa de soja, el zumo de naranja y la lecitina en un recipiente ancho. Bate con un minipimer en la superficie del líquido, incorporando aire, hasta formar una espuma de burbujas estables.",
+   "Dispón las lonchas de tataki en un lateral de un plato redondo y coloca en el centro una quenelle o bola de helado de wasabi.",
+   "Reparte el alga wakame en semicírculo, añade cucharadas del aire de soja y sazona el atún con escamas de sal negra."
+  ],
+  "notas": "El tiempo de sellado no debe superar 1 minuto en total, para conservar el marmoleado graso del corte. Mantén el atún refrigerado hasta el momento de marcarlo."
+ },
+ {
+  "id": "lasana-trufada-anjali-mudra",
+  "titulo": "Lasaña Trufada Anjali Mudra",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 12,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/lasana-trufada-anjali-mudra.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Lácteos",
+   "Sulfitos"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 3,
+    "unidad": "kg",
+    "nombre": "Morcillo de ternera"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "ud",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 4,
+    "unidad": "dientes",
+    "nombre": "Ajo"
+   },
+   {
+    "cantidad": 6,
+    "unidad": "ud",
+    "nombre": "Manzana reineta"
+   },
+   {
+    "cantidad": 140,
+    "unidad": "g",
+    "nombre": "Pimiento choricero (carne)"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "g",
+    "nombre": "Pimentón dulce o picante"
+   },
+   {
+    "cantidad": 400,
+    "unidad": "ml",
+    "nombre": "Cerveza negra"
+   },
+   {
+    "cantidad": 500,
+    "unidad": "ml",
+    "nombre": "Caldo concentrado de carne"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite de oliva virgen extra",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes de la bechamel de trufa"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Mantequilla sin sal"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Harina de trigo"
+   },
+   {
+    "cantidad": 750,
+    "unidad": "ml",
+    "nombre": "Leche entera"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aroma de trufa",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Nuez moscada",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes del montaje y el servicio"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Placas de lasaña precocidas",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": 150,
+    "unidad": "g",
+    "nombre": "Queso Monterey Jack rallado"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Papadum"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "ud",
+    "nombre": "Lascas de trufa negra de Teruel"
+   }
+  ],
+  "pasos": [
+   "Dora el morcillo en dados con aceite a fuego alto y retíralo. En la misma olla, pocha la cebolla, el ajo y las manzanas peladas y troceadas.",
+   "Añade el pimiento choricero, el pimentón, la carne dorada, la cerveza y el caldo. Estofa tapado de 2,5 a 3 horas, hasta que la carne se deshaga.",
+   "Infusiona la leche templada con el aroma de trufa.",
+   "Funde la mantequilla con el aceite en una cacerola, añade la harina y rehoga 2 minutos. Vierte la leche infusionada removiendo con varilla hasta que espese. Salpimenta y perfuma con nuez moscada.",
+   "Precuece las placas de lasaña 5 minutos. En un aro cilíndrico sobre una bandeja de horno, alterna capas de bechamel, pasta, carne desmechada y queso Monterey Jack.",
+   "Hornea a 180 °C durante 20 minutos.",
+   "Fríe el papadum en aceite muy caliente solo 5 segundos por lado y escúrrelo sobre papel absorbente.",
+   "Retira el aro y emplata en un plato hondo de ala ancha. Cubre con bechamel trufada, coloca 5 lascas de trufa de Teruel e inserta el papadum en vertical. En sala, el camarero lo rompe delante del comensal."
+  ],
+  "notas": "Para la versión de lasaña de azafrán, infusiona la leche con 10 hebras de azafrán en lugar del aroma de trufa. Prepara por separado las dos bechameles y etiquétalas para evitar confusiones en el pase."
+ },
+ {
+  "id": "los-3-cabezudos",
+  "titulo": "Los 3 Cabezudos",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 1,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/los-3-cabezudos.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Lácteos",
+   "Frutos secos",
+   "Huevos",
+   "Gluten",
+   "Soja"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 1,
+    "unidad": "bola",
+    "nombre": "Helado artesano de Trenza de Almudévar"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "bola",
+    "nombre": "Helado artesano de guirlache de Aragón"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "bola",
+    "nombre": "Helado artesano de melocotón con vino tinto"
+   },
+   {
+    "grupo": "Ingredientes de la presentación"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "ud",
+    "nombre": "Mini cucurucho de barquillo"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Galleta Lotus triturada"
+   }
+  ],
+  "pasos": [
+   "Espolvorea uniformemente el polvo de galleta Lotus en el centro de un plato plano blanco, para crear un lecho crujiente.",
+   "Humedece el sacabolas en agua tibia y forma 3 esferas firmes, una de cada sabor.",
+   "Coloca las tres bolas sobre el lecho de galleta, formando un triángulo estable.",
+   "Pon un mini cucurucho invertido sobre cada bola, imitando el sombrero alargado de los cabezudos aragoneses. Sirve de inmediato."
+  ],
+  "notas": "Para comensales celíacos, sustituye la bola de Trenza de Almudévar por una segunda de guirlache o de melocotón, y usa cucuruchos sin gluten. Comprueba también la composición de la galleta."
+ },
+ {
+  "id": "manitas-viajeras",
+  "titulo": "Manitas Viajeras",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 4,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/manitas-viajeras.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Huevos",
+   "Frutos secos",
+   "Lácteos"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 4,
+    "unidad": "ud",
+    "nombre": "Manita de cerdo"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Cebolla claveteada con 4 clavos"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Zanahoria"
+   },
+   {
+    "cantidad": 4,
+    "unidad": "dientes",
+    "nombre": "Ajo"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta negra en grano",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal fina",
+    "gusto": true
+   },
+   {
+    "cantidad": 4,
+    "unidad": "ud",
+    "nombre": "Huevo"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pan rallado",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite para freír",
+    "texto": "según necesidad"
+   },
+   {
+    "grupo": "Ingredientes del ternasco korma"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Pierna de ternasco de Aragón deshuesada"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "cantidad": 4,
+    "unidad": "vainas",
+    "nombre": "Cardamomo"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "hoja",
+    "nombre": "Hoja de laurel"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Clavo"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "rama",
+    "nombre": "Canela en rama"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Masala de almendras (almendra molida, ajo, jengibre, comino, pimentón y agua)"
+   },
+   {
+    "cantidad": 250,
+    "unidad": "g",
+    "nombre": "Yogur natural sin azucarar"
+   },
+   {
+    "cantidad": 300,
+    "unidad": "ml",
+    "nombre": "Nata para cocinar"
+   },
+   {
+    "cantidad": 40,
+    "unidad": "g",
+    "nombre": "Pasas de Corinto"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Almendra en granillo"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "g",
+    "nombre": "Garam masala casero"
+   },
+   {
+    "grupo": "Ingredientes de la gelatina de flambeado"
+   },
+   {
+    "cantidad": 200,
+    "unidad": "ml",
+    "nombre": "Caldo de cocción de las manitas desgrasado"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "g",
+    "nombre": "Salsa de tomate"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Pimentón ahumado picante"
+   }
+  ],
+  "pasos": [
+   "Cuece las manitas en agua con la cebolla claveteada, las zanahorias, los ajos, la pimienta en grano y sal de 2,5 a 3 horas. Deja templar y deshuésalas con cuidado de no romper la piel. Reserva el caldo.",
+   "Prepara el masala mezclando la almendra molida con ajo, jengibre, comino, pimentón y agua, hasta obtener una pasta.",
+   "Trocea el ternasco y dóralo con el aceite. Retíralo y, en el mismo aceite, dora el cardamomo, el laurel, el clavo y la canela. Añade la cebolla picada y el masala de almendras.",
+   "Incorpora los yogures, el ternasco y la nata, y cuece a fuego lento 1 hora y 15 minutos. Añade las pasas, el garam masala y la almendra en granillo.",
+   "Rellena la piel de las manitas con el guiso de ternasco y enróllalas en film, formando un cilindro compacto. Refrigera 4 horas.",
+   "Reduce el caldo de cocción con el tomate y el pimentón hasta obtener una gelatina densa al enfriar.",
+   "Corta los cilindros en medallones, pásalos por huevo batido y pan rallado y fríelos a 180 °C hasta que doren.",
+   "Emplata los medallones sobre un espejo de salsa korma, coloca encima la gelatina y derrítela con soplete delante del cliente."
+  ],
+  "notas": "Enfría por completo los cilindros antes de cortarlos para que no se desarmen, y mantén la gelatina bien fría antes de cortarla en bloques. El garam masala casero se prepara tostando y triturando cilantro, clavo, canela, cardamomo, comino, pimienta negra, hinojo y laurel."
+ },
+ {
+  "id": "nigiri-de-kimchi",
+  "titulo": "Nigiri de Kimchi",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 8,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/nigiri-de-kimchi.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Huevos",
+   "Lácteos",
+   "Pescado"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Trucha pirenaica fresca"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "ml",
+    "nombre": "Vino blanco seco"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "ml",
+    "nombre": "Zumo de limón"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Corteza de naranja"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pimienta",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes de la bechamel de kimchi"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 150,
+    "unidad": "g",
+    "nombre": "Harina de trigo"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "L",
+    "nombre": "Leche entera"
+   },
+   {
+    "cantidad": 150,
+    "unidad": "g",
+    "nombre": "Kimchi"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite de oliva virgen extra",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes de la mayonesa de chile y el empanado"
+   },
+   {
+    "cantidad": 150,
+    "unidad": "ml",
+    "nombre": "Huevo pasteurizado"
+   },
+   {
+    "cantidad": 4,
+    "unidad": "ud",
+    "nombre": "Chile fresco"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Vinagre de vino"
+   },
+   {
+    "cantidad": 500,
+    "unidad": "ml",
+    "nombre": "Aceite de girasol"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Harina para empanar",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Huevo para empanar",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Panko",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "g",
+    "nombre": "Cebolla frita crujiente"
+   }
+  ],
+  "pasos": [
+   "Limpia las truchas, ábrelas y colócalas en una bandeja con el vino blanco, el zumo de limón, la corteza de naranja, sal y pimienta. Macera 24 horas en el frigorífico. Saca los lomos limpios, sin espinas, y corta tiras rectangulares con forma de nigiri.",
+   "Pocha la cebolla picada en aceite, añade la harina y tuéstala 2 minutos. Vierte la leche poco a poco, removiendo con varillas, y añade el kimchi picado. Cuece hasta que espese.",
+   "Extiende la bechamel en una bandeja, cúbrela con film a piel y déjala reposar 24 horas en frío.",
+   "Tritura el huevo pasteurizado con los chiles, el vinagre y sal. Incorpora el aceite de girasol en hilo hasta emulsionar la mayonesa.",
+   "Forma cilindros rectangulares con la bechamel fría, imitando bolas de arroz de nigiri, y pásalos por harina, huevo y panko. Fríelos a 180 °C.",
+   "Decora el plato rectangular con líneas de mayonesa de chile, coloca encima las croquetas y, sobre cada una, una tira de trucha con la piel hacia arriba. Espolvorea con cebolla crujiente."
+  ],
+  "notas": "Para comensales que no quieran picante, sustituye la mayonesa de chile por salsa teriyaki reducida. Extiende la bechamel en una capa uniforme para facilitar el formado."
+ },
+ {
+  "id": "perla-de-tiramisu",
+  "titulo": "Perla de Tiramisú",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 4,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/perla-de-tiramisu.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Lácteos",
+   "Huevos",
+   "Frutos secos",
+   "Soja"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 250,
+    "unidad": "g",
+    "nombre": "Queso mascarpone"
+   },
+   {
+    "cantidad": 150,
+    "unidad": "ml",
+    "nombre": "Nata para montar 35 %"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "g",
+    "nombre": "Azúcar glas"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "ml",
+    "nombre": "Extracto de vainilla"
+   },
+   {
+    "grupo": "Ingredientes de la gelatina de café y los acompañamientos"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "ml",
+    "nombre": "Café expreso"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "g",
+    "nombre": "Hoja de gelatina neutra"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Mermelada de melocotón de Calanda"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "g",
+    "nombre": "Galleta Lotus triturada"
+   },
+   {
+    "cantidad": 20,
+    "unidad": "g",
+    "nombre": "Pistacho picado"
+   }
+  ],
+  "pasos": [
+   "Bate el mascarpone con el azúcar glas y la vainilla hasta suavizarlo. Monta la nata a punto de nieve e incorpórala con movimientos envolventes.",
+   "Rellena moldes semiesféricos de silicona, acopla dos mitades para formar una esfera y congela 4 horas a -18 °C.",
+   "Hidrata la gelatina en agua fría y disuélvela en el café expreso caliente. Viértela en un recipiente plano hasta 1 cm de grosor y déjala cuajar en frío. Córtala en cubos regulares.",
+   "En un plato plano cuadrado blanco, traza una V con la galleta Lotus y el pistacho, ayudándote de una plantilla.",
+   "Coloca la perla en una esquina, dispón gotas de mermelada de tamaño decreciente y los cubos de gelatina de café en un lateral."
+  ],
+  "notas": "Dibuja la V de galleta con una regla o una espátula de repostería para que el trazo quede geométrico."
+ },
+ {
+  "id": "saam-de-panceta-iberica",
+  "titulo": "Saam de Panceta Ibérica - (Panceta en hoja de lechuga)",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 3,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/saam-de-panceta-iberica.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Lácteos",
+   "Huevo",
+   "Soja (apto para celíacos con salsa apta)"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 600,
+    "unidad": "g",
+    "nombre": "Panceta de cerdo ibérico en trozo ancho"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "ml",
+    "nombre": "Salsa Char Siu casera sin gluten"
+   },
+   {
+    "grupo": "Ingredientes de la base y el servicio"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "ud",
+    "nombre": "Hoja de cogollo de lechuga"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "bola",
+    "nombre": "Helado de cebolla de Fuentes caramelizada"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "ml",
+    "nombre": "Mahonesa de kimchi"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Perejil fresco picado",
+    "texto": "según necesidad"
+   }
+  ],
+  "pasos": [
+   "Pincela la panceta con la salsa Char Siu. Envásala al vacío y cuécela en horno de vapor o en baño sous-vide a 60 °C durante 15 horas.",
+   "Saca la panceta de la bolsa y pásala por la barbacoa o la parrilla a fuego vivo de 5 a 8 minutos, hasta formar una corteza crujiente. Córtala en lonchas gruesas tipo tataki.",
+   "Lava y seca las tres hojas de cogollo y alinéalas sobre un plato rectangular blanco.",
+   "Coloca un corte de panceta en un lateral de cada hoja y una minibola de helado de cebolla al lado. Espolvorea con perejil y decora con líneas de mahonesa de kimchi, sin manchar el plato."
+  ],
+  "notas": "Indica al cliente que coma el saam envolviendo la hoja de lechuga con las manos, como un taco. Si no se sirve enseguida, enfría la panceta con rapidez tras la cocción a baja temperatura."
+ },
+ {
+  "id": "ternasco-en-llamas",
+  "titulo": "Ternasco en Llamas",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 1,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/ternasco-en-llamas.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Ninguno (apto para celíacos)"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 5,
+    "unidad": "ud",
+    "nombre": "Costilla de ternasco de Aragón D.O."
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal fina",
+    "gusto": true
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ml",
+    "nombre": "Gel flambeador aroma de tomillo"
+   },
+   {
+    "grupo": "Ingredientes de la fritada de verduras"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Calabacín"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 80,
+    "unidad": "g",
+    "nombre": "Pimiento rojo"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "dientes",
+    "nombre": "Ajo"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Tomate maduro"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes de la crema de shiitake"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "g",
+    "nombre": "Seta shiitake"
+   },
+   {
+    "cantidad": 20,
+    "unidad": "g",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "ml",
+    "nombre": "Vino blanco seco"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "ml",
+    "nombre": "Aceite de oliva virgen extra"
+   }
+  ],
+  "pasos": [
+   "Sofríe en una sartén con aceite el pimiento rojo, el calabacín, la cebolla y el ajo picado durante 10 minutos. Añade el tomate maduro en dados en el último momento y cuece hasta que ligue.",
+   "Rehoga los shiitakes con la cebolla picada, vierte el vino blanco y reduce. Tritura con la batidora manteniendo una textura rústica, con pequeños trozos de seta.",
+   "Sella las costillas en la brasa hasta el punto deseado, sin quemar el hueso expuesto. Sala.",
+   "Coloca la fritada y la crema de shiitake en el centro del plato. Apoya las 5 costillas sobre sus huesos, formando una estructura en forma de tipi.",
+   "Aplica una gota de gel flambeador con jeringa en la cúspide y enciéndela con soplete 3 segundos antes de llegar a la mesa."
+  ],
+  "notas": "Usa solo gel flambeador alimentario homologado, en cantidad mínima, lejos de materiales combustibles y por personal formado. Nunca añadas alcohol directamente en la mesa."
+ },
+ {
+  "id": "tesoros-de-graus",
+  "titulo": "Tesoros de Graus",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 1,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/tesoros-de-graus.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Frutos secos",
+   "Huevo"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 150,
+    "unidad": "g",
+    "nombre": "Longaniza de Graus fresca"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "ud",
+    "nombre": "Cebolla de Fuentes"
+   },
+   {
+    "cantidad": 20,
+    "unidad": "g",
+    "nombre": "Miel"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Harina para empanar",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Huevo para empanar",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Pan rallado",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": 60,
+    "unidad": "g",
+    "nombre": "Almendra picada (granillo) cruda"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite para freír",
+    "texto": "según necesidad"
+   },
+   {
+    "grupo": "Ingredientes de la salsa roja mexicana"
+   },
+   {
+    "cantidad": 1,
+    "unidad": "kg",
+    "nombre": "Tomate pera maduro"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "dientes",
+    "nombre": "Ajo"
+   },
+   {
+    "cantidad": 5,
+    "unidad": "g",
+    "nombre": "Chile chipotle en pasta"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite de oliva virgen extra",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes del guacamole"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Aguacate maduro"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "g",
+    "nombre": "Cilantro"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "g",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 0.5,
+    "unidad": "ud",
+    "nombre": "Jalapeño"
+   },
+   {
+    "cantidad": 0.5,
+    "unidad": "ud",
+    "nombre": "Lima"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite de oliva virgen extra",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "grupo": "Ingredientes del efecto de humo"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Hielo seco",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Agua caliente",
+    "texto": "según necesidad"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Alubia negra seca",
+    "texto": "según necesidad"
+   }
+  ],
+  "pasos": [
+   "Asa los tomates, las cebollas y los ajos en el horno a 180 °C durante 40 minutos con sal y aceite. Tritúralos con el chipotle hasta obtener un puré rojo denso.",
+   "Corta la cebolla de Fuentes en juliana y caramelízala lentamente con aceite y la miel. Deja enfriar.",
+   "Pasa la longaniza por la picadora y forma 6 esferas de 25 g. Rellena cada una con cebolla caramelizada y bolea.",
+   "Pasa los bombones por harina, huevo, pan rallado, de nuevo huevo y, por último, almendra en granillo.",
+   "Fríe a 170 °C durante 3 minutos.",
+   "Pica y mezcla los aguacates, el cilantro, la cebolla, el jalapeño, el zumo de lima, el aceite y la sal. Rellena una manga pastelera.",
+   "Cubre el fondo del cofre de madera con alubias negras secas. Rellena 6 vasos de chupito con salsa roja y coloca una croqueta sobre cada uno, con una roseta de guacamole. Activa el hielo seco con agua caliente en un tubo lateral y cierra el cofre antes de servir."
+  ],
+  "notas": "Enfría los bombones formados antes de empanarlos para reducir el riesgo de que se abran. Abre el cofre delante del cliente para liberar el humo del hielo seco; manipula el hielo seco con un protocolo específico y nunca lo ingieras."
+ },
+ {
+  "id": "tortillitas-de-camaron-y-gamba-roja",
+  "titulo": "Tortillitas de Camarón y Gamba Roja",
+  "categoria": "Vértico",
+  "volumen": 0,
+  "raciones": 1,
+  "racionesEstimadas": false,
+  "racionesCalculadas": false,
+  "fecha": "2026-11-20",
+  "imagen": "img/tortillitas-de-camaron-y-gamba-roja.jpg",
+  "fuente": "VÉRTICO",
+  "alergenos": [
+   "Gluten",
+   "Mariscos",
+   "Sulfitos"
+  ],
+  "ingredientes": [
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Harina de trigo"
+   },
+   {
+    "cantidad": 100,
+    "unidad": "g",
+    "nombre": "Harina de garbanzo"
+   },
+   {
+    "cantidad": 150,
+    "unidad": "g",
+    "nombre": "Camarón fresco"
+   },
+   {
+    "cantidad": 50,
+    "unidad": "g",
+    "nombre": "Cebolla de Fuentes"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Perejil fresco",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Cúrcuma",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": 200,
+    "unidad": "ml",
+    "nombre": "Fumet de pescado y gamba"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite de oliva virgen extra para freír",
+    "texto": "según necesidad"
+   },
+   {
+    "grupo": "Ingredientes del aguachile de gamba roja"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "ud",
+    "nombre": "Gamba roja grande"
+   },
+   {
+    "cantidad": 15,
+    "unidad": "ml",
+    "nombre": "Vino blanco"
+   },
+   {
+    "cantidad": 4,
+    "unidad": "ud",
+    "nombre": "Lima (zumo)"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Chile habanero o jalapeño",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite de oliva virgen extra",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Cebolla morada"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Pepino"
+   },
+   {
+    "cantidad": 30,
+    "unidad": "g",
+    "nombre": "Mango maduro"
+   },
+   {
+    "grupo": "Ingredientes del guacamole"
+   },
+   {
+    "cantidad": 2,
+    "unidad": "ud",
+    "nombre": "Aguacate maduro"
+   },
+   {
+    "cantidad": 3,
+    "unidad": "g",
+    "nombre": "Cilantro"
+   },
+   {
+    "cantidad": 10,
+    "unidad": "g",
+    "nombre": "Cebolla"
+   },
+   {
+    "cantidad": 0.5,
+    "unidad": "ud",
+    "nombre": "Jalapeño"
+   },
+   {
+    "cantidad": 0.5,
+    "unidad": "ud",
+    "nombre": "Lima"
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Aceite de oliva virgen extra",
+    "gusto": true
+   },
+   {
+    "cantidad": null,
+    "unidad": "",
+    "nombre": "Sal",
+    "gusto": true
+   }
+  ],
+  "pasos": [
+   "Pela las gambas rojas conservando las cabezas intactas. Abre los cuerpos en mariposa y retira el intestino. Márinalos en el zumo de lima unos 5 minutos, hasta que se vuelvan opacos; mantén el centro frío.",
+   "Corta la cebolla morada, el pepino y el mango en dados pequeños. Mezcla con los chiles picados, el cilantro, el aceite y sal para preparar el aguachile.",
+   "Dora las cabezas y las carcasas con un poco de aceite, añade el vino blanco y reduce. Cubre con agua para preparar un fumet, cuélalo y resérvalo frío.",
+   "Mezcla las harinas con los camarones, la cebolla picada, el perejil, la cúrcuma, la sal y el fumet frío, hasta obtener una masa fluida pero con cuerpo.",
+   "Fríe cucharadas de masa en aceite a 180 °C de 2 a 3 minutos, hasta que queden finas y crujientes, con bordes encajados. Escúrrelas.",
+   "Mezcla los aguacates con el cilantro, la cebolla, el jalapeño, el zumo de lima y la sal.",
+   "Dispón 3 tortillitas bien escurridas en un plato plano blanco. Coloca encima los cuerpos de gamba marinados, cucharadas de aguachile y rosetas de guacamole, y corona cada una con una cabeza de gamba erguida."
+  ],
+  "notas": "Fríe las tortillitas en porciones pequeñas para conseguir bordes finos y crujientes, y escúrrelas bien antes de emplatar. Recomienda al cliente presionar primero la cabeza de la gamba para extraer sus jugos sobre el guacamole."
  }
 ]
